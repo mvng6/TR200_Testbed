@@ -1,0 +1,1544 @@
+2024-05-28 14:14:14,309 DEBUG - 配置信息文件读取成功
+2024-05-28 14:14:14,312 DEBUG - 状态码文件读取成功
+2024-05-28 14:14:14,313 DEBUG - APP   Version: 1.1.13
+2024-05-28 14:14:14,313 DEBUG - SDK   Version: 1.1.34
+2024-05-28 14:14:14,313 DEBUG - COMMU Version: 0.1.25
+2024-05-28 14:14:14,520 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-05-28 14:14:14,520 DEBUG - screen_num: 1  screen_width: 2240  screen_height: 1400
+2024-05-28 14:14:14,534 DEBUG - 配置文件修改语言成功  is_cn: cn
+2024-05-28 14:14:14,535 DEBUG - task_list.tsets_size(): 0
+2024-05-28 14:14:17,088 DEBUG - 机器人为空
+2024-05-28 14:14:17,089 DEBUG - 服务器为空
+2024-05-28 14:14:17,089 DEBUG - 断开
+2024-05-28 14:14:20,153 DEBUG - 配置信息文件读取成功
+2024-05-28 14:14:20,155 DEBUG - 状态码文件读取成功
+2024-05-28 14:14:20,155 DEBUG - APP   Version: 1.1.13
+2024-05-28 14:14:20,155 DEBUG - SDK   Version: 1.1.34
+2024-05-28 14:14:20,156 DEBUG - COMMU Version: 0.1.25
+2024-05-28 14:14:20,325 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-05-28 14:14:20,325 DEBUG - screen_num: 1  screen_width: 2240  screen_height: 1400
+2024-05-28 14:14:20,340 DEBUG - 配置文件修改语言成功  is_cn: cn
+2024-05-28 14:14:20,341 DEBUG - task_list.tsets_size(): 0
+2024-05-28 14:14:23,033 DEBUG - 机器人为空
+2024-05-28 14:14:23,033 DEBUG - 服务器为空
+2024-05-28 14:14:23,034 DEBUG - 断开
+2024-05-28 14:20:32,623 DEBUG - 配置信息文件读取成功
+2024-05-28 14:20:32,625 DEBUG - 状态码文件读取成功
+2024-05-28 14:20:32,626 DEBUG - APP   Version: 1.1.13
+2024-05-28 14:20:32,626 DEBUG - SDK   Version: 1.1.34
+2024-05-28 14:20:32,626 DEBUG - COMMU Version: 0.1.25
+2024-05-28 14:20:32,826 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-05-28 14:20:32,826 DEBUG - screen_num: 1  screen_width: 2240  screen_height: 1400
+2024-05-28 14:20:32,841 DEBUG - 配置文件修改语言成功  is_cn: cn
+2024-05-28 14:20:32,842 DEBUG - task_list.tsets_size(): 0
+2024-05-28 16:02:08,425 DEBUG - 服务器为空
+2024-05-28 16:02:08,426 DEBUG - is_connect_robot: false
+2024-05-28 16:02:08,441 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 started monitor.
+2024-05-28 16:02:08,466 DEBUG - [ROBOT_SDK_LOG] [4] started request loop.
+2024-05-28 16:02:08,467 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:08,476 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 started monitor.
+2024-05-28 16:02:08,497 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:08,497 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe started loop.
+2024-05-28 16:02:10,511 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:10,513 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:10,541 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:10,542 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:10,603 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:10,604 DEBUG - is_connect_robot: false
+2024-05-28 16:02:10,634 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:10,635 DEBUG - is_connect_robot: false
+2024-05-28 16:02:16,596 DEBUG - 服务器为空
+2024-05-28 16:02:16,597 DEBUG - is_connect_robot: false
+2024-05-28 16:02:16,598 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:02:16,598 DEBUG - [ROBOT_SDK_LOG] [4] stoped request loop.
+2024-05-28 16:02:16,612 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 monitor stoped loop.
+2024-05-28 16:02:16,705 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:02:16,705 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:02:16,720 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 monitor stoped loop.
+2024-05-28 16:02:17,553 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe stoped loop.
+2024-05-28 16:02:17,569 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:02:17,586 DEBUG - [ROBOT_SDK_LOG] [8] inproc://monitor-request2 started monitor.
+2024-05-28 16:02:17,598 DEBUG - [ROBOT_SDK_LOG] [10] started request loop.
+2024-05-28 16:02:17,601 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:17,612 DEBUG - [ROBOT_SDK_LOG] [11] inproc://monitor-subscribe3 started monitor.
+2024-05-28 16:02:17,630 DEBUG - [ROBOT_SDK_LOG] [13] Subscribe started loop.
+2024-05-28 16:02:17,630 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:19,643 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:19,644 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:19,674 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:19,674 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:19,751 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:19,758 DEBUG - is_connect_robot: false
+2024-05-28 16:02:19,783 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:19,785 DEBUG - is_connect_robot: false
+2024-05-28 16:02:27,338 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:27,370 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:29,384 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:29,384 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:29,416 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:29,417 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:29,447 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:29,448 DEBUG - is_connect_robot: false
+2024-05-28 16:02:29,469 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:29,469 DEBUG - is_connect_robot: false
+2024-05-28 16:02:32,674 DEBUG - 服务器为空
+2024-05-28 16:02:32,676 DEBUG - is_connect_robot: false
+2024-05-28 16:02:32,676 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:02:32,677 DEBUG - [ROBOT_SDK_LOG] [10] stoped request loop.
+2024-05-28 16:02:32,680 DEBUG - [ROBOT_SDK_LOG] [8] inproc://monitor-request2 monitor stoped loop.
+2024-05-28 16:02:32,788 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:02:32,789 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:02:32,803 DEBUG - [ROBOT_SDK_LOG] [11] inproc://monitor-subscribe3 monitor stoped loop.
+2024-05-28 16:02:33,752 DEBUG - [ROBOT_SDK_LOG] [13] Subscribe stoped loop.
+2024-05-28 16:02:33,769 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:02:33,785 DEBUG - [ROBOT_SDK_LOG] [14] inproc://monitor-request4 started monitor.
+2024-05-28 16:02:33,814 DEBUG - [ROBOT_SDK_LOG] [16] started request loop.
+2024-05-28 16:02:33,814 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:33,828 DEBUG - [ROBOT_SDK_LOG] [17] inproc://monitor-subscribe5 started monitor.
+2024-05-28 16:02:33,846 DEBUG - [ROBOT_SDK_LOG] [19] Subscribe started loop.
+2024-05-28 16:02:33,846 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:35,849 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:35,851 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:35,880 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:35,883 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:35,896 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:35,898 DEBUG - is_connect_robot: false
+2024-05-28 16:02:35,957 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:35,959 DEBUG - is_connect_robot: false
+2024-05-28 16:02:43,564 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:43,594 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:45,616 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:45,619 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:45,647 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:45,648 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:45,662 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:45,663 DEBUG - is_connect_robot: false
+2024-05-28 16:02:45,724 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:45,727 DEBUG - is_connect_robot: false
+2024-05-28 16:02:55,967 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:02:55,997 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:02:58,006 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:02:58,008 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:02:58,021 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:02:58,022 DEBUG - is_connect_robot: false
+2024-05-28 16:02:58,036 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:02:58,037 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:02:58,066 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:02:58,069 DEBUG - is_connect_robot: false
+2024-05-28 16:03:09,181 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:03:09,211 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:03:11,213 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:03:11,215 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:03:11,243 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:03:11,244 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:03:11,273 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:03:11,273 DEBUG - is_connect_robot: false
+2024-05-28 16:03:11,320 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:03:11,323 DEBUG - is_connect_robot: false
+2024-05-28 16:03:22,702 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:03:22,732 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:03:24,749 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:03:24,751 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:03:24,780 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:03:24,782 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:03:24,796 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:03:24,797 DEBUG - is_connect_robot: false
+2024-05-28 16:03:24,859 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:03:24,860 DEBUG - is_connect_robot: false
+2024-05-28 16:03:35,719 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:03:35,749 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:03:37,766 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:03:37,768 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:03:37,781 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:03:37,782 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:03:37,796 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:03:37,797 DEBUG - is_connect_robot: false
+2024-05-28 16:03:37,843 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:03:37,844 DEBUG - is_connect_robot: false
+2024-05-28 16:03:47,125 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:03:47,139 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:03:49,177 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:03:49,179 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:03:49,180 DEBUG - [ROBOT_SDK_LOG] [14] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:03:49,181 DEBUG - [ROBOT_SDK_LOG] [17] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:03:49,207 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:03:49,209 DEBUG - is_connect_robot: false
+2024-05-28 16:03:49,270 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:03:49,271 DEBUG - is_connect_robot: false
+2024-05-28 16:03:50,724 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:03:50,725 DEBUG - [ROBOT_SDK_LOG] [16] stoped request loop.
+2024-05-28 16:03:50,727 DEBUG - [ROBOT_SDK_LOG] [14] inproc://monitor-request4 monitor stoped loop.
+2024-05-28 16:03:50,838 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:03:50,839 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:03:50,853 DEBUG - [ROBOT_SDK_LOG] [17] inproc://monitor-subscribe5 monitor stoped loop.
+2024-05-28 16:03:51,518 DEBUG - [ROBOT_SDK_LOG] [19] Subscribe stoped loop.
+2024-05-28 16:03:51,596 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:03:51,598 DEBUG - is_connect_robot: false
+2024-05-28 16:03:51,599 DEBUG - 服务器为空
+2024-05-28 16:03:51,599 DEBUG - 断开
+2024-05-28 16:12:33,545 DEBUG - 服务器为空
+2024-05-28 16:12:33,545 DEBUG - is_connect_robot: false
+2024-05-28 16:12:33,556 DEBUG - [ROBOT_SDK_LOG] [20] inproc://monitor-request6 started monitor.
+2024-05-28 16:12:33,575 DEBUG - [ROBOT_SDK_LOG] [22] started request loop.
+2024-05-28 16:12:33,576 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:12:33,586 DEBUG - [ROBOT_SDK_LOG] [23] inproc://monitor-subscribe7 started monitor.
+2024-05-28 16:12:33,606 DEBUG - [ROBOT_SDK_LOG] [25] Subscribe started loop.
+2024-05-28 16:12:33,607 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:12:35,608 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:12:35,610 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:12:35,655 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:12:35,656 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:12:35,716 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:12:35,722 DEBUG - is_connect_robot: false
+2024-05-28 16:12:35,746 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:12:35,748 DEBUG - is_connect_robot: false
+2024-05-28 16:12:43,316 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:12:43,363 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:12:45,362 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:12:45,364 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:12:45,377 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:12:45,378 DEBUG - is_connect_robot: false
+2024-05-28 16:12:45,407 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:12:45,408 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:12:45,516 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:12:45,517 DEBUG - is_connect_robot: false
+2024-05-28 16:12:55,703 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:12:55,751 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:12:57,732 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:12:57,733 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:12:57,779 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:12:57,780 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:12:57,841 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:12:57,848 DEBUG - is_connect_robot: false
+2024-05-28 16:12:57,872 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:12:57,875 DEBUG - is_connect_robot: false
+2024-05-28 16:13:08,914 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:13:08,961 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:13:10,945 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:13:10,947 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:13:10,975 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:13:10,979 DEBUG - is_connect_robot: false
+2024-05-28 16:13:10,990 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:13:10,991 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:13:11,006 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:13:11,010 DEBUG - is_connect_robot: false
+2024-05-28 16:13:22,428 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:13:22,475 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:13:24,501 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:13:24,503 DEBUG - [ROBOT_SDK_LOG] [20] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:13:24,516 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:13:24,517 DEBUG - [ROBOT_SDK_LOG] [23] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:13:24,563 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:13:24,564 DEBUG - is_connect_robot: false
+2024-05-28 16:13:24,595 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:13:24,595 DEBUG - is_connect_robot: false
+2024-05-28 16:13:33,173 DEBUG - 服务器为空
+2024-05-28 16:13:33,174 DEBUG - is_connect_robot: false
+2024-05-28 16:13:33,174 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:13:33,174 DEBUG - [ROBOT_SDK_LOG] [22] stoped request loop.
+2024-05-28 16:13:33,175 DEBUG - [ROBOT_SDK_LOG] [20] inproc://monitor-request6 monitor stoped loop.
+2024-05-28 16:13:33,286 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:13:33,287 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:13:33,302 DEBUG - [ROBOT_SDK_LOG] [23] inproc://monitor-subscribe7 monitor stoped loop.
+2024-05-28 16:13:34,169 DEBUG - [ROBOT_SDK_LOG] [25] Subscribe stoped loop.
+2024-05-28 16:13:34,262 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:13:34,280 DEBUG - [ROBOT_SDK_LOG] [26] inproc://monitor-request8 started monitor.
+2024-05-28 16:13:34,294 DEBUG - [ROBOT_SDK_LOG] [28] started request loop.
+2024-05-28 16:13:34,295 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:13:34,306 DEBUG - [ROBOT_SDK_LOG] [29] inproc://monitor-subscribe9 started monitor.
+2024-05-28 16:13:34,325 DEBUG - [ROBOT_SDK_LOG] [31] Subscribe started loop.
+2024-05-28 16:13:34,326 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:13:36,334 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:13:36,335 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:13:36,349 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:13:36,354 DEBUG - is_connect_robot: false
+2024-05-28 16:13:36,364 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:13:36,365 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:13:36,380 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:13:36,383 DEBUG - is_connect_robot: false
+2024-05-28 16:13:44,049 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:13:44,080 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:13:46,090 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:13:46,092 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:13:46,105 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:13:46,106 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:13:46,137 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:13:46,141 DEBUG - is_connect_robot: false
+2024-05-28 16:13:46,169 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:13:46,170 DEBUG - is_connect_robot: false
+2024-05-28 16:13:56,435 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:13:56,450 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:13:58,480 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:13:58,483 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:13:58,511 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:13:58,512 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:13:58,527 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:13:58,529 DEBUG - is_connect_robot: false
+2024-05-28 16:13:58,559 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:13:58,564 DEBUG - is_connect_robot: false
+2024-05-28 16:14:09,660 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:14:09,691 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:14:11,702 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:14:11,702 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:14:11,718 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:14:11,719 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:14:11,720 DEBUG - is_connect_robot: false
+2024-05-28 16:14:11,721 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:14:11,750 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:14:11,751 DEBUG - is_connect_robot: false
+2024-05-28 16:14:23,194 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:14:23,210 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:14:25,218 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:14:25,218 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:14:25,234 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:14:25,235 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:14:25,311 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:14:25,311 DEBUG - is_connect_robot: false
+2024-05-28 16:14:25,341 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:14:25,341 DEBUG - is_connect_robot: false
+2024-05-28 16:14:36,186 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:14:36,201 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:14:38,255 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:14:38,255 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:14:38,256 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:14:38,257 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:14:38,269 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:14:38,270 DEBUG - is_connect_robot: false
+2024-05-28 16:14:38,346 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:14:38,347 DEBUG - is_connect_robot: false
+2024-05-28 16:14:47,628 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:14:47,629 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:14:49,660 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:14:49,662 DEBUG - [ROBOT_SDK_LOG] [26] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:14:49,664 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:14:49,665 DEBUG - [ROBOT_SDK_LOG] [29] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:14:49,674 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:14:49,677 DEBUG - is_connect_robot: false
+2024-05-28 16:14:49,705 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:14:49,709 DEBUG - is_connect_robot: false
+2024-05-28 16:14:56,391 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:14:56,392 DEBUG - [ROBOT_SDK_LOG] [28] stoped request loop.
+2024-05-28 16:14:56,401 DEBUG - [ROBOT_SDK_LOG] [26] inproc://monitor-request8 monitor stoped loop.
+2024-05-28 16:14:56,493 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:14:56,494 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:14:56,509 DEBUG - [ROBOT_SDK_LOG] [29] inproc://monitor-subscribe9 monitor stoped loop.
+2024-05-28 16:14:57,043 DEBUG - [ROBOT_SDK_LOG] [31] Subscribe stoped loop.
+2024-05-28 16:14:57,136 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:14:57,138 DEBUG - is_connect_robot: false
+2024-05-28 16:14:57,138 DEBUG - 服务器为空
+2024-05-28 16:14:57,138 DEBUG - 断开
+2024-05-28 16:19:42,381 DEBUG - 配置信息文件读取成功
+2024-05-28 16:19:42,383 DEBUG - 状态码文件读取成功
+2024-05-28 16:19:42,384 DEBUG - APP   Version: 1.1.13
+2024-05-28 16:19:42,384 DEBUG - SDK   Version: 1.1.34
+2024-05-28 16:19:42,384 DEBUG - COMMU Version: 0.1.25
+2024-05-28 16:19:42,572 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-05-28 16:19:42,574 DEBUG - screen_num: 1  screen_width: 2240  screen_height: 1400
+2024-05-28 16:19:42,590 DEBUG - 配置文件修改语言成功  is_cn: cn
+2024-05-28 16:19:42,591 DEBUG - task_list.tsets_size(): 0
+2024-05-28 16:19:51,786 DEBUG - 服务器为空
+2024-05-28 16:19:51,787 DEBUG - is_connect_robot: false
+2024-05-28 16:19:51,803 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 started monitor.
+2024-05-28 16:19:51,825 DEBUG - [ROBOT_SDK_LOG] [4] started request loop.
+2024-05-28 16:19:51,826 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:19:51,851 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 started monitor.
+2024-05-28 16:19:51,870 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe started loop.
+2024-05-28 16:19:51,872 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:19:53,855 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:19:53,857 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:19:53,902 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:19:53,903 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:19:53,963 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:19:53,966 DEBUG - is_connect_robot: false
+2024-05-28 16:19:54,011 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:19:54,017 DEBUG - is_connect_robot: false
+2024-05-28 16:20:01,553 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:20:01,600 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:20:03,597 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:20:03,598 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:20:03,627 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:20:03,628 DEBUG - is_connect_robot: false
+2024-05-28 16:20:03,658 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:20:03,659 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:20:03,673 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:20:03,674 DEBUG - is_connect_robot: false
+2024-05-28 16:20:13,935 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:20:13,998 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:20:15,966 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:20:15,967 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:20:15,998 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:20:16,000 DEBUG - is_connect_robot: false
+2024-05-28 16:20:16,044 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:20:16,044 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:20:16,153 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:20:16,156 DEBUG - is_connect_robot: false
+2024-05-28 16:20:27,150 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:20:27,228 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:20:29,185 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:20:29,186 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:20:29,264 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:20:29,265 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:20:29,266 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:20:29,267 DEBUG - is_connect_robot: false
+2024-05-28 16:20:29,312 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:20:29,314 DEBUG - is_connect_robot: false
+2024-05-28 16:20:40,678 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:20:40,755 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:20:42,709 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:20:42,711 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:20:42,801 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:20:42,803 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:20:42,816 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:20:42,820 DEBUG - is_connect_robot: false
+2024-05-28 16:20:42,862 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:20:42,864 DEBUG - is_connect_robot: false
+2024-05-28 16:20:53,679 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:20:53,774 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:20:55,722 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:20:55,724 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:20:55,817 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:20:55,818 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:20:55,820 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:20:55,825 DEBUG - is_connect_robot: false
+2024-05-28 16:20:55,863 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:20:55,864 DEBUG - is_connect_robot: false
+2024-05-28 16:21:05,077 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:21:05,171 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:21:07,117 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:21:07,118 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:21:07,194 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:21:07,195 DEBUG - is_connect_robot: false
+2024-05-28 16:21:07,226 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:21:07,227 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:21:07,241 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:21:07,242 DEBUG - is_connect_robot: false
+2024-05-28 16:21:18,057 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:21:18,168 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:21:20,105 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:21:20,107 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:21:20,196 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:21:20,201 DEBUG - is_connect_robot: false
+2024-05-28 16:21:20,212 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:21:20,213 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:21:20,242 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:21:20,244 DEBUG - is_connect_robot: false
+2024-05-28 16:21:29,719 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:21:29,828 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:21:31,767 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:21:31,768 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:21:31,798 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:21:31,799 DEBUG - is_connect_robot: false
+2024-05-28 16:21:31,859 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:21:31,860 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:21:31,952 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:21:31,956 DEBUG - is_connect_robot: false
+2024-05-28 16:21:42,772 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:21:42,866 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:21:44,807 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:21:44,808 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:21:44,917 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:21:44,919 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:21:44,920 DEBUG - is_connect_robot: false
+2024-05-28 16:21:44,921 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:21:44,963 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:21:44,965 DEBUG - is_connect_robot: false
+2024-05-28 16:21:53,752 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:21:53,904 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:21:55,778 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:21:55,779 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:21:55,795 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:21:55,796 DEBUG - is_connect_robot: false
+2024-05-28 16:21:55,950 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:21:55,952 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:21:55,966 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:21:55,968 DEBUG - is_connect_robot: false
+2024-05-28 16:22:04,171 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:22:06,204 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:22:06,206 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:22:06,219 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:22:06,222 DEBUG - is_connect_robot: false
+2024-05-28 16:22:06,559 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:22:08,588 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:22:08,590 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:22:08,665 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:22:08,670 DEBUG - is_connect_robot: false
+2024-05-28 16:22:14,359 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:22:16,381 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:22:16,381 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:22:16,396 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:22:16,397 DEBUG - is_connect_robot: false
+2024-05-28 16:22:16,893 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:22:18,946 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:22:18,948 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:22:18,961 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:22:18,962 DEBUG - is_connect_robot: false
+2024-05-28 16:22:24,412 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:22:26,453 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:22:26,454 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:22:26,500 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:22:26,502 DEBUG - is_connect_robot: false
+2024-05-28 16:22:28,380 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:22:30,412 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:22:30,413 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:22:30,476 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:22:30,477 DEBUG - is_connect_robot: false
+2024-05-28 16:22:37,819 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:22:39,869 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:22:39,871 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:22:39,962 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:22:39,962 DEBUG - is_connect_robot: false
+2024-05-28 16:22:41,793 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:22:43,828 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:22:43,830 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:22:43,919 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:22:43,919 DEBUG - is_connect_robot: false
+2024-05-28 16:22:49,321 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:22:51,346 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:22:51,347 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:22:51,438 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:22:51,439 DEBUG - is_connect_robot: false
+2024-05-28 16:22:53,283 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:22:55,321 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:22:55,323 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:22:55,399 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:22:55,402 DEBUG - is_connect_robot: false
+2024-05-28 16:23:02,537 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:04,569 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:23:04,570 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:23:04,678 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:23:04,679 DEBUG - is_connect_robot: false
+2024-05-28 16:23:06,114 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:23:08,178 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:23:08,179 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:23:08,224 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:23:08,226 DEBUG - is_connect_robot: false
+2024-05-28 16:23:13,906 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:15,941 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:23:15,943 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:23:15,971 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:23:15,974 DEBUG - is_connect_robot: false
+2024-05-28 16:23:19,749 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:23:21,780 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:23:21,782 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:23:21,888 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:23:21,894 DEBUG - is_connect_robot: false
+2024-05-28 16:23:24,980 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:27,038 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:23:27,040 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:23:27,148 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:23:27,148 DEBUG - is_connect_robot: false
+2024-05-28 16:23:30,819 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:23:32,843 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:23:32,844 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:23:32,875 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:23:32,876 DEBUG - is_connect_robot: false
+2024-05-28 16:23:35,397 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:37,455 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:23:37,457 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:23:37,485 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:23:37,487 DEBUG - is_connect_robot: false
+2024-05-28 16:23:44,659 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:23:46,693 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:23:46,694 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:23:46,786 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:23:46,788 DEBUG - is_connect_robot: false
+2024-05-28 16:23:48,443 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:50,487 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:23:50,489 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:23:50,519 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:23:50,520 DEBUG - is_connect_robot: false
+2024-05-28 16:23:56,681 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:23:58,716 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:23:58,717 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:23:58,808 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:23:58,810 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:23:58,812 DEBUG - is_connect_robot: false
+2024-05-28 16:24:00,841 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:00,843 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:00,917 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:00,919 DEBUG - is_connect_robot: false
+2024-05-28 16:24:09,108 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:24:09,512 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:24:11,165 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:11,168 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:11,244 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:11,246 DEBUG - is_connect_robot: false
+2024-05-28 16:24:11,538 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:24:11,539 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:24:11,632 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:24:11,635 DEBUG - is_connect_robot: false
+2024-05-28 16:24:19,804 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:24:20,719 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:24:21,854 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:24:21,855 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:24:21,949 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:24:21,951 DEBUG - is_connect_robot: false
+2024-05-28 16:24:22,769 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:22,771 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:22,862 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:22,863 DEBUG - is_connect_robot: false
+2024-05-28 16:24:31,086 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:24:33,135 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:33,137 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:33,164 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:33,165 DEBUG - is_connect_robot: false
+2024-05-28 16:24:33,507 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:24:35,541 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:24:35,542 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:24:35,615 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:24:35,616 DEBUG - is_connect_robot: false
+2024-05-28 16:24:43,956 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:24:44,827 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:24:45,996 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:24:45,998 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:24:46,057 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:24:46,059 DEBUG - is_connect_robot: false
+2024-05-28 16:24:46,882 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:46,883 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:46,978 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:46,980 DEBUG - is_connect_robot: false
+2024-05-28 16:24:54,380 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:24:55,261 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:24:56,416 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:24:56,418 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:24:56,476 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:24:56,477 DEBUG - is_connect_robot: false
+2024-05-28 16:24:57,303 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:24:57,304 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:24:57,398 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:24:57,402 DEBUG - is_connect_robot: false
+2024-05-28 16:25:05,196 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:25:07,247 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:25:07,250 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:25:07,354 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:25:07,359 DEBUG - is_connect_robot: false
+2024-05-28 16:25:08,833 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:25:10,879 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:25:10,880 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:25:10,989 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:25:10,990 DEBUG - is_connect_robot: false
+2024-05-28 16:25:18,289 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:25:20,327 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:25:20,329 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:25:20,386 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:25:20,387 DEBUG - is_connect_robot: false
+2024-05-28 16:25:22,858 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:25:24,885 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:25:24,885 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:25:24,964 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:25:24,966 DEBUG - is_connect_robot: false
+2024-05-28 16:25:28,625 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:25:30,676 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:25:30,678 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:25:30,784 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:25:30,788 DEBUG - is_connect_robot: false
+2024-05-28 16:25:34,737 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:25:36,773 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:25:36,774 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:25:36,804 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:25:36,805 DEBUG - is_connect_robot: false
+2024-05-28 16:25:39,620 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:25:41,654 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:25:41,655 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:25:41,764 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:25:41,766 DEBUG - is_connect_robot: false
+2024-05-28 16:25:45,825 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:25:47,868 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:25:47,870 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:25:47,882 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:25:47,884 DEBUG - is_connect_robot: false
+2024-05-28 16:25:52,749 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:25:54,796 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:25:54,797 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:25:54,905 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:25:54,906 DEBUG - is_connect_robot: false
+2024-05-28 16:25:58,527 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:26:00,577 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:26:00,579 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:26:00,592 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:26:00,593 DEBUG - is_connect_robot: false
+2024-05-28 16:26:05,532 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:26:07,566 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:26:07,569 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:26:07,613 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:26:07,614 DEBUG - is_connect_robot: false
+2024-05-28 16:26:12,388 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:26:14,431 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:26:14,432 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:26:14,495 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:26:14,496 DEBUG - is_connect_robot: false
+2024-05-28 16:26:18,234 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:26:20,283 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:26:20,285 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:26:20,298 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:26:20,301 DEBUG - is_connect_robot: false
+2024-05-28 16:26:25,162 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:26:27,198 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:26:27,201 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:26:27,308 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:26:27,310 DEBUG - is_connect_robot: false
+2024-05-28 16:26:28,680 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:26:30,737 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:26:30,738 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:26:30,848 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:26:30,849 DEBUG - is_connect_robot: false
+2024-05-28 16:26:38,553 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:26:39,362 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:26:40,614 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:26:40,616 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:26:40,677 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:26:40,679 DEBUG - is_connect_robot: false
+2024-05-28 16:26:41,413 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:26:41,414 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:26:41,489 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:26:41,492 DEBUG - is_connect_robot: false
+2024-05-28 16:26:49,036 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:26:51,069 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:26:51,071 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:26:51,099 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:26:51,100 DEBUG - is_connect_robot: false
+2024-05-28 16:26:52,187 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:26:54,250 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:26:54,252 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:26:54,312 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:26:54,316 DEBUG - is_connect_robot: false
+2024-05-28 16:26:59,702 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:27:01,733 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:27:01,735 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:27:01,749 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:27:01,751 DEBUG - is_connect_robot: false
+2024-05-28 16:27:05,290 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:27:07,336 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:27:07,337 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:27:07,352 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:27:07,354 DEBUG - is_connect_robot: false
+2024-05-28 16:27:13,698 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:27:15,731 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:27:15,732 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:27:15,775 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:27:15,775 DEBUG - is_connect_robot: false
+2024-05-28 16:27:17,647 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:27:19,690 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:27:19,691 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:27:19,737 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:27:19,738 DEBUG - is_connect_robot: false
+2024-05-28 16:27:27,573 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:27:27,967 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:27:29,607 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:27:29,607 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:27:29,701 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:27:29,705 DEBUG - is_connect_robot: false
+2024-05-28 16:27:29,995 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:27:29,996 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:27:30,088 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:27:30,088 DEBUG - is_connect_robot: false
+2024-05-28 16:27:39,543 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:27:40,643 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:27:41,584 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.140:5410
+2024-05-28 16:27:41,585 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.140:5410
+2024-05-28 16:27:41,693 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.140:5410
+2024-05-28 16:27:41,697 DEBUG - is_connect_robot: false
+2024-05-28 16:27:42,682 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.140:5411
+2024-05-28 16:27:42,682 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.140:5411
+2024-05-28 16:27:42,712 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.140:5411
+2024-05-28 16:27:42,715 DEBUG - is_connect_robot: false
+2024-05-28 16:27:51,289 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.140:5411
+2024-05-28 16:27:51,320 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.140:5410
+2024-05-28 16:27:51,354 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:27:51,355 DEBUG - [ROBOT_SDK_LOG] [4] stoped request loop.
+2024-05-28 16:27:51,365 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 monitor stoped loop.
+2024-05-28 16:27:51,458 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:27:51,458 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:27:51,473 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 monitor stoped loop.
+2024-05-28 16:27:51,735 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe stoped loop.
+2024-05-28 16:27:51,781 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:27:51,787 DEBUG - is_connect_robot: false
+2024-05-28 16:27:51,788 DEBUG - 服务器为空
+2024-05-28 16:27:51,790 DEBUG - 断开
+2024-05-28 16:28:04,536 DEBUG - 服务器为空
+2024-05-28 16:28:04,536 DEBUG - is_connect_robot: false
+2024-05-28 16:28:04,547 DEBUG - [ROBOT_SDK_LOG] [8] inproc://monitor-request2 started monitor.
+2024-05-28 16:28:04,565 DEBUG - [ROBOT_SDK_LOG] [10] started request loop.
+2024-05-28 16:28:04,566 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-05-28 16:28:04,577 DEBUG - [ROBOT_SDK_LOG] [11] inproc://monitor-subscribe3 started monitor.
+2024-05-28 16:28:04,596 DEBUG - [ROBOT_SDK_LOG] [8] event:on_event_connected tcp://169.254.128.2:5410
+2024-05-28 16:28:04,597 DEBUG - [ROBOT_SDK_LOG] [13] Subscribe started loop.
+2024-05-28 16:28:04,597 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-05-28 16:28:04,599 DEBUG - [ROBOT_SDK_LOG] [11] event:on_event_connected tcp://169.254.128.2:5411
+2024-05-28 16:28:04,752 DEBUG - [ROBOT_SDK_LOG] request connect status: 2, msg: tcp://169.254.128.2:5410
+2024-05-28 16:28:04,782 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 2, msg: tcp://169.254.128.2:5411
+2024-05-28 16:28:04,785 DEBUG - is_connect_robot: true
+2024-05-28 16:28:04,789 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.RobotInfo]
+[10] req_id:1, identity:woosh_design, time:1716884884789
+
+2024-05-28 16:28:04,813 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.RobotInfo]
+[10] req_id:1, identity:RC_10001, time:1716884882706
+
+2024-05-28 16:28:04,815 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:28:04,816 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:2, identity:woosh_design, time:1716884884815
+
+2024-05-28 16:28:05,200 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:2, identity:RC_10001, time:1716884882738
+
+2024-05-28 16:28:05,201 DEBUG - 下载文件： ./map/robot/tss/tttt/map.png
+2024-05-28 16:28:05,203 DEBUG - 下载文件： ./map/robot/tss/tttt/keepout.png
+2024-05-28 16:28:05,203 DEBUG - 下载文件： ./map/robot/tss/tttt/traffic_keepout.png
+2024-05-28 16:28:05,205 DEBUG - 下载文件： ./map/robot/tss/tttt/map.yaml
+2024-05-28 16:28:05,205 DEBUG - 下载文件： ./map/robot/tss/tttt/tttt.pbstream
+2024-05-28 16:28:05,206 DEBUG - 下载文件： ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:28:05,207 DEBUG - 下载文件： ./map/robot/tss/tttt/scan_match.carmen
+2024-05-28 16:28:05,207 DEBUG - 下载文件： ./map/robot/tss/action_groups.json
+2024-05-28 16:28:05,208 DEBUG - 下载文件： ./map/robot/tss/scene.json
+2024-05-28 16:28:05,209 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.NavPath]
+[10] req_id:3, identity:woosh_design, time:1716884885209
+
+2024-05-28 16:28:05,211 DEBUG - add_map id: 0  map: ./map/robot/tss/tttt name  "tttt"
+2024-05-28 16:28:05,215 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:28:05,215 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:28:05,216 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:28:05,216 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:28:05,216 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.NavPath]
+[10] req_id:3, identity:RC_10001, time:1716884883129
+
+2024-05-28 16:28:05,217 DEBUG - robot_info.state: 6
+2024-05-28 16:28:05,217 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-05-28 16:29:26,780 DEBUG - is_selete: true  selete: 1  no: "10001"
+2024-05-28 16:29:35,849 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:29:35,849 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:29:35,851 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:29:35,851 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:29:35,852 DEBUG - robot_info.state: 6
+2024-05-28 16:29:38,929 DEBUG - is_selete: true  selete: 1  no: "10001"
+2024-05-28 16:30:23,135 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Battery]
+[13]-[woosh.robot.Battery] req_id:9589, identity:RC_10001, time:1716885021028
+charge_state: kNot
+power: 46
+charge_cycle: 70
+battery_cycle: 2000
+temp_max: 32
+robot_id: 10001
+
+2024-05-28 16:30:43,502 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:30:43,502 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:30:43,503 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:30:43,503 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:30:43,504 DEBUG - robot_info.state: 6
+2024-05-28 16:30:47,172 DEBUG - nav_x 1.74224  y: 0.696898  theta: -0.152649
+2024-05-28 16:30:48,338 DEBUG - nav_x -2.76925  y: -2.10903  theta: 0
+2024-05-28 16:32:11,150 DEBUG - is_selete: true  selete: 1  no: "10001"
+2024-05-28 16:32:21,932 DEBUG - nav_x 0.48  y: 0.585  theta: -0.188221
+2024-05-28 16:35:09,177 DEBUG - normal_index_selete_: 49
+2024-05-28 16:35:09,177 DEBUG - abnormal_index_selete_: 0
+2024-05-28 16:35:15,390 DEBUG - normal_index_selete_: 48
+2024-05-28 16:35:15,391 DEBUG - abnormal_index_selete_: 0
+2024-05-28 16:35:15,791 DEBUG - normal_index_selete_: 46
+2024-05-28 16:35:15,792 DEBUG - abnormal_index_selete_: 0
+2024-05-28 16:35:16,138 DEBUG - normal_index_selete_: 47
+2024-05-28 16:35:16,139 DEBUG - abnormal_index_selete_: 0
+2024-05-28 16:35:23,223 DEBUG - is_selete: false  selete: 1  no: "10001"
+2024-05-28 16:35:26,206 DEBUG - nav_x 1.485  y: 0.585  theta: 0.248487
+2024-05-28 16:36:54,480 DEBUG - is_selete: true  selete: 1  no: "10001"
+2024-05-28 16:37:02,511 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:37:02,512 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:37:02,513 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:37:02,513 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:37:02,513 DEBUG - robot_info.state: 6
+2024-05-28 16:37:03,380 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:37:03,381 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:37:03,382 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:37:03,382 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:37:03,382 DEBUG - robot_info.state: 6
+2024-05-28 16:37:03,658 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:37:03,659 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:37:03,660 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:37:03,660 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:37:03,661 DEBUG - robot_info.state: 6
+2024-05-28 16:37:04,647 DEBUG - 域data不存在, path: ./map/robot/tss/tttt / "nav_area.data"
+2024-05-28 16:37:04,647 DEBUG - 二进制文件解析成功: ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:37:04,648 DEBUG - 软引导data不存在, path: ./map/robot/tss/tttt / "path_info.data"
+2024-05-28 16:37:04,648 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:37:04,649 DEBUG - robot_info.state: 6
+2024-05-28 16:39:56,662 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Battery]
+[13]-[woosh.robot.Battery] req_id:12461, identity:RC_10001, time:1716885594536
+charge_state: kNot
+power: 45
+charge_cycle: 70
+battery_cycle: 2000
+temp_max: 32
+robot_id: 10001
+
+2024-05-28 16:41:10,848 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[10] req_id:4, identity:woosh_design, time:1716885670847
+
+2024-05-28 16:41:10,856 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[10] req_id:4, identity:RC_10001, time:1716885668730
+
+2024-05-28 16:41:10,857 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:5, identity:woosh_design, time:1716885670857
+
+2024-05-28 16:41:11,666 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:5, identity:RC_10001, time:1716885668781
+
+2024-05-28 16:41:11,668 DEBUG - 下载文件： ./map/robot/12345/123/map.png
+2024-05-28 16:41:11,671 DEBUG - 下载文件： ./map/robot/12345/123/keepout.png
+2024-05-28 16:41:11,672 DEBUG - 下载文件： ./map/robot/12345/123/traffic_keepout.png
+2024-05-28 16:41:11,673 DEBUG - 下载文件： ./map/robot/12345/123/map.yaml
+2024-05-28 16:41:11,674 DEBUG - 下载文件： ./map/robot/12345/123/123.pbstream
+2024-05-28 16:41:11,675 DEBUG - 下载文件： ./map/robot/12345/123/mark_info.data
+2024-05-28 16:41:11,676 DEBUG - 下载文件： ./map/robot/12345/123/scan_match.carmen
+2024-05-28 16:41:11,676 DEBUG - 下载文件： ./map/robot/12345/action_groups.json
+2024-05-28 16:41:11,677 DEBUG - 下载文件： ./map/robot/12345/scene.json
+2024-05-28 16:41:11,677 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:6, identity:woosh_design, time:1716885671677
+
+2024-05-28 16:41:13,534 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:6, identity:RC_10001, time:1716885669584
+
+2024-05-28 16:41:13,536 DEBUG - 下载文件： ./map/robot/20240219/20240219/20240219.pbstream
+2024-05-28 16:41:13,540 DEBUG - 下载文件： ./map/robot/20240219/20240219/keepout.png
+2024-05-28 16:41:13,541 DEBUG - 下载文件： ./map/robot/20240219/20240219/map.png
+2024-05-28 16:41:13,542 DEBUG - 下载文件： ./map/robot/20240219/20240219/map.yaml
+2024-05-28 16:41:13,543 DEBUG - 下载文件： ./map/robot/20240219/20240219/mark_info.data
+2024-05-28 16:41:13,544 DEBUG - 下载文件： ./map/robot/20240219/20240219/nav_area.data
+2024-05-28 16:41:13,544 DEBUG - 下载文件： ./map/robot/20240219/20240219/path_info.data
+2024-05-28 16:41:13,545 DEBUG - 下载文件： ./map/robot/20240219/20240219/scan_match.carmen
+2024-05-28 16:41:13,545 DEBUG - 下载文件： ./map/robot/20240219/20240219/traffic_keepout.png
+2024-05-28 16:41:13,546 DEBUG - 下载文件： ./map/robot/20240219/20240219/x-4.73688y0.750113t-3.11622.carmen
+2024-05-28 16:41:13,547 DEBUG - 下载文件： ./map/robot/20240219/action_groups.json
+2024-05-28 16:41:13,547 DEBUG - 下载文件： ./map/robot/20240219/new2/keepout.png
+2024-05-28 16:41:13,548 DEBUG - 下载文件： ./map/robot/20240219/new2/map.png
+2024-05-28 16:41:13,549 DEBUG - 下载文件： ./map/robot/20240219/new2/map.yaml
+2024-05-28 16:41:13,549 DEBUG - 下载文件： ./map/robot/20240219/new2/mark_info.data
+2024-05-28 16:41:13,549 DEBUG - 下载文件： ./map/robot/20240219/new2/nav_area.data
+2024-05-28 16:41:13,550 DEBUG - 下载文件： ./map/robot/20240219/new2/new2.pbstream
+2024-05-28 16:41:13,551 DEBUG - 下载文件： ./map/robot/20240219/new2/path_info.data
+2024-05-28 16:41:13,551 DEBUG - 下载文件： ./map/robot/20240219/new2/traffic_keepout.png
+2024-05-28 16:41:13,552 DEBUG - 下载文件： ./map/robot/20240219/scene.json
+2024-05-28 16:41:13,552 DEBUG - 下载文件： ./map/robot/20240219/task_info.data
+2024-05-28 16:41:13,553 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:7, identity:woosh_design, time:1716885673553
+
+2024-05-28 16:41:13,957 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:7, identity:RC_10001, time:1716885671439
+
+2024-05-28 16:41:13,957 DEBUG - 下载文件： ./map/robot/50/50/map.png
+2024-05-28 16:41:13,959 DEBUG - 下载文件： ./map/robot/50/50/keepout.png
+2024-05-28 16:41:13,960 DEBUG - 下载文件： ./map/robot/50/50/traffic_keepout.png
+2024-05-28 16:41:13,960 DEBUG - 下载文件： ./map/robot/50/50/map.yaml
+2024-05-28 16:41:13,961 DEBUG - 下载文件： ./map/robot/50/50/50.pbstream
+2024-05-28 16:41:13,962 DEBUG - 下载文件： ./map/robot/50/50/x2.15y-2.32t-0.6.carmen
+2024-05-28 16:41:13,962 DEBUG - 下载文件： ./map/robot/50/50/x0.46y0.57t-2.2.carmen
+2024-05-28 16:41:13,963 DEBUG - 下载文件： ./map/robot/50/50/mark_info.data
+2024-05-28 16:41:13,964 DEBUG - 下载文件： ./map/robot/50/50/nav_area.data
+2024-05-28 16:41:13,964 DEBUG - 下载文件： ./map/robot/50/50/path_info.data
+2024-05-28 16:41:13,965 DEBUG - 下载文件： ./map/robot/50/50/scan_match.carmen
+2024-05-28 16:41:13,965 DEBUG - 下载文件： ./map/robot/50/action_groups.json
+2024-05-28 16:41:13,966 DEBUG - 下载文件： ./map/robot/50/scene.json
+2024-05-28 16:41:13,966 DEBUG - 下载文件： ./map/robot/50/task_info.data
+2024-05-28 16:41:13,967 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:8, identity:woosh_design, time:1716885673967
+
+2024-05-28 16:41:14,976 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:8, identity:RC_10001, time:1716885671860
+
+2024-05-28 16:41:14,978 DEBUG - 下载文件： ./map/robot/test/test1/map.png
+2024-05-28 16:41:14,990 DEBUG - 下载文件： ./map/robot/test/test1/keepout.png
+2024-05-28 16:41:14,991 DEBUG - 下载文件： ./map/robot/test/test1/traffic_keepout.png
+2024-05-28 16:41:14,993 DEBUG - 下载文件： ./map/robot/test/test1/map.yaml
+2024-05-28 16:41:14,993 DEBUG - 下载文件： ./map/robot/test/test1/test1.pbstream
+2024-05-28 16:41:14,995 DEBUG - 下载文件： ./map/robot/test/test1/mark_info.data
+2024-05-28 16:41:14,996 DEBUG - 下载文件： ./map/robot/test/test1/scan_match.carmen
+2024-05-28 16:41:14,997 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-05-28 16:41:14,998 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-05-28 16:41:14,999 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:9, identity:woosh_design, time:1716885674999
+
+2024-05-28 16:41:15,693 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:9, identity:RC_10001, time:1716885672900
+
+2024-05-28 16:41:15,694 DEBUG - 下载文件： ./map/robot/test2/2f/map.png
+2024-05-28 16:41:15,696 DEBUG - 下载文件： ./map/robot/test2/2f/keepout.png
+2024-05-28 16:41:15,698 DEBUG - 下载文件： ./map/robot/test2/2f/traffic_keepout.png
+2024-05-28 16:41:15,700 DEBUG - 下载文件： ./map/robot/test2/2f/map.yaml
+2024-05-28 16:41:15,701 DEBUG - 下载文件： ./map/robot/test2/2f/2f.pbstream
+2024-05-28 16:41:15,702 DEBUG - 下载文件： ./map/robot/test2/2f/mark_info.data
+2024-05-28 16:41:15,704 DEBUG - 下载文件： ./map/robot/test2/action_groups.json
+2024-05-28 16:41:15,705 DEBUG - 下载文件： ./map/robot/test2/scene.json
+2024-05-28 16:41:15,706 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:10, identity:woosh_design, time:1716885675706
+
+2024-05-28 16:41:16,836 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:10, identity:RC_10001, time:1716885673606
+
+2024-05-28 16:41:16,838 DEBUG - 下载文件： ./map/robot/test3/test1/map.png
+2024-05-28 16:41:16,839 DEBUG - 下载文件： ./map/robot/test3/test1/keepout.png
+2024-05-28 16:41:16,839 DEBUG - 下载文件： ./map/robot/test3/test1/traffic_keepout.png
+2024-05-28 16:41:16,840 DEBUG - 下载文件： ./map/robot/test3/test1/map.yaml
+2024-05-28 16:41:16,841 DEBUG - 下载文件： ./map/robot/test3/test1/test1.pbstream
+2024-05-28 16:41:16,842 DEBUG - 下载文件： ./map/robot/test3/test1/mark_info.data
+2024-05-28 16:41:16,842 DEBUG - 下载文件： ./map/robot/test3/action_groups.json
+2024-05-28 16:41:16,842 DEBUG - 下载文件： ./map/robot/test3/scene.json
+2024-05-28 16:41:16,844 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:11, identity:woosh_design, time:1716885676844
+
+2024-05-28 16:41:17,347 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:11, identity:RC_10001, time:1716885674731
+
+2024-05-28 16:41:17,348 DEBUG - 下载文件： ./map/robot/test333/test1/map.png
+2024-05-28 16:41:17,349 DEBUG - 下载文件： ./map/robot/test333/test1/keepout.png
+2024-05-28 16:41:17,351 DEBUG - 下载文件： ./map/robot/test333/test1/traffic_keepout.png
+2024-05-28 16:41:17,351 DEBUG - 下载文件： ./map/robot/test333/test1/map.yaml
+2024-05-28 16:41:17,352 DEBUG - 下载文件： ./map/robot/test333/test1/test1.pbstream
+2024-05-28 16:41:17,352 DEBUG - 下载文件： ./map/robot/test333/test1/mark_info.data
+2024-05-28 16:41:17,353 DEBUG - 下载文件： ./map/robot/test333/action_groups.json
+2024-05-28 16:41:17,353 DEBUG - 下载文件： ./map/robot/test333/scene.json
+2024-05-28 16:41:17,354 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:12, identity:woosh_design, time:1716885677354
+
+2024-05-28 16:41:17,865 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:12, identity:RC_10001, time:1716885675244
+
+2024-05-28 16:41:17,867 DEBUG - 下载文件： ./map/robot/test6/2F/map.png
+2024-05-28 16:41:17,871 DEBUG - 下载文件： ./map/robot/test6/2F/keepout.png
+2024-05-28 16:41:17,872 DEBUG - 下载文件： ./map/robot/test6/2F/traffic_keepout.png
+2024-05-28 16:41:17,873 DEBUG - 下载文件： ./map/robot/test6/2F/map.yaml
+2024-05-28 16:41:17,874 DEBUG - 下载文件： ./map/robot/test6/2F/2F.pbstream
+2024-05-28 16:41:17,875 DEBUG - 下载文件： ./map/robot/test6/2F/mark_info.data
+2024-05-28 16:41:17,876 DEBUG - 下载文件： ./map/robot/test6/action_groups.json
+2024-05-28 16:41:17,876 DEBUG - 下载文件： ./map/robot/test6/scene.json
+2024-05-28 16:41:17,877 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:13, identity:woosh_design, time:1716885677877
+
+2024-05-28 16:41:18,282 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:13, identity:RC_10001, time:1716885675766
+
+2024-05-28 16:41:18,283 DEBUG - 下载文件： ./map/robot/test7/test7/map.png
+2024-05-28 16:41:18,285 DEBUG - 下载文件： ./map/robot/test7/test7/keepout.png
+2024-05-28 16:41:18,286 DEBUG - 下载文件： ./map/robot/test7/test7/traffic_keepout.png
+2024-05-28 16:41:18,287 DEBUG - 下载文件： ./map/robot/test7/test7/map.yaml
+2024-05-28 16:41:18,287 DEBUG - 下载文件： ./map/robot/test7/test7/test7.pbstream
+2024-05-28 16:41:18,289 DEBUG - 下载文件： ./map/robot/test7/test7/mark_info.data
+2024-05-28 16:41:18,290 DEBUG - 下载文件： ./map/robot/test7/test7/scan_match.carmen
+2024-05-28 16:41:18,292 DEBUG - 下载文件： ./map/robot/test7/action_groups.json
+2024-05-28 16:41:18,293 DEBUG - 下载文件： ./map/robot/test7/scene.json
+2024-05-28 16:41:18,294 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:14, identity:woosh_design, time:1716885678294
+
+2024-05-28 16:41:18,898 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:14, identity:RC_10001, time:1716885676188
+
+2024-05-28 16:41:18,899 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/action_groups.json
+2024-05-28 16:41:18,901 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/scene.json
+2024-05-28 16:41:18,901 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/task_info.data
+2024-05-28 16:41:18,902 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/keepout.png
+2024-05-28 16:41:18,903 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.png
+2024-05-28 16:41:18,903 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.yaml
+2024-05-28 16:41:18,904 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.png
+2024-05-28 16:41:18,904 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.yaml
+2024-05-28 16:41:18,905 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/mark_info.data
+2024-05-28 16:41:18,905 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/nav_area.data
+2024-05-28 16:41:18,906 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/path_info.data
+2024-05-28 16:41:18,907 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/scan_match.carmen
+2024-05-28 16:41:18,907 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/test4.pbstream
+2024-05-28 16:41:18,908 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/traffic_keepout.png
+2024-05-28 16:41:18,909 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.0476158y0.408491t2.95704.carmen
+2024-05-28 16:41:18,909 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.15y-0.09t-3.1.carmen
+2024-05-28 16:41:18,910 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.86696y0.604275t-0.029663.carmen
+2024-05-28 16:41:18,910 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.96254y0.237056t0.318272.carmen
+2024-05-28 16:41:18,911 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-2.03099y0.186043t-0.0155581.carmen
+2024-05-28 16:41:18,911 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-5.94y-1.76t2.96.carmen
+2024-05-28 16:41:18,912 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34139y-1.55681t-3.12997.carmen
+2024-05-28 16:41:18,912 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.56t2.96.carmen
+2024-05-28 16:41:18,913 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.71t2.96.carmen
+2024-05-28 16:41:18,914 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-7.63y0.38t-1.62.carmen
+2024-05-28 16:41:18,915 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t2.91812.carmen
+2024-05-28 16:41:18,915 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t3.01.carmen
+2024-05-28 16:41:18,916 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.89y-0.47t-3.07.carmen
+2024-05-28 16:41:18,917 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:15, identity:woosh_design, time:1716885678917
+
+2024-05-28 16:41:19,036 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:15, identity:RC_10001, time:1716885676802
+
+2024-05-28 16:41:19,037 DEBUG - 下载文件： ./map/robot/ts/tt/map.png
+2024-05-28 16:41:19,038 DEBUG - 下载文件： ./map/robot/ts/tt/keepout.png
+2024-05-28 16:41:19,039 DEBUG - 下载文件： ./map/robot/ts/tt/traffic_keepout.png
+2024-05-28 16:41:19,040 DEBUG - 下载文件： ./map/robot/ts/tt/map.yaml
+2024-05-28 16:41:19,040 DEBUG - 下载文件： ./map/robot/ts/tt/tt.pbstream
+2024-05-28 16:41:19,041 DEBUG - 下载文件： ./map/robot/ts/action_groups.json
+2024-05-28 16:41:19,041 DEBUG - 下载文件： ./map/robot/ts/scene.json
+2024-05-28 16:41:19,042 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:16, identity:woosh_design, time:1716885679042
+
+2024-05-28 16:41:19,433 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:16, identity:RC_10001, time:1716885676927
+
+2024-05-28 16:41:19,440 DEBUG - 下载文件： ./map/robot/tss/tttt/map.png
+2024-05-28 16:41:19,442 DEBUG - 下载文件： ./map/robot/tss/tttt/keepout.png
+2024-05-28 16:41:19,442 DEBUG - 下载文件： ./map/robot/tss/tttt/traffic_keepout.png
+2024-05-28 16:41:19,443 DEBUG - 下载文件： ./map/robot/tss/tttt/map.yaml
+2024-05-28 16:41:19,443 DEBUG - 下载文件： ./map/robot/tss/tttt/tttt.pbstream
+2024-05-28 16:41:19,445 DEBUG - 下载文件： ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:41:19,445 DEBUG - 下载文件： ./map/robot/tss/tttt/scan_match.carmen
+2024-05-28 16:41:19,446 DEBUG - 下载文件： ./map/robot/tss/action_groups.json
+2024-05-28 16:41:19,446 DEBUG - 下载文件： ./map/robot/tss/scene.json
+2024-05-28 16:41:19,447 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:17, identity:woosh_design, time:1716885679447
+
+2024-05-28 16:41:19,505 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:17, identity:RC_10001, time:1716885677331
+
+2024-05-28 16:41:19,506 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout.png
+2024-05-28 16:41:19,508 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout_w.png
+2024-05-28 16:41:19,509 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.png
+2024-05-28 16:41:19,509 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.yaml
+2024-05-28 16:41:19,510 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map_w.png
+2024-05-28 16:41:19,510 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.png
+2024-05-28 16:41:19,511 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.yaml
+2024-05-28 16:41:19,512 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_info.data
+2024-05-28 16:41:19,512 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_w.png
+2024-05-28 16:41:19,513 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/mark_info.data
+2024-05-28 16:41:19,513 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/nav_area.data
+2024-05-28 16:41:19,514 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/path_info.data
+2024-05-28 16:41:19,514 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout.png
+2024-05-28 16:41:19,515 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout_w.png
+2024-05-28 16:41:19,515 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/scan_match.carmen
+2024-05-28 16:41:19,515 DEBUG - 下载文件： ./map/robot/wooshmap/action_groups.json
+2024-05-28 16:41:19,516 DEBUG - 下载文件： ./map/robot/wooshmap/scene.json
+2024-05-28 16:41:19,517 DEBUG - 下载文件： ./map/robot/wooshmap/task_info.data
+2024-05-28 16:41:26,400 DEBUG - open copy_from: ./map/robot/wooshmap  copy_to: ./map/temp/wooshmap
+2024-05-28 16:41:26,425 DEBUG - 二进制文件解析成功: ./map/temp/wooshmap/wooshmap/nav_area.data
+2024-05-28 16:41:26,426 DEBUG - 二进制文件解析成功: ./map/temp/wooshmap/wooshmap/mark_info.data
+2024-05-28 16:41:26,428 DEBUG - 二进制文件解析成功: ./map/temp/wooshmap/wooshmap/path_info.data
+2024-05-28 16:41:26,431 DEBUG - add map_id: 0  map_path: ./map/temp/wooshmap/wooshmap  map_name  "wooshmap"  map_floor: 4
+2024-05-28 16:41:26,454 DEBUG - 二进制文件解析成功: ./map/temp/wooshmap/task_info.data
+2024-05-28 16:41:35,591 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[10] req_id:18, identity:woosh_design, time:1716885695591
+
+2024-05-28 16:41:35,596 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[10] req_id:18, identity:RC_10001, time:1716885693472
+
+2024-05-28 16:41:35,597 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:19, identity:woosh_design, time:1716885695597
+
+2024-05-28 16:41:36,447 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:19, identity:RC_10001, time:1716885693478
+
+2024-05-28 16:41:36,452 DEBUG - 下载文件： ./map/robot/12345/123/map.png
+2024-05-28 16:41:36,453 DEBUG - 下载文件： ./map/robot/12345/123/keepout.png
+2024-05-28 16:41:36,454 DEBUG - 下载文件： ./map/robot/12345/123/traffic_keepout.png
+2024-05-28 16:41:36,455 DEBUG - 下载文件： ./map/robot/12345/123/map.yaml
+2024-05-28 16:41:36,455 DEBUG - 下载文件： ./map/robot/12345/123/123.pbstream
+2024-05-28 16:41:36,456 DEBUG - 下载文件： ./map/robot/12345/123/mark_info.data
+2024-05-28 16:41:36,456 DEBUG - 下载文件： ./map/robot/12345/123/scan_match.carmen
+2024-05-28 16:41:36,458 DEBUG - 下载文件： ./map/robot/12345/action_groups.json
+2024-05-28 16:41:36,458 DEBUG - 下载文件： ./map/robot/12345/scene.json
+2024-05-28 16:41:36,460 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:20, identity:woosh_design, time:1716885696459
+
+2024-05-28 16:41:38,919 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:20, identity:RC_10001, time:1716885694346
+
+2024-05-28 16:41:38,926 DEBUG - 下载文件： ./map/robot/20240219/20240219/20240219.pbstream
+2024-05-28 16:41:38,928 DEBUG - 下载文件： ./map/robot/20240219/20240219/keepout.png
+2024-05-28 16:41:38,928 DEBUG - 下载文件： ./map/robot/20240219/20240219/map.png
+2024-05-28 16:41:38,929 DEBUG - 下载文件： ./map/robot/20240219/20240219/map.yaml
+2024-05-28 16:41:38,929 DEBUG - 下载文件： ./map/robot/20240219/20240219/mark_info.data
+2024-05-28 16:41:38,929 DEBUG - 下载文件： ./map/robot/20240219/20240219/nav_area.data
+2024-05-28 16:41:38,930 DEBUG - 下载文件： ./map/robot/20240219/20240219/path_info.data
+2024-05-28 16:41:38,932 DEBUG - 下载文件： ./map/robot/20240219/20240219/scan_match.carmen
+2024-05-28 16:41:38,932 DEBUG - 下载文件： ./map/robot/20240219/20240219/traffic_keepout.png
+2024-05-28 16:41:38,933 DEBUG - 下载文件： ./map/robot/20240219/20240219/x-4.73688y0.750113t-3.11622.carmen
+2024-05-28 16:41:38,933 DEBUG - 下载文件： ./map/robot/20240219/action_groups.json
+2024-05-28 16:41:38,934 DEBUG - 下载文件： ./map/robot/20240219/new2/keepout.png
+2024-05-28 16:41:38,934 DEBUG - 下载文件： ./map/robot/20240219/new2/map.png
+2024-05-28 16:41:38,935 DEBUG - 下载文件： ./map/robot/20240219/new2/map.yaml
+2024-05-28 16:41:38,935 DEBUG - 下载文件： ./map/robot/20240219/new2/mark_info.data
+2024-05-28 16:41:38,935 DEBUG - 下载文件： ./map/robot/20240219/new2/nav_area.data
+2024-05-28 16:41:38,936 DEBUG - 下载文件： ./map/robot/20240219/new2/new2.pbstream
+2024-05-28 16:41:38,936 DEBUG - 下载文件： ./map/robot/20240219/new2/path_info.data
+2024-05-28 16:41:38,937 DEBUG - 下载文件： ./map/robot/20240219/new2/traffic_keepout.png
+2024-05-28 16:41:38,938 DEBUG - 下载文件： ./map/robot/20240219/scene.json
+2024-05-28 16:41:38,938 DEBUG - 下载文件： ./map/robot/20240219/task_info.data
+2024-05-28 16:41:38,939 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:21, identity:woosh_design, time:1716885698939
+
+2024-05-28 16:41:39,483 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:21, identity:RC_10001, time:1716885696820
+
+2024-05-28 16:41:39,487 DEBUG - 下载文件： ./map/robot/50/50/map.png
+2024-05-28 16:41:39,488 DEBUG - 下载文件： ./map/robot/50/50/keepout.png
+2024-05-28 16:41:39,488 DEBUG - 下载文件： ./map/robot/50/50/traffic_keepout.png
+2024-05-28 16:41:39,489 DEBUG - 下载文件： ./map/robot/50/50/map.yaml
+2024-05-28 16:41:39,489 DEBUG - 下载文件： ./map/robot/50/50/50.pbstream
+2024-05-28 16:41:39,490 DEBUG - 下载文件： ./map/robot/50/50/x2.15y-2.32t-0.6.carmen
+2024-05-28 16:41:39,490 DEBUG - 下载文件： ./map/robot/50/50/x0.46y0.57t-2.2.carmen
+2024-05-28 16:41:39,492 DEBUG - 下载文件： ./map/robot/50/50/mark_info.data
+2024-05-28 16:41:39,492 DEBUG - 下载文件： ./map/robot/50/50/nav_area.data
+2024-05-28 16:41:39,493 DEBUG - 下载文件： ./map/robot/50/50/path_info.data
+2024-05-28 16:41:39,493 DEBUG - 下载文件： ./map/robot/50/50/scan_match.carmen
+2024-05-28 16:41:39,494 DEBUG - 下载文件： ./map/robot/50/action_groups.json
+2024-05-28 16:41:39,494 DEBUG - 下载文件： ./map/robot/50/scene.json
+2024-05-28 16:41:39,494 DEBUG - 下载文件： ./map/robot/50/task_info.data
+2024-05-28 16:41:39,495 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:22, identity:woosh_design, time:1716885699495
+
+2024-05-28 16:41:41,105 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:22, identity:RC_10001, time:1716885697384
+
+2024-05-28 16:41:41,108 DEBUG - 下载文件： ./map/robot/test/test1/map.png
+2024-05-28 16:41:41,109 DEBUG - 下载文件： ./map/robot/test/test1/keepout.png
+2024-05-28 16:41:41,109 DEBUG - 下载文件： ./map/robot/test/test1/traffic_keepout.png
+2024-05-28 16:41:41,109 DEBUG - 下载文件： ./map/robot/test/test1/map.yaml
+2024-05-28 16:41:41,110 DEBUG - 下载文件： ./map/robot/test/test1/test1.pbstream
+2024-05-28 16:41:41,111 DEBUG - 下载文件： ./map/robot/test/test1/mark_info.data
+2024-05-28 16:41:41,111 DEBUG - 下载文件： ./map/robot/test/test1/scan_match.carmen
+2024-05-28 16:41:41,112 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-05-28 16:41:41,112 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-05-28 16:41:41,113 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:23, identity:woosh_design, time:1716885701112
+
+2024-05-28 16:41:41,999 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:23, identity:RC_10001, time:1716885698997
+
+2024-05-28 16:41:42,004 DEBUG - 下载文件： ./map/robot/test2/2f/map.png
+2024-05-28 16:41:42,006 DEBUG - 下载文件： ./map/robot/test2/2f/keepout.png
+2024-05-28 16:41:42,007 DEBUG - 下载文件： ./map/robot/test2/2f/traffic_keepout.png
+2024-05-28 16:41:42,008 DEBUG - 下载文件： ./map/robot/test2/2f/map.yaml
+2024-05-28 16:41:42,008 DEBUG - 下载文件： ./map/robot/test2/2f/2f.pbstream
+2024-05-28 16:41:42,009 DEBUG - 下载文件： ./map/robot/test2/2f/mark_info.data
+2024-05-28 16:41:42,010 DEBUG - 下载文件： ./map/robot/test2/action_groups.json
+2024-05-28 16:41:42,010 DEBUG - 下载文件： ./map/robot/test2/scene.json
+2024-05-28 16:41:42,011 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:24, identity:woosh_design, time:1716885702011
+
+2024-05-28 16:41:43,482 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:24, identity:RC_10001, time:1716885699902
+
+2024-05-28 16:41:43,487 DEBUG - 下载文件： ./map/robot/test3/test1/map.png
+2024-05-28 16:41:43,488 DEBUG - 下载文件： ./map/robot/test3/test1/keepout.png
+2024-05-28 16:41:43,489 DEBUG - 下载文件： ./map/robot/test3/test1/traffic_keepout.png
+2024-05-28 16:41:43,489 DEBUG - 下载文件： ./map/robot/test3/test1/map.yaml
+2024-05-28 16:41:43,490 DEBUG - 下载文件： ./map/robot/test3/test1/test1.pbstream
+2024-05-28 16:41:43,491 DEBUG - 下载文件： ./map/robot/test3/test1/mark_info.data
+2024-05-28 16:41:43,492 DEBUG - 下载文件： ./map/robot/test3/action_groups.json
+2024-05-28 16:41:43,493 DEBUG - 下载文件： ./map/robot/test3/scene.json
+2024-05-28 16:41:43,494 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:25, identity:woosh_design, time:1716885703494
+
+2024-05-28 16:41:43,905 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:25, identity:RC_10001, time:1716885701402
+
+2024-05-28 16:41:43,910 DEBUG - 下载文件： ./map/robot/test333/test1/map.png
+2024-05-28 16:41:43,911 DEBUG - 下载文件： ./map/robot/test333/test1/keepout.png
+2024-05-28 16:41:43,912 DEBUG - 下载文件： ./map/robot/test333/test1/traffic_keepout.png
+2024-05-28 16:41:43,913 DEBUG - 下载文件： ./map/robot/test333/test1/map.yaml
+2024-05-28 16:41:43,914 DEBUG - 下载文件： ./map/robot/test333/test1/test1.pbstream
+2024-05-28 16:41:43,915 DEBUG - 下载文件： ./map/robot/test333/test1/mark_info.data
+2024-05-28 16:41:43,916 DEBUG - 下载文件： ./map/robot/test333/action_groups.json
+2024-05-28 16:41:43,917 DEBUG - 下载文件： ./map/robot/test333/scene.json
+2024-05-28 16:41:43,918 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:26, identity:woosh_design, time:1716885703918
+
+2024-05-28 16:41:44,644 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:26, identity:RC_10001, time:1716885701807
+
+2024-05-28 16:41:44,649 DEBUG - 下载文件： ./map/robot/test6/2F/map.png
+2024-05-28 16:41:44,651 DEBUG - 下载文件： ./map/robot/test6/2F/keepout.png
+2024-05-28 16:41:44,653 DEBUG - 下载文件： ./map/robot/test6/2F/traffic_keepout.png
+2024-05-28 16:41:44,654 DEBUG - 下载文件： ./map/robot/test6/2F/map.yaml
+2024-05-28 16:41:44,655 DEBUG - 下载文件： ./map/robot/test6/2F/2F.pbstream
+2024-05-28 16:41:44,656 DEBUG - 下载文件： ./map/robot/test6/2F/mark_info.data
+2024-05-28 16:41:44,657 DEBUG - 下载文件： ./map/robot/test6/action_groups.json
+2024-05-28 16:41:44,658 DEBUG - 下载文件： ./map/robot/test6/scene.json
+2024-05-28 16:41:44,659 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:27, identity:woosh_design, time:1716885704659
+
+2024-05-28 16:41:45,551 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:27, identity:RC_10001, time:1716885702546
+
+2024-05-28 16:41:45,555 DEBUG - 下载文件： ./map/robot/test7/test7/map.png
+2024-05-28 16:41:45,556 DEBUG - 下载文件： ./map/robot/test7/test7/keepout.png
+2024-05-28 16:41:45,558 DEBUG - 下载文件： ./map/robot/test7/test7/traffic_keepout.png
+2024-05-28 16:41:45,558 DEBUG - 下载文件： ./map/robot/test7/test7/map.yaml
+2024-05-28 16:41:45,559 DEBUG - 下载文件： ./map/robot/test7/test7/test7.pbstream
+2024-05-28 16:41:45,560 DEBUG - 下载文件： ./map/robot/test7/test7/mark_info.data
+2024-05-28 16:41:45,561 DEBUG - 下载文件： ./map/robot/test7/test7/scan_match.carmen
+2024-05-28 16:41:45,562 DEBUG - 下载文件： ./map/robot/test7/action_groups.json
+2024-05-28 16:41:45,562 DEBUG - 下载文件： ./map/robot/test7/scene.json
+2024-05-28 16:41:45,563 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:28, identity:woosh_design, time:1716885705563
+
+2024-05-28 16:41:46,544 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:28, identity:RC_10001, time:1716885703455
+
+2024-05-28 16:41:46,552 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/action_groups.json
+2024-05-28 16:41:46,553 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/scene.json
+2024-05-28 16:41:46,553 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/task_info.data
+2024-05-28 16:41:46,554 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/keepout.png
+2024-05-28 16:41:46,554 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.png
+2024-05-28 16:41:46,555 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.yaml
+2024-05-28 16:41:46,555 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.png
+2024-05-28 16:41:46,556 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.yaml
+2024-05-28 16:41:46,556 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/mark_info.data
+2024-05-28 16:41:46,557 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/nav_area.data
+2024-05-28 16:41:46,558 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/path_info.data
+2024-05-28 16:41:46,559 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/scan_match.carmen
+2024-05-28 16:41:46,559 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/test4.pbstream
+2024-05-28 16:41:46,560 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/traffic_keepout.png
+2024-05-28 16:41:46,560 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.0476158y0.408491t2.95704.carmen
+2024-05-28 16:41:46,561 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.15y-0.09t-3.1.carmen
+2024-05-28 16:41:46,562 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.86696y0.604275t-0.029663.carmen
+2024-05-28 16:41:46,562 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.96254y0.237056t0.318272.carmen
+2024-05-28 16:41:46,563 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-2.03099y0.186043t-0.0155581.carmen
+2024-05-28 16:41:46,563 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-5.94y-1.76t2.96.carmen
+2024-05-28 16:41:46,563 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34139y-1.55681t-3.12997.carmen
+2024-05-28 16:41:46,564 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.56t2.96.carmen
+2024-05-28 16:41:46,564 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.71t2.96.carmen
+2024-05-28 16:41:46,565 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-7.63y0.38t-1.62.carmen
+2024-05-28 16:41:46,565 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t2.91812.carmen
+2024-05-28 16:41:46,566 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t3.01.carmen
+2024-05-28 16:41:46,566 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.89y-0.47t-3.07.carmen
+2024-05-28 16:41:46,567 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:29, identity:woosh_design, time:1716885706567
+
+2024-05-28 16:41:46,887 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:29, identity:RC_10001, time:1716885704455
+
+2024-05-28 16:41:46,891 DEBUG - 下载文件： ./map/robot/ts/tt/map.png
+2024-05-28 16:41:46,892 DEBUG - 下载文件： ./map/robot/ts/tt/keepout.png
+2024-05-28 16:41:46,893 DEBUG - 下载文件： ./map/robot/ts/tt/traffic_keepout.png
+2024-05-28 16:41:46,894 DEBUG - 下载文件： ./map/robot/ts/tt/map.yaml
+2024-05-28 16:41:46,894 DEBUG - 下载文件： ./map/robot/ts/tt/tt.pbstream
+2024-05-28 16:41:46,895 DEBUG - 下载文件： ./map/robot/ts/action_groups.json
+2024-05-28 16:41:46,896 DEBUG - 下载文件： ./map/robot/ts/scene.json
+2024-05-28 16:41:46,896 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:30, identity:woosh_design, time:1716885706896
+
+2024-05-28 16:41:47,460 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:30, identity:RC_10001, time:1716885704780
+
+2024-05-28 16:41:47,465 DEBUG - 下载文件： ./map/robot/tss/tttt/map.png
+2024-05-28 16:41:47,466 DEBUG - 下载文件： ./map/robot/tss/tttt/keepout.png
+2024-05-28 16:41:47,466 DEBUG - 下载文件： ./map/robot/tss/tttt/traffic_keepout.png
+2024-05-28 16:41:47,466 DEBUG - 下载文件： ./map/robot/tss/tttt/map.yaml
+2024-05-28 16:41:47,467 DEBUG - 下载文件： ./map/robot/tss/tttt/tttt.pbstream
+2024-05-28 16:41:47,468 DEBUG - 下载文件： ./map/robot/tss/tttt/mark_info.data
+2024-05-28 16:41:47,468 DEBUG - 下载文件： ./map/robot/tss/tttt/scan_match.carmen
+2024-05-28 16:41:47,480 DEBUG - 下载文件： ./map/robot/tss/action_groups.json
+2024-05-28 16:41:47,481 DEBUG - 下载文件： ./map/robot/tss/scene.json
+2024-05-28 16:41:47,482 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[10] req_id:31, identity:woosh_design, time:1716885707482
+
+2024-05-28 16:41:47,543 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[10] req_id:31, identity:RC_10001, time:1716885705363
+
+2024-05-28 16:41:47,546 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout.png
+2024-05-28 16:41:47,547 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout_w.png
+2024-05-28 16:41:47,548 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.png
+2024-05-28 16:41:47,548 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.yaml
+2024-05-28 16:41:47,549 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map_w.png
+2024-05-28 16:41:47,549 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.png
+2024-05-28 16:41:47,550 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.yaml
+2024-05-28 16:41:47,551 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_info.data
+2024-05-28 16:41:47,551 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_w.png
+2024-05-28 16:41:47,552 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/mark_info.data
+2024-05-28 16:41:47,553 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/nav_area.data
+2024-05-28 16:41:47,553 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/path_info.data
+2024-05-28 16:41:47,554 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout.png
+2024-05-28 16:41:47,554 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout_w.png
+2024-05-28 16:41:47,556 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/scan_match.carmen
+2024-05-28 16:41:47,556 DEBUG - 下载文件： ./map/robot/wooshmap/action_groups.json
+2024-05-28 16:41:47,557 DEBUG - 下载文件： ./map/robot/wooshmap/scene.json
+2024-05-28 16:41:47,558 DEBUG - 下载文件： ./map/robot/wooshmap/task_info.data
+2024-05-28 16:42:59,999 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-05-28 16:42:59,999 DEBUG - [ROBOT_SDK_LOG] [10] stoped request loop.
+2024-05-28 16:43:00,015 DEBUG - [ROBOT_SDK_LOG] [8] inproc://monitor-request2 monitor stoped loop.
+2024-05-28 16:43:00,109 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-05-28 16:43:00,109 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-05-28 16:43:00,124 DEBUG - [ROBOT_SDK_LOG] [11] inproc://monitor-subscribe3 monitor stoped loop.
+2024-05-28 16:43:00,203 DEBUG - [ROBOT_SDK_LOG] [13] Subscribe stoped loop.
+2024-05-28 16:43:00,219 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-05-28 16:43:00,222 DEBUG - is_connect_robot: false
+2024-05-28 16:43:00,223 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-05-28 16:43:00,227 DEBUG - 服务器为空
+2024-05-28 16:43:00,227 DEBUG - 断开

@@ -1,0 +1,40 @@
+2024-09-26 14:32:45,477 DEBUG - 配置信息文件读取成功
+2024-09-26 14:32:45,477 DEBUG - 状态码文件读取成功
+2024-09-26 14:32:45,477 DEBUG - APP   Version: 1.1.12
+2024-09-26 14:32:45,477 DEBUG - SDK   Version: 1.1.45
+2024-09-26 14:32:45,477 DEBUG - COMMU Version: 0.1.25
+2024-09-26 14:32:45,836 DEBUG - control_speed_0: 0.2
+2024-09-26 14:32:45,852 DEBUG - control_speed_1: 0.3
+2024-09-26 14:32:45,868 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-26 14:32:45,883 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-09-26 16:47:17,965 DEBUG - 配置信息文件读取成功
+2024-09-26 16:47:17,981 DEBUG - 状态码文件读取成功
+2024-09-26 16:47:17,981 DEBUG - APP   Version: 1.1.12
+2024-09-26 16:47:17,981 DEBUG - SDK   Version: 1.1.45
+2024-09-26 16:47:17,981 DEBUG - COMMU Version: 0.1.25
+2024-09-26 16:47:18,013 DEBUG - control_speed_0: 0.2
+2024-09-26 16:47:18,028 DEBUG - control_speed_1: 0.3
+2024-09-26 16:47:18,044 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-26 16:47:18,044 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-09-26 16:47:19,638 DEBUG - 机器人为空
+2024-09-26 16:47:25,810 DEBUG - 机器人为空
+2024-09-26 17:12:27,095 DEBUG - 配置信息文件读取成功
+2024-09-26 17:12:27,095 DEBUG - 状态码文件读取成功
+2024-09-26 17:12:27,095 DEBUG - APP   Version: 1.1.12
+2024-09-26 17:12:27,095 DEBUG - SDK   Version: 1.1.45
+2024-09-26 17:12:27,095 DEBUG - COMMU Version: 0.1.25
+2024-09-26 17:12:27,124 DEBUG - control_speed_0: 0.2
+2024-09-26 17:12:27,139 DEBUG - control_speed_1: 0.3
+2024-09-26 17:12:27,139 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-26 17:12:27,155 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-09-26 17:12:28,186 DEBUG - 机器人为空
+2024-09-26 17:17:23,690 DEBUG - 配置信息文件读取成功
+2024-09-26 17:17:23,690 DEBUG - 状态码文件读取成功
+2024-09-26 17:17:23,690 DEBUG - APP   Version: 1.1.12
+2024-09-26 17:17:23,690 DEBUG - SDK   Version: 1.1.45
+2024-09-26 17:17:23,690 DEBUG - COMMU Version: 0.1.25
+2024-09-26 17:17:23,729 DEBUG - control_speed_0: 0.2
+2024-09-26 17:17:23,744 DEBUG - control_speed_1: 0.3
+2024-09-26 17:17:23,751 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-26 17:17:23,754 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-09-26 17:17:24,713 DEBUG - 机器人为空

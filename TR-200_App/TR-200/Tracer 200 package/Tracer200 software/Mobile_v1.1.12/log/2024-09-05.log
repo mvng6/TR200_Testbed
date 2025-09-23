@@ -1,0 +1,2743 @@
+2024-09-05 05:46:01,278 DEBUG - 配置信息文件读取成功
+2024-09-05 05:46:01,294 DEBUG - 状态码文件读取成功
+2024-09-05 05:46:01,294 DEBUG - APP   Version: 1.1.12
+2024-09-05 05:46:01,294 DEBUG - SDK   Version: 1.1.45
+2024-09-05 05:46:01,294 DEBUG - COMMU Version: 0.1.25
+2024-09-05 05:46:01,528 DEBUG - control_speed_0: 0.2
+2024-09-05 05:46:01,559 DEBUG - control_speed_1: 0.3
+2024-09-05 05:46:01,559 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-05 05:46:01,559 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-09-05 05:48:42,642 DEBUG - is_connect_robot: false
+2024-09-05 05:48:42,642 DEBUG - 与服务器断开
+2024-09-05 05:48:42,642 DEBUG - 服务器为空
+2024-09-05 05:48:42,642 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 started monitor.
+2024-09-05 05:48:42,658 DEBUG - [ROBOT_SDK_LOG] [4] started request loop.
+2024-09-05 05:48:42,658 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 05:48:42,658 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connected tcp://169.254.128.2:5410
+2024-09-05 05:48:42,658 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 started monitor.
+2024-09-05 05:48:42,674 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe started loop.
+2024-09-05 05:48:42,674 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 05:48:42,674 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connected tcp://169.254.128.2:5411
+2024-09-05 05:48:42,861 DEBUG - [ROBOT_SDK_LOG] request connect status: 2, msg: tcp://169.254.128.2:5410
+2024-09-05 05:48:42,877 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 2, msg: tcp://169.254.128.2:5411
+2024-09-05 05:48:42,877 DEBUG - is_connect_robot: true
+2024-09-05 05:48:42,877 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:woosh_mobile, time:1725482922877
+
+2024-09-05 05:48:42,877 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:RC_10001, time:1725515448341
+
+2024-09-05 05:48:42,877 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.NavPath]
+[4] req_id:2, identity:woosh_mobile, time:1725482922877
+
+2024-09-05 05:48:42,877 DEBUG - dealRobot
+2024-09-05 05:48:42,877 DEBUG - dealGeneralInfo
+2024-09-05 05:48:42,877 DEBUG - dealSettingInfo
+2024-09-05 05:48:42,877 DEBUG - 与服务器断开
+2024-09-05 05:48:42,877 DEBUG - 服务器为空
+2024-09-05 05:48:42,877 DEBUG - dealModeInfo
+2024-09-05 05:48:42,877 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.NavPath]
+[4] req_id:2, identity:RC_10001, time:1725515448351
+
+2024-09-05 05:48:42,877 DEBUG - 与服务器断开
+2024-09-05 05:48:42,877 DEBUG - 服务器为空
+2024-09-05 05:48:42,892 DEBUG - dealNetworkInfo
+2024-09-05 05:48:42,908 DEBUG - Wifi列表信息文件读取异常
+2024-09-05 05:48:42,908 DEBUG - dealSceneInfo
+2024-09-05 05:48:42,908 DEBUG - dealDeviceInfo
+2024-09-05 05:48:42,908 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneData]
+[4] req_id:3, identity:woosh_mobile, time:1725482922908
+
+2024-09-05 05:48:42,908 DEBUG - dealStatusCodes
+2024-09-05 05:48:42,924 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneData]
+[4] req_id:3, identity:RC_10001, time:1725515448384
+
+2024-09-05 05:48:42,939 DEBUG - dealAbnormalCodes
+2024-09-05 05:48:42,939 DEBUG - GloI().scene_name: Wego_Robotics_503 GloI().map_name: Wego_Robotics_503
+2024-09-05 05:48:42,939 DEBUG - scene_data.name(): Wego_Robotics_503
+2024-09-05 05:48:42,939 DEBUG - map_data.name(): Wego_Robotics_503
+2024-09-05 05:48:42,939 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-09-05 05:48:42,939 DEBUG - repeat_tasks_size: 2
+2024-09-05 05:48:56,193 DEBUG - repeat_tasks_size: 2
+2024-09-05 05:49:17,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:723, identity:RC_10001, time:1725515482951
+
+2024-09-05 05:49:17,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:724, identity:RC_10001, time:1725515482952
+ctrl: kAuto
+work: kTaskMode
+robot_id: 10001
+
+2024-09-05 05:49:17,490 DEBUG - dealModeInfo
+2024-09-05 05:49:17,490 DEBUG - 与服务器断开
+2024-09-05 05:49:17,490 DEBUG - 服务器为空
+2024-09-05 05:49:19,475 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:738, identity:RC_10001, time:1725515484949
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-09-05 05:49:19,475 DEBUG - dealDeviceInfo
+2024-09-05 05:49:19,600 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:740, identity:RC_10001, time:1725515485068
+software: 1
+robot_id: 10001
+
+2024-09-05 05:49:19,600 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:741, identity:RC_10001, time:1725515485069
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 99
+  full: 100
+}
+allow {
+  auto_charge: true
+  auto_park: true
+  goods_check: true
+}
+robot_id: 10001
+
+2024-09-05 05:49:19,600 DEBUG - dealDeviceInfo
+2024-09-05 05:49:19,600 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:742, identity:RC_10001, time:1725515485069
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-09-05 05:49:19,600 DEBUG - dealSettingInfo
+2024-09-05 05:49:19,600 DEBUG - 与服务器断开
+2024-09-05 05:49:19,600 DEBUG - 服务器为空
+2024-09-05 05:49:19,600 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:743, identity:RC_10001, time:1725515485072
+
+2024-09-05 05:49:19,600 DEBUG - dealNetworkInfo
+2024-09-05 05:49:19,600 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:744, identity:RC_10001, time:1725515485073
+state: kUninit
+robot_id: 10001
+
+2024-09-05 05:49:19,600 DEBUG - Wifi列表信息文件读取异常
+2024-09-05 05:49:19,615 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:746, identity:RC_10001, time:1725515485078
+
+2024-09-05 05:49:19,615 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:747, identity:RC_10001, time:1725515485082
+
+2024-09-05 05:49:19,615 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:748, identity:RC_10001, time:1725515485085
+
+2024-09-05 05:49:19,615 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:749, identity:RC_10001, time:1725515485088
+
+2024-09-05 05:49:19,678 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:750, identity:RC_10001, time:1725515485150
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-09-05 05:49:19,678 DEBUG - dealDeviceInfo
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:752, identity:RC_10001, time:1725515485215
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:753, identity:RC_10001, time:1725515485217
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:754, identity:RC_10001, time:1725515485219
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:755, identity:RC_10001, time:1725515485222
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:756, identity:RC_10001, time:1725515485224
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:757, identity:RC_10001, time:1725515485227
+
+2024-09-05 05:49:19,756 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:758, identity:RC_10001, time:1725515485230
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:759, identity:RC_10001, time:1725515485233
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:760, identity:RC_10001, time:1725515485235
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:761, identity:RC_10001, time:1725515485238
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:762, identity:RC_10001, time:1725515485240
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:763, identity:RC_10001, time:1725515485243
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:764, identity:RC_10001, time:1725515485246
+
+2024-09-05 05:49:19,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:765, identity:RC_10001, time:1725515485249
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:766, identity:RC_10001, time:1725515485251
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:767, identity:RC_10001, time:1725515485254
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:768, identity:RC_10001, time:1725515485256
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:769, identity:RC_10001, time:1725515485259
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:770, identity:RC_10001, time:1725515485261
+
+2024-09-05 05:49:19,787 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:771, identity:RC_10001, time:1725515485264
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:772, identity:RC_10001, time:1725515485267
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:773, identity:RC_10001, time:1725515485269
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:774, identity:RC_10001, time:1725515485272
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:775, identity:RC_10001, time:1725515485275
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:776, identity:RC_10001, time:1725515485277
+
+2024-09-05 05:49:19,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:777, identity:RC_10001, time:1725515485280
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:778, identity:RC_10001, time:1725515485282
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:779, identity:RC_10001, time:1725515485284
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:780, identity:RC_10001, time:1725515485287
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:781, identity:RC_10001, time:1725515485289
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:782, identity:RC_10001, time:1725515485292
+
+2024-09-05 05:49:19,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:783, identity:RC_10001, time:1725515485294
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:784, identity:RC_10001, time:1725515485297
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:785, identity:RC_10001, time:1725515485300
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:786, identity:RC_10001, time:1725515485302
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:788, identity:RC_10001, time:1725515485304
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:789, identity:RC_10001, time:1725515485306
+
+2024-09-05 05:49:19,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:790, identity:RC_10001, time:1725515485309
+
+2024-09-05 05:49:19,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:791, identity:RC_10001, time:1725515485312
+
+2024-09-05 05:49:19,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:792, identity:RC_10001, time:1725515485314
+
+2024-09-05 05:49:19,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:793, identity:RC_10001, time:1725515485317
+
+2024-09-05 05:49:19,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:794, identity:RC_10001, time:1725515485320
+
+2024-09-05 05:49:19,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:795, identity:RC_10001, time:1725515485322
+
+2024-09-05 05:49:20,193 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:801, identity:RC_10001, time:1725515485664
+
+2024-09-05 05:49:20,209 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:803, identity:RC_10001, time:1725515485669
+
+2024-09-05 05:49:20,209 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:804, identity:RC_10001, time:1725515485669
+scs {
+  code: 112601000022
+  time: 1725515485664
+  msg: "IMU通讯异常"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1725515363814
+  msg: "目标点导航失败"
+  state: kFault
+  level: kWarn
+}
+robot_id: 10001
+
+2024-09-05 05:49:20,209 DEBUG - dealAbnormalCodes
+2024-09-05 05:49:20,381 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:807, identity:RC_10001, time:1725515485852
+
+2024-09-05 05:49:20,381 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:809, identity:RC_10001, time:1725515485857
+
+2024-09-05 05:49:20,396 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:810, identity:RC_10001, time:1725515485857
+scs {
+  code: 130104000042
+  time: 1725515363814
+  msg: "目标点导航失败"
+  state: kFault
+  level: kWarn
+}
+robot_id: 10001
+
+2024-09-05 05:49:20,396 DEBUG - dealAbnormalCodes
+2024-09-05 05:49:20,396 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:811, identity:RC_10001, time:1725515485863
+
+2024-09-05 05:49:22,974 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:825, identity:RC_10001, time:1725515488448
+is_connected: true
+robot_ip: "169.254.128.2"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-09-05 05:49:22,974 DEBUG - dealNetworkInfo
+2024-09-05 05:49:22,990 DEBUG - Wifi列表信息文件读取异常
+2024-09-05 05:49:23,099 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:827, identity:RC_10001, time:1725515488570
+software: 1
+robot_id: 10001
+
+2024-09-05 05:49:23,099 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:828, identity:RC_10001, time:1725515488571
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 99
+  full: 100
+}
+allow {
+  auto_charge: true
+  auto_park: true
+  goods_check: true
+}
+robot_id: 10001
+
+2024-09-05 05:49:23,099 DEBUG - dealDeviceInfo
+2024-09-05 05:49:23,099 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:829, identity:RC_10001, time:1725515488572
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-09-05 05:49:23,099 DEBUG - dealSettingInfo
+2024-09-05 05:49:23,099 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:830, identity:RC_10001, time:1725515488574
+
+2024-09-05 05:49:23,099 DEBUG - 与服务器断开
+2024-09-05 05:49:23,099 DEBUG - 服务器为空
+2024-09-05 05:49:23,099 DEBUG - dealNetworkInfo
+2024-09-05 05:49:23,099 DEBUG - Wifi列表信息文件读取异常
+2024-09-05 05:49:23,115 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:832, identity:RC_10001, time:1725515488580
+
+2024-09-05 05:49:23,115 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:833, identity:RC_10001, time:1725515488580
+scs {
+  code: 140801000232
+  time: 1725515488574
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1725515363814
+  msg: "目标点导航失败"
+  state: kFault
+  level: kWarn
+}
+robot_id: 10001
+
+2024-09-05 05:49:23,115 DEBUG - dealAbnormalCodes
+2024-09-05 05:49:23,365 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:835, identity:RC_10001, time:1725515488828
+
+2024-09-05 05:49:23,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:838, identity:RC_10001, time:1725515488955
+
+2024-09-05 05:49:23,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:841, identity:RC_10001, time:1725515488965
+
+2024-09-05 05:49:23,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:842, identity:RC_10001, time:1725515488965
+robot_id: 10001
+
+2024-09-05 05:49:23,505 DEBUG - dealAbnormalCodes
+2024-09-05 05:49:24,490 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:848, identity:RC_10001, time:1725515489966
+action {
+}
+time: 1725515489
+robot_id: 10001
+
+2024-09-05 05:49:24,505 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:849, identity:RC_10001, time:1725515489966
+state: kIdle
+robot_id: 10001
+
+2024-09-05 05:49:24,505 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:850, identity:RC_10001, time:1725515489968
+
+2024-09-05 05:49:24,505 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:851, identity:RC_10001, time:1725515489969
+state: kParking
+robot_id: 10001
+
+2024-09-05 05:49:25,505 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:858, identity:RC_10001, time:1725515490972
+robot_task_id: 172551548953
+type: kParking
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "75B59C1A"
+time: 1725515490
+robot_id: 10001
+
+2024-09-05 05:49:25,505 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:859, identity:RC_10001, time:1725515490974
+
+2024-09-05 05:49:25,677 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:862, identity:RC_10001, time:1725515491141
+
+2024-09-05 05:49:27,974 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:874, identity:RC_10001, time:1725515493448
+is_connected: true
+robot_ip: "169.254.128.2"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-09-05 05:49:27,974 DEBUG - dealNetworkInfo
+2024-09-05 05:49:27,989 DEBUG - Wifi列表信息文件读取异常
+2024-09-05 05:49:41,879 DEBUG - repeat_tasks_size: 2
+2024-09-05 05:49:44,519 DEBUG - tips_type: 7
+2024-09-05 05:49:44,519 DEBUG -  tips1_logo: 2
+2024-09-05 05:49:44,519 DEBUG -  tips1_edit: 
+2024-09-05 05:49:44,519 DEBUG -  tips2_logo: 
+2024-09-05 05:49:44,519 DEBUG -  tips2_edit: 
+2024-09-05 05:49:44,519 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.ActionOrder]
+[4] req_id:4, identity:woosh_mobile, time:1725482984519
+
+2024-09-05 05:49:44,534 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:4, identity:RC_10001, time:1725515509998
+
+2024-09-05 05:49:44,534 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:966, identity:RC_10001, time:1725515509998
+robot_task_id: 172551548953
+type: kParking
+state: kPaused
+action {
+  type: kNav
+  state: kSuspend
+}
+dest: "75B59C1A"
+time: 1725515509
+robot_id: 10001
+
+2024-09-05 05:49:48,300 DEBUG - tips_type: 7
+2024-09-05 05:49:48,300 DEBUG -  tips1_logo: 4
+2024-09-05 05:49:48,300 DEBUG -  tips1_edit: 
+2024-09-05 05:49:48,300 DEBUG -  tips2_logo: 
+2024-09-05 05:49:48,300 DEBUG -  tips2_edit: 
+2024-09-05 05:49:48,300 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.ActionOrder]
+[4] req_id:5, identity:woosh_mobile, time:1725482988300
+
+2024-09-05 05:49:48,300 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:5, identity:RC_10001, time:1725515513770
+
+2024-09-05 05:49:48,300 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:986, identity:RC_10001, time:1725515513770
+
+2024-09-05 05:49:48,800 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:989, identity:RC_10001, time:1725515514273
+
+2024-09-05 05:49:49,300 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:993, identity:RC_10001, time:1725515514773
+robot_task_id: 172551548953
+type: kParking
+state: kPaused
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "75B59C1A"
+time: 1725515514
+robot_id: 10001
+
+2024-09-05 05:49:49,315 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:994, identity:RC_10001, time:1725515514777
+robot_task_id: 172551548953
+type: kParking
+state: kCanceled
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "75B59C1A"
+time: 1725515514
+robot_id: 10001
+
+2024-09-05 05:49:49,315 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:996, identity:RC_10001, time:1725515514782
+action {
+}
+time: 1725515514
+robot_id: 10001
+
+2024-09-05 05:49:49,315 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:997, identity:RC_10001, time:1725515514782
+state: kIdle
+robot_id: 10001
+
+2024-09-05 05:50:08,037 DEBUG - getDispatchRobot.schedulable: false
+2024-09-05 05:51:09,176 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[4] req_id:6, identity:woosh_mobile, time:1725483069176
+
+2024-09-05 05:51:09,176 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[4] req_id:6, identity:RC_10001, time:1725515594646
+
+2024-09-05 05:51:09,176 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneData]
+[4] req_id:7, identity:woosh_mobile, time:1725483069176
+
+2024-09-05 05:51:09,191 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneData]
+[4] req_id:7, identity:RC_10001, time:1725515594654
+
+2024-09-05 05:51:13,754 DEBUG - send_speed_: 0.1
+2024-09-05 05:51:13,754 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:8, identity:RC_10001, time:1725515599222
+
+2024-09-05 05:51:13,848 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:9, identity:RC_10001, time:1725515599318
+
+2024-09-05 05:51:13,848 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:10, identity:RC_10001, time:1725515599320
+
+2024-09-05 05:51:15,583 DEBUG - send_speed_: 0.1
+2024-09-05 05:51:15,583 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:11, identity:RC_10001, time:1725515601050
+
+2024-09-05 05:51:15,692 DEBUG - send_speed_: 0.2
+2024-09-05 05:51:15,692 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:12, identity:RC_10001, time:1725515601160
+
+2024-09-05 05:51:15,802 DEBUG - send_speed_: 0.28209
+2024-09-05 05:51:15,802 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:13, identity:RC_10001, time:1725515601269
+
+2024-09-05 05:51:15,911 DEBUG - send_speed_: 0.28209
+2024-09-05 05:51:15,911 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:14, identity:RC_10001, time:1725515601379
+
+2024-09-05 05:51:16,020 DEBUG - send_speed_: 0.286567
+2024-09-05 05:51:16,020 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:15, identity:RC_10001, time:1725515601490
+
+2024-09-05 05:51:16,083 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:16, identity:RC_10001, time:1725515601559
+
+2024-09-05 05:51:16,099 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:17, identity:RC_10001, time:1725515601562
+
+2024-09-05 05:54:55,502 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Battery]
+[7]-[woosh.robot.Battery] req_id:2551, identity:RC_10001, time:1725515820987
+charge_state: kNot
+power: 38
+health: 1
+charge_cycle: 15
+battery_cycle: 2000
+temp_max: 28
+robot_id: 10001
+
+2024-09-05 06:06:45,299 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6191, identity:RC_10001, time:1725516530784
+
+2024-09-05 06:06:45,299 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6193, identity:RC_10001, time:1725516530789
+
+2024-09-05 06:06:45,299 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:6194, identity:RC_10001, time:1725516530789
+scs {
+  code: 110202000012
+  time: 1725516530784
+  state: kIdle
+  level: kWarn
+}
+robot_id: 10001
+
+2024-09-05 06:06:45,299 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6195, identity:RC_10001, time:1725516530792
+
+2024-09-05 06:06:45,299 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6196, identity:RC_10001, time:1725516530794
+
+2024-09-05 06:06:45,299 DEBUG - dealAbnormalCodes
+2024-09-05 06:06:46,972 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6206, identity:RC_10001, time:1725516532465
+
+2024-09-05 06:06:46,972 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6208, identity:RC_10001, time:1725516532470
+
+2024-09-05 06:06:46,972 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:6209, identity:RC_10001, time:1725516532470
+robot_id: 10001
+
+2024-09-05 06:06:46,972 DEBUG - dealAbnormalCodes
+2024-09-05 06:08:25,282 DEBUG - repeat_tasks_size: 2
+2024-09-05 06:14:35,847 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_disconnected tcp://169.254.128.2:5411
+2024-09-05 06:14:35,847 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_disconnected tcp://169.254.128.2:5410
+2024-09-05 06:14:35,847 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:14:35,847 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:14:35,925 DEBUG - [ROBOT_SDK_LOG] request connect status: 3, msg: tcp://169.254.128.2:5410
+2024-09-05 06:14:35,926 DEBUG - is_connect_robot: false
+2024-09-05 06:14:35,926 DEBUG - 与服务器断开
+2024-09-05 06:14:35,926 DEBUG - 服务器为空
+2024-09-05 06:14:35,957 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 3, msg: tcp://169.254.128.2:5411
+2024-09-05 06:14:35,957 DEBUG - is_connect_robot: false
+2024-09-05 06:14:35,957 DEBUG - 与服务器断开
+2024-09-05 06:14:35,957 DEBUG - 服务器为空
+2024-09-05 06:14:43,556 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:14:43,556 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:15:04,589 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:15:04,589 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:15:04,589 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:15:04,589 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:15:04,620 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:15:04,620 DEBUG - is_connect_robot: false
+2024-09-05 06:15:04,620 DEBUG - 与服务器断开
+2024-09-05 06:15:04,620 DEBUG - 服务器为空
+2024-09-05 06:15:04,698 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:15:04,698 DEBUG - is_connect_robot: false
+2024-09-05 06:15:04,698 DEBUG - 与服务器断开
+2024-09-05 06:15:04,698 DEBUG - 服务器为空
+2024-09-05 06:15:14,947 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:15:14,947 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:15:35,968 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:15:35,968 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:15:35,984 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:15:35,984 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:15:35,984 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:15:35,984 DEBUG - is_connect_robot: false
+2024-09-05 06:15:35,984 DEBUG - 与服务器断开
+2024-09-05 06:15:35,984 DEBUG - 服务器为空
+2024-09-05 06:15:36,015 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:15:36,015 DEBUG - is_connect_robot: false
+2024-09-05 06:15:36,015 DEBUG - 与服务器断开
+2024-09-05 06:15:36,015 DEBUG - 服务器为空
+2024-09-05 06:15:47,140 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:15:47,156 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:16:08,174 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:16:08,174 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:16:08,189 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:16:08,189 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:16:08,252 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:16:08,252 DEBUG - is_connect_robot: false
+2024-09-05 06:16:08,252 DEBUG - 与服务器断开
+2024-09-05 06:16:08,252 DEBUG - 服务器为空
+2024-09-05 06:16:08,284 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:16:08,284 DEBUG - is_connect_robot: false
+2024-09-05 06:16:08,284 DEBUG - 与服务器断开
+2024-09-05 06:16:08,284 DEBUG - 服务器为空
+2024-09-05 06:16:19,658 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:16:19,674 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:16:40,691 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:16:40,691 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:16:40,722 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:16:40,722 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:16:40,738 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:16:40,738 DEBUG - is_connect_robot: false
+2024-09-05 06:16:40,738 DEBUG - 与服务器断开
+2024-09-05 06:16:40,738 DEBUG - 服务器为空
+2024-09-05 06:16:40,770 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:16:40,770 DEBUG - is_connect_robot: false
+2024-09-05 06:16:40,770 DEBUG - 与服务器断开
+2024-09-05 06:16:40,770 DEBUG - 服务器为空
+2024-09-05 06:16:51,660 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:16:51,691 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:17:12,722 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:17:12,722 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:17:12,753 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:17:12,753 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:17:12,784 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:17:12,784 DEBUG - is_connect_robot: false
+2024-09-05 06:17:12,784 DEBUG - 与服务器断开
+2024-09-05 06:17:12,784 DEBUG - 服务器为空
+2024-09-05 06:17:12,816 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:17:12,816 DEBUG - is_connect_robot: false
+2024-09-05 06:17:12,816 DEBUG - 与服务器断开
+2024-09-05 06:17:12,816 DEBUG - 服务器为空
+2024-09-05 06:17:22,082 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:17:22,113 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:17:43,129 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:17:43,129 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:17:43,175 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:17:43,175 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:17:43,191 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:17:43,191 DEBUG - is_connect_robot: false
+2024-09-05 06:17:43,191 DEBUG - 与服务器断开
+2024-09-05 06:17:43,191 DEBUG - 服务器为空
+2024-09-05 06:17:43,223 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:17:43,223 DEBUG - is_connect_robot: false
+2024-09-05 06:17:43,223 DEBUG - 与服务器断开
+2024-09-05 06:17:43,223 DEBUG - 服务器为空
+2024-09-05 06:17:54,068 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:17:54,115 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:18:15,099 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:18:15,099 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:18:15,130 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:18:15,130 DEBUG - is_connect_robot: false
+2024-09-05 06:18:15,130 DEBUG - 与服务器断开
+2024-09-05 06:18:15,130 DEBUG - 服务器为空
+2024-09-05 06:18:15,162 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:18:15,162 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:18:15,272 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:18:15,272 DEBUG - is_connect_robot: false
+2024-09-05 06:18:15,272 DEBUG - 与服务器断开
+2024-09-05 06:18:15,272 DEBUG - 服务器为空
+2024-09-05 06:18:24,709 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:18:24,772 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:18:45,757 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:18:45,757 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:18:45,819 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:18:45,819 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:18:45,866 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:18:45,866 DEBUG - is_connect_robot: false
+2024-09-05 06:18:45,866 DEBUG - 与服务器断开
+2024-09-05 06:18:45,866 DEBUG - 服务器为空
+2024-09-05 06:18:45,898 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:18:45,898 DEBUG - is_connect_robot: false
+2024-09-05 06:18:45,898 DEBUG - 与服务器断开
+2024-09-05 06:18:45,898 DEBUG - 服务器为空
+2024-09-05 06:18:56,757 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:18:56,820 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:19:17,804 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:19:17,804 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:19:17,882 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:19:17,882 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:19:17,913 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:19:17,913 DEBUG - is_connect_robot: false
+2024-09-05 06:19:17,913 DEBUG - 与服务器断开
+2024-09-05 06:19:17,913 DEBUG - 服务器为空
+2024-09-05 06:19:17,945 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:19:17,945 DEBUG - is_connect_robot: false
+2024-09-05 06:19:17,945 DEBUG - 与服务器断开
+2024-09-05 06:19:17,945 DEBUG - 服务器为空
+2024-09-05 06:19:26,633 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:19:26,711 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:19:47,692 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:19:47,692 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:19:47,786 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:19:47,786 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:19:47,786 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:19:47,786 DEBUG - is_connect_robot: false
+2024-09-05 06:19:47,786 DEBUG - 与服务器断开
+2024-09-05 06:19:47,786 DEBUG - 服务器为空
+2024-09-05 06:19:47,818 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:19:47,818 DEBUG - is_connect_robot: false
+2024-09-05 06:19:47,818 DEBUG - 与服务器断开
+2024-09-05 06:19:47,818 DEBUG - 服务器为空
+2024-09-05 06:19:56,084 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:19:56,193 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:20:17,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:20:17,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:20:17,208 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:20:17,208 DEBUG - is_connect_robot: false
+2024-09-05 06:20:17,208 DEBUG - 与服务器断开
+2024-09-05 06:20:17,208 DEBUG - 服务器为空
+2024-09-05 06:20:17,271 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:20:17,271 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:20:17,349 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:20:17,349 DEBUG - is_connect_robot: false
+2024-09-05 06:20:17,349 DEBUG - 与服务器断开
+2024-09-05 06:20:17,349 DEBUG - 服务器为空
+2024-09-05 06:20:28,725 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:20:28,835 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:20:49,758 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:20:49,759 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:20:49,806 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:20:49,806 DEBUG - is_connect_robot: false
+2024-09-05 06:20:49,806 DEBUG - 与服务器断开
+2024-09-05 06:20:49,806 DEBUG - 服务器为空
+2024-09-05 06:20:49,884 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:20:49,884 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:20:49,947 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:20:49,947 DEBUG - is_connect_robot: false
+2024-09-05 06:20:49,947 DEBUG - 与服务器断开
+2024-09-05 06:20:49,947 DEBUG - 服务器为空
+2024-09-05 06:20:58,058 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:20:58,183 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:21:19,104 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:21:19,104 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:21:19,120 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:21:19,120 DEBUG - is_connect_robot: false
+2024-09-05 06:21:19,120 DEBUG - 与服务器断开
+2024-09-05 06:21:19,120 DEBUG - 服务器为空
+2024-09-05 06:21:19,245 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:21:19,245 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:21:19,260 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:21:19,260 DEBUG - is_connect_robot: false
+2024-09-05 06:21:19,260 DEBUG - 与服务器断开
+2024-09-05 06:21:19,260 DEBUG - 服务器为空
+2024-09-05 06:21:28,527 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:21:28,667 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:21:49,573 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:21:49,573 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:21:49,636 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:21:49,636 DEBUG - is_connect_robot: false
+2024-09-05 06:21:49,636 DEBUG - 与服务器断开
+2024-09-05 06:21:49,636 DEBUG - 服务器为空
+2024-09-05 06:21:49,730 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:21:49,730 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:21:49,777 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:21:49,777 DEBUG - is_connect_robot: false
+2024-09-05 06:21:49,777 DEBUG - 与服务器断开
+2024-09-05 06:21:49,777 DEBUG - 服务器为空
+2024-09-05 06:22:00,950 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:22:01,278 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:22:22,012 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:22:22,012 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:22:22,122 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:22:22,122 DEBUG - is_connect_robot: false
+2024-09-05 06:22:22,122 DEBUG - 与服务器断开
+2024-09-05 06:22:22,122 DEBUG - 服务器为空
+2024-09-05 06:22:22,341 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:22:22,341 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:22:22,372 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:22:22,372 DEBUG - is_connect_robot: false
+2024-09-05 06:22:22,372 DEBUG - 与服务器断开
+2024-09-05 06:22:22,372 DEBUG - 服务器为空
+2024-09-05 06:22:31,466 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:22:33,122 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:22:52,483 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:22:52,483 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:22:52,530 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:22:52,530 DEBUG - is_connect_robot: false
+2024-09-05 06:22:52,530 DEBUG - 与服务器断开
+2024-09-05 06:22:52,530 DEBUG - 服务器为空
+2024-09-05 06:22:54,140 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:22:54,140 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:22:54,203 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:22:54,203 DEBUG - is_connect_robot: false
+2024-09-05 06:22:54,203 DEBUG - 与服务器断开
+2024-09-05 06:22:54,203 DEBUG - 服务器为空
+2024-09-05 06:23:03,672 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:23:05,703 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:23:24,734 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:23:24,734 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:23:24,797 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:23:24,797 DEBUG - is_connect_robot: false
+2024-09-05 06:23:24,797 DEBUG - 与服务器断开
+2024-09-05 06:23:24,797 DEBUG - 服务器为空
+2024-09-05 06:23:26,751 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:23:26,751 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:23:26,798 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:23:26,798 DEBUG - is_connect_robot: false
+2024-09-05 06:23:26,798 DEBUG - 与服务器断开
+2024-09-05 06:23:26,798 DEBUG - 服务器为空
+2024-09-05 06:23:36,299 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:23:36,705 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:23:57,376 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:23:57,376 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:23:57,391 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:23:57,391 DEBUG - is_connect_robot: false
+2024-09-05 06:23:57,391 DEBUG - 与服务器断开
+2024-09-05 06:23:57,391 DEBUG - 服务器为空
+2024-09-05 06:23:57,766 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:23:57,766 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:23:57,860 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:23:57,860 DEBUG - is_connect_robot: false
+2024-09-05 06:23:57,860 DEBUG - 与服务器断开
+2024-09-05 06:23:57,860 DEBUG - 服务器为空
+2024-09-05 06:24:07,315 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:24:07,330 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:24:28,363 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:24:28,363 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:24:28,363 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:24:28,363 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:24:28,378 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:24:28,378 DEBUG - is_connect_robot: false
+2024-09-05 06:24:28,378 DEBUG - 与服务器断开
+2024-09-05 06:24:28,378 DEBUG - 服务器为空
+2024-09-05 06:24:28,456 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:24:28,456 DEBUG - is_connect_robot: false
+2024-09-05 06:24:28,456 DEBUG - 与服务器断开
+2024-09-05 06:24:28,456 DEBUG - 服务器为空
+2024-09-05 06:24:37,910 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:24:39,348 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:24:58,972 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:24:58,972 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:24:59,081 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:24:59,081 DEBUG - is_connect_robot: false
+2024-09-05 06:24:59,081 DEBUG - 与服务器断开
+2024-09-05 06:24:59,081 DEBUG - 服务器为空
+2024-09-05 06:25:00,409 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:25:00,409 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:25:00,425 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:25:00,425 DEBUG - is_connect_robot: false
+2024-09-05 06:25:00,425 DEBUG - 与服务器断开
+2024-09-05 06:25:00,425 DEBUG - 服务器为空
+2024-09-05 06:25:09,956 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:25:10,096 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:25:31,019 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:25:31,019 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:25:31,129 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:25:31,129 DEBUG - is_connect_robot: false
+2024-09-05 06:25:31,129 DEBUG - 与服务器断开
+2024-09-05 06:25:31,129 DEBUG - 服务器为空
+2024-09-05 06:25:31,144 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:25:31,144 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:25:31,160 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:25:31,160 DEBUG - is_connect_robot: false
+2024-09-05 06:25:31,160 DEBUG - 与服务器断开
+2024-09-05 06:25:31,160 DEBUG - 服务器为空
+2024-09-05 06:25:40,707 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:25:41,942 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:26:01,751 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:26:01,751 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:26:01,845 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:26:01,845 DEBUG - is_connect_robot: false
+2024-09-05 06:26:01,845 DEBUG - 与服务器断开
+2024-09-05 06:26:01,845 DEBUG - 服务器为空
+2024-09-05 06:26:03,001 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:26:03,001 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:26:03,079 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:26:03,079 DEBUG - is_connect_robot: false
+2024-09-05 06:26:03,079 DEBUG - 与服务器断开
+2024-09-05 06:26:03,079 DEBUG - 服务器为空
+2024-09-05 06:26:13,112 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:26:13,518 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:26:34,145 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:26:34,145 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:26:34,223 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:26:34,223 DEBUG - is_connect_robot: false
+2024-09-05 06:26:34,223 DEBUG - 与服务器断开
+2024-09-05 06:26:34,223 DEBUG - 服务器为空
+2024-09-05 06:26:34,566 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:26:34,566 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:26:34,582 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:26:34,582 DEBUG - is_connect_robot: false
+2024-09-05 06:26:34,582 DEBUG - 与服务器断开
+2024-09-05 06:26:34,582 DEBUG - 服务器为空
+2024-09-05 06:26:44,662 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:26:46,225 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:27:05,698 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:27:05,698 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:27:05,729 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:27:05,729 DEBUG - is_connect_robot: false
+2024-09-05 06:27:05,729 DEBUG - 与服务器断开
+2024-09-05 06:27:05,729 DEBUG - 服务器为空
+2024-09-05 06:27:07,245 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:27:07,261 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:27:07,292 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:27:07,292 DEBUG - is_connect_robot: false
+2024-09-05 06:27:07,292 DEBUG - 与服务器断开
+2024-09-05 06:27:07,292 DEBUG - 服务器为空
+2024-09-05 06:27:14,011 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:27:15,651 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:27:35,074 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:27:35,074 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:27:35,152 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:27:35,152 DEBUG - is_connect_robot: false
+2024-09-05 06:27:35,152 DEBUG - 与服务器断开
+2024-09-05 06:27:35,152 DEBUG - 服务器为空
+2024-09-05 06:27:36,699 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:27:36,699 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:27:36,715 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:27:36,715 DEBUG - is_connect_robot: false
+2024-09-05 06:27:36,715 DEBUG - 与服务器断开
+2024-09-05 06:27:36,715 DEBUG - 服务器为空
+2024-09-05 06:27:43,590 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:27:45,215 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:28:04,622 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:28:04,622 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:28:04,684 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:28:04,684 DEBUG - is_connect_robot: false
+2024-09-05 06:28:04,684 DEBUG - 与服务器断开
+2024-09-05 06:28:04,684 DEBUG - 服务器为空
+2024-09-05 06:28:06,262 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:28:06,262 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:28:06,356 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:28:06,356 DEBUG - is_connect_robot: false
+2024-09-05 06:28:06,356 DEBUG - 与服务器断开
+2024-09-05 06:28:06,356 DEBUG - 服务器为空
+2024-09-05 06:28:16,152 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:28:17,792 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:28:37,217 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:28:37,217 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:28:37,279 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:28:37,279 DEBUG - is_connect_robot: false
+2024-09-05 06:28:37,279 DEBUG - 与服务器断开
+2024-09-05 06:28:37,279 DEBUG - 服务器为空
+2024-09-05 06:28:38,842 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:28:38,842 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:28:38,952 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:28:38,952 DEBUG - is_connect_robot: false
+2024-09-05 06:28:38,952 DEBUG - 与服务器断开
+2024-09-05 06:28:38,952 DEBUG - 服务器为空
+2024-09-05 06:28:48,264 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:28:50,810 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:29:09,312 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:29:09,312 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:29:09,327 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:29:09,327 DEBUG - is_connect_robot: false
+2024-09-05 06:29:09,327 DEBUG - 与服务器断开
+2024-09-05 06:29:09,327 DEBUG - 服务器为空
+2024-09-05 06:29:11,874 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:29:11,874 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:29:11,983 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:29:11,983 DEBUG - is_connect_robot: false
+2024-09-05 06:29:11,983 DEBUG - 与服务器断开
+2024-09-05 06:29:11,983 DEBUG - 服务器为空
+2024-09-05 06:29:17,609 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:29:21,718 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:29:38,657 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:29:38,657 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:29:38,750 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:29:38,750 DEBUG - is_connect_robot: false
+2024-09-05 06:29:38,750 DEBUG - 与服务器断开
+2024-09-05 06:29:38,750 DEBUG - 服务器为空
+2024-09-05 06:29:42,766 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:29:42,766 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:29:42,828 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:29:42,828 DEBUG - is_connect_robot: false
+2024-09-05 06:29:42,828 DEBUG - 与服务器断开
+2024-09-05 06:29:42,828 DEBUG - 服务器为空
+2024-09-05 06:29:47,611 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:29:51,813 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:30:08,658 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:30:08,658 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:30:08,720 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:30:08,720 DEBUG - is_connect_robot: false
+2024-09-05 06:30:08,720 DEBUG - 与服务器断开
+2024-09-05 06:30:08,720 DEBUG - 服务器为空
+2024-09-05 06:30:12,846 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:30:12,846 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:30:12,908 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:30:12,908 DEBUG - is_connect_robot: false
+2024-09-05 06:30:12,908 DEBUG - 与服务器断开
+2024-09-05 06:30:12,908 DEBUG - 服务器为空
+2024-09-05 06:30:19,768 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:30:24,111 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:30:40,816 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:30:40,816 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:30:40,879 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:30:40,879 DEBUG - is_connect_robot: false
+2024-09-05 06:30:40,879 DEBUG - 与服务器断开
+2024-09-05 06:30:40,879 DEBUG - 服务器为空
+2024-09-05 06:30:45,159 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:30:45,159 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:30:45,175 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:30:45,175 DEBUG - is_connect_robot: false
+2024-09-05 06:30:45,175 DEBUG - 与服务器断开
+2024-09-05 06:30:45,175 DEBUG - 服务器为空
+2024-09-05 06:30:51,551 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:30:56,972 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:31:12,629 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:31:12,629 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:31:12,707 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:31:12,707 DEBUG - is_connect_robot: false
+2024-09-05 06:31:12,707 DEBUG - 与服务器断开
+2024-09-05 06:31:12,707 DEBUG - 服务器为空
+2024-09-05 06:31:18,004 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:31:18,004 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:31:18,098 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:31:18,098 DEBUG - is_connect_robot: false
+2024-09-05 06:31:18,098 DEBUG - 与服务器断开
+2024-09-05 06:31:18,098 DEBUG - 服务器为空
+2024-09-05 06:31:23,285 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:31:26,378 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:31:44,347 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:31:44,347 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:31:44,425 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:31:44,425 DEBUG - is_connect_robot: false
+2024-09-05 06:31:44,425 DEBUG - 与服务器断开
+2024-09-05 06:31:44,425 DEBUG - 服务器为空
+2024-09-05 06:31:47,410 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:31:47,410 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:31:47,520 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:31:47,520 DEBUG - is_connect_robot: false
+2024-09-05 06:31:47,520 DEBUG - 与服务器断开
+2024-09-05 06:31:47,520 DEBUG - 服务器为空
+2024-09-05 06:31:55,551 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:31:58,160 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:32:16,613 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:32:16,613 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:32:16,691 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:32:16,691 DEBUG - is_connect_robot: false
+2024-09-05 06:32:16,691 DEBUG - 与服务器断开
+2024-09-05 06:32:16,691 DEBUG - 服务器为空
+2024-09-05 06:32:19,207 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:32:19,207 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:32:19,238 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:32:19,238 DEBUG - is_connect_robot: false
+2024-09-05 06:32:19,238 DEBUG - 与服务器断开
+2024-09-05 06:32:19,238 DEBUG - 服务器为空
+2024-09-05 06:32:24,707 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:32:30,410 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:32:45,739 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:32:45,739 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:32:45,786 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:32:45,786 DEBUG - is_connect_robot: false
+2024-09-05 06:32:45,786 DEBUG - 与服务器断开
+2024-09-05 06:32:45,786 DEBUG - 服务器为空
+2024-09-05 06:32:51,442 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:32:51,442 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:32:51,504 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:32:51,504 DEBUG - is_connect_robot: false
+2024-09-05 06:32:51,504 DEBUG - 与服务器断开
+2024-09-05 06:32:51,504 DEBUG - 服务器为空
+2024-09-05 06:32:57,583 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:33:00,067 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:33:18,645 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:33:18,645 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:33:18,708 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:33:18,708 DEBUG - is_connect_robot: false
+2024-09-05 06:33:18,708 DEBUG - 与服务器断开
+2024-09-05 06:33:18,708 DEBUG - 服务器为空
+2024-09-05 06:33:21,114 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:33:21,114 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:33:21,145 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:33:21,145 DEBUG - is_connect_robot: false
+2024-09-05 06:33:21,145 DEBUG - 与服务器断开
+2024-09-05 06:33:21,145 DEBUG - 服务器为空
+2024-09-05 06:33:28,583 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:33:33,083 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:33:49,617 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:33:49,617 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:33:49,664 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:33:49,664 DEBUG - is_connect_robot: false
+2024-09-05 06:33:49,664 DEBUG - 与服务器断开
+2024-09-05 06:33:49,664 DEBUG - 服务器为空
+2024-09-05 06:33:54,117 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:33:54,117 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:33:54,180 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:33:54,180 DEBUG - is_connect_robot: false
+2024-09-05 06:33:54,180 DEBUG - 与服务器断开
+2024-09-05 06:33:54,180 DEBUG - 服务器为空
+2024-09-05 06:33:58,071 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:34:05,961 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:34:19,118 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:34:19,118 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:34:19,196 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:34:19,196 DEBUG - is_connect_robot: false
+2024-09-05 06:34:19,196 DEBUG - 与服务器断开
+2024-09-05 06:34:19,196 DEBUG - 服务器为空
+2024-09-05 06:34:27,025 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:34:27,025 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:34:27,103 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:34:27,103 DEBUG - is_connect_robot: false
+2024-09-05 06:34:27,103 DEBUG - 与服务器断开
+2024-09-05 06:34:27,103 DEBUG - 服务器为空
+2024-09-05 06:34:30,104 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:34:36,963 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:34:51,137 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:34:51,137 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:34:51,246 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:34:51,246 DEBUG - is_connect_robot: false
+2024-09-05 06:34:51,246 DEBUG - 与服务器断开
+2024-09-05 06:34:51,246 DEBUG - 服务器为空
+2024-09-05 06:34:57,980 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:34:57,980 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:34:58,058 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:34:58,058 DEBUG - is_connect_robot: false
+2024-09-05 06:34:58,058 DEBUG - 与服务器断开
+2024-09-05 06:34:58,058 DEBUG - 服务器为空
+2024-09-05 06:34:59,261 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:35:06,573 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:35:20,308 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:35:20,308 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:35:20,339 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:35:20,339 DEBUG - is_connect_robot: false
+2024-09-05 06:35:20,339 DEBUG - 与服务器断开
+2024-09-05 06:35:20,339 DEBUG - 服务器为空
+2024-09-05 06:35:27,636 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:35:27,636 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:35:27,698 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:35:27,698 DEBUG - is_connect_robot: false
+2024-09-05 06:35:27,698 DEBUG - 与服务器断开
+2024-09-05 06:35:27,698 DEBUG - 服务器为空
+2024-09-05 06:35:30,886 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:35:38,620 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:35:51,949 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:35:51,949 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:35:52,059 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:35:52,059 DEBUG - is_connect_robot: false
+2024-09-05 06:35:52,059 DEBUG - 与服务器断开
+2024-09-05 06:35:52,059 DEBUG - 服务器为空
+2024-09-05 06:35:59,700 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:35:59,700 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:35:59,747 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:35:59,747 DEBUG - is_connect_robot: false
+2024-09-05 06:35:59,747 DEBUG - 与服务器断开
+2024-09-05 06:35:59,747 DEBUG - 服务器为空
+2024-09-05 06:36:00,435 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:36:09,248 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:36:21,498 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:36:21,498 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:36:21,592 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:36:21,592 DEBUG - is_connect_robot: false
+2024-09-05 06:36:21,592 DEBUG - 与服务器断开
+2024-09-05 06:36:21,592 DEBUG - 服务器为空
+2024-09-05 06:36:30,295 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:36:30,295 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:36:30,373 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:36:30,373 DEBUG - is_connect_robot: false
+2024-09-05 06:36:30,373 DEBUG - 与服务器断开
+2024-09-05 06:36:30,373 DEBUG - 服务器为空
+2024-09-05 06:36:31,170 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:36:40,030 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:36:52,218 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:36:52,218 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:36:52,327 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:36:52,327 DEBUG - is_connect_robot: false
+2024-09-05 06:36:52,327 DEBUG - 与服务器断开
+2024-09-05 06:36:52,327 DEBUG - 服务器为空
+2024-09-05 06:37:01,063 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:37:01,063 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:37:01,110 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:37:01,110 DEBUG - is_connect_robot: false
+2024-09-05 06:37:01,110 DEBUG - 与服务器断开
+2024-09-05 06:37:01,110 DEBUG - 服务器为空
+2024-09-05 06:37:02,203 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:37:09,546 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:37:23,290 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:37:23,290 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:37:23,305 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:37:23,305 DEBUG - is_connect_robot: false
+2024-09-05 06:37:23,305 DEBUG - 与服务器断开
+2024-09-05 06:37:23,305 DEBUG - 服务器为空
+2024-09-05 06:37:30,616 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:37:30,616 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:37:30,694 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:37:30,694 DEBUG - is_connect_robot: false
+2024-09-05 06:37:30,694 DEBUG - 与服务器断开
+2024-09-05 06:37:30,694 DEBUG - 服务器为空
+2024-09-05 06:37:34,972 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:37:40,284 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:37:56,042 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:37:56,042 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:37:56,058 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:37:56,058 DEBUG - is_connect_robot: false
+2024-09-05 06:37:56,058 DEBUG - 与服务器断开
+2024-09-05 06:37:56,058 DEBUG - 服务器为空
+2024-09-05 06:38:01,349 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:38:01,349 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:38:01,443 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:38:01,443 DEBUG - is_connect_robot: false
+2024-09-05 06:38:01,443 DEBUG - 与服务器断开
+2024-09-05 06:38:01,443 DEBUG - 服务器为空
+2024-09-05 06:38:04,792 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:38:10,938 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:38:25,814 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:38:25,814 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:38:25,845 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:38:25,845 DEBUG - is_connect_robot: false
+2024-09-05 06:38:25,845 DEBUG - 与服务器断开
+2024-09-05 06:38:25,845 DEBUG - 服务器为空
+2024-09-05 06:38:32,004 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:38:32,004 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:38:32,114 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:38:32,114 DEBUG - is_connect_robot: false
+2024-09-05 06:38:32,114 DEBUG - 与服务器断开
+2024-09-05 06:38:32,114 DEBUG - 服务器为空
+2024-09-05 06:38:35,746 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:38:41,971 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:38:56,786 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:38:56,786 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:38:56,865 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:38:56,865 DEBUG - is_connect_robot: false
+2024-09-05 06:38:56,865 DEBUG - 与服务器断开
+2024-09-05 06:38:56,865 DEBUG - 服务器为空
+2024-09-05 06:39:03,023 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:39:03,023 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:39:03,117 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:39:03,117 DEBUG - is_connect_robot: false
+2024-09-05 06:39:03,117 DEBUG - 与服务器断开
+2024-09-05 06:39:03,117 DEBUG - 服务器为空
+2024-09-05 06:39:08,022 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:39:13,058 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:39:29,095 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:39:29,095 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:39:29,173 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:39:29,173 DEBUG - is_connect_robot: false
+2024-09-05 06:39:29,173 DEBUG - 与服务器断开
+2024-09-05 06:39:29,173 DEBUG - 服务器为空
+2024-09-05 06:39:34,096 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:39:34,096 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:39:34,111 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:39:34,111 DEBUG - is_connect_robot: false
+2024-09-05 06:39:34,111 DEBUG - 与服务器断开
+2024-09-05 06:39:34,111 DEBUG - 服务器为空
+2024-09-05 06:39:41,093 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:39:45,031 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:40:02,115 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:40:02,115 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:40:02,178 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:40:02,178 DEBUG - is_connect_robot: false
+2024-09-05 06:40:02,178 DEBUG - 与服务器断开
+2024-09-05 06:40:02,178 DEBUG - 服务器为空
+2024-09-05 06:40:06,057 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:40:06,057 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:40:06,100 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:40:06,100 DEBUG - is_connect_robot: false
+2024-09-05 06:40:06,100 DEBUG - 与服务器断开
+2024-09-05 06:40:06,100 DEBUG - 服务器为空
+2024-09-05 06:40:11,286 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:40:15,543 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:40:32,316 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:40:32,316 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:40:32,394 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:40:32,394 DEBUG - is_connect_robot: false
+2024-09-05 06:40:32,394 DEBUG - 与服务器断开
+2024-09-05 06:40:32,394 DEBUG - 服务器为空
+2024-09-05 06:40:36,613 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:40:36,613 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:40:36,660 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:40:36,660 DEBUG - is_connect_robot: false
+2024-09-05 06:40:36,660 DEBUG - 与服务器断开
+2024-09-05 06:40:36,660 DEBUG - 服务器为空
+2024-09-05 06:40:40,738 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:40:45,714 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:41:01,792 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:41:01,792 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:41:01,858 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:41:01,858 DEBUG - is_connect_robot: false
+2024-09-05 06:41:01,858 DEBUG - 与服务器断开
+2024-09-05 06:41:01,858 DEBUG - 服务器为空
+2024-09-05 06:41:06,748 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:41:06,748 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:41:06,858 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:41:06,858 DEBUG - is_connect_robot: false
+2024-09-05 06:41:06,858 DEBUG - 与服务器断开
+2024-09-05 06:41:06,858 DEBUG - 服务器为空
+2024-09-05 06:41:09,827 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:41:15,687 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:41:30,861 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:41:30,861 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:41:30,940 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:41:30,940 DEBUG - is_connect_robot: false
+2024-09-05 06:41:30,940 DEBUG - 与服务器断开
+2024-09-05 06:41:30,940 DEBUG - 服务器为空
+2024-09-05 06:41:36,710 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:41:36,710 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:41:36,767 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:41:36,767 DEBUG - is_connect_robot: false
+2024-09-05 06:41:36,767 DEBUG - 与服务器断开
+2024-09-05 06:41:36,767 DEBUG - 服务器为空
+2024-09-05 06:41:42,223 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:41:46,999 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:42:03,273 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:42:03,273 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:42:03,296 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:42:03,296 DEBUG - is_connect_robot: false
+2024-09-05 06:42:03,296 DEBUG - 与服务器断开
+2024-09-05 06:42:03,296 DEBUG - 服务器为空
+2024-09-05 06:42:08,066 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:42:08,066 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:42:08,106 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:42:08,106 DEBUG - is_connect_robot: false
+2024-09-05 06:42:08,106 DEBUG - 与服务器断开
+2024-09-05 06:42:08,106 DEBUG - 服务器为空
+2024-09-05 06:42:12,237 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:42:19,724 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:42:33,294 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:42:33,294 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:42:33,323 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:42:33,325 DEBUG - is_connect_robot: false
+2024-09-05 06:42:33,325 DEBUG - 与服务器断开
+2024-09-05 06:42:33,325 DEBUG - 服务器为空
+2024-09-05 06:42:40,754 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:42:40,756 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:42:40,769 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:42:40,769 DEBUG - is_connect_robot: false
+2024-09-05 06:42:40,769 DEBUG - 与服务器断开
+2024-09-05 06:42:40,769 DEBUG - 服务器为空
+2024-09-05 06:42:44,373 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:42:48,788 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:43:05,423 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:43:05,423 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:43:05,533 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:43:05,533 DEBUG - is_connect_robot: false
+2024-09-05 06:43:05,533 DEBUG - 与服务器断开
+2024-09-05 06:43:05,533 DEBUG - 服务器为空
+2024-09-05 06:43:09,837 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:43:09,837 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:43:09,951 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:43:09,951 DEBUG - is_connect_robot: false
+2024-09-05 06:43:09,951 DEBUG - 与服务器断开
+2024-09-05 06:43:09,951 DEBUG - 服务器为空
+2024-09-05 06:43:15,082 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:43:18,642 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:43:36,128 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:43:36,128 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:43:36,213 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:43:36,213 DEBUG - is_connect_robot: false
+2024-09-05 06:43:36,213 DEBUG - 与服务器断开
+2024-09-05 06:43:36,213 DEBUG - 服务器为空
+2024-09-05 06:43:39,683 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:43:39,683 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:43:39,797 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:43:39,797 DEBUG - is_connect_robot: false
+2024-09-05 06:43:39,797 DEBUG - 与服务器断开
+2024-09-05 06:43:39,797 DEBUG - 服务器为空
+2024-09-05 06:43:48,075 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:43:49,417 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:44:09,116 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:44:09,116 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:44:09,149 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:44:09,149 DEBUG - is_connect_robot: false
+2024-09-05 06:44:09,149 DEBUG - 与服务器断开
+2024-09-05 06:44:09,149 DEBUG - 服务器为空
+2024-09-05 06:44:10,475 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:44:10,482 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:44:10,497 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:44:10,497 DEBUG - is_connect_robot: false
+2024-09-05 06:44:10,497 DEBUG - 与服务器断开
+2024-09-05 06:44:10,497 DEBUG - 服务器为空
+2024-09-05 06:44:19,160 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:44:21,558 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:44:40,199 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:44:40,199 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:44:40,262 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:44:40,262 DEBUG - is_connect_robot: false
+2024-09-05 06:44:40,262 DEBUG - 与服务器断开
+2024-09-05 06:44:40,262 DEBUG - 服务器为空
+2024-09-05 06:44:42,590 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:44:42,590 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:44:42,668 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:44:42,668 DEBUG - is_connect_robot: false
+2024-09-05 06:44:42,668 DEBUG - 与服务器断开
+2024-09-05 06:44:42,668 DEBUG - 服务器为空
+2024-09-05 06:44:48,761 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:44:52,448 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:45:09,808 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:45:09,808 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:45:09,902 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:45:09,902 DEBUG - is_connect_robot: false
+2024-09-05 06:45:09,902 DEBUG - 与服务器断开
+2024-09-05 06:45:09,902 DEBUG - 服务器为空
+2024-09-05 06:45:13,495 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:45:13,495 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:45:13,511 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:45:13,511 DEBUG - is_connect_robot: false
+2024-09-05 06:45:13,511 DEBUG - 与服务器断开
+2024-09-05 06:45:13,511 DEBUG - 服务器为空
+2024-09-05 06:45:19,214 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:45:24,495 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:45:40,277 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:45:40,277 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:45:40,309 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:45:40,309 DEBUG - is_connect_robot: false
+2024-09-05 06:45:40,309 DEBUG - 与服务器断开
+2024-09-05 06:45:40,309 DEBUG - 服务器为空
+2024-09-05 06:45:45,559 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:45:45,559 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:45:45,668 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:45:45,668 DEBUG - is_connect_robot: false
+2024-09-05 06:45:45,668 DEBUG - 与服务器断开
+2024-09-05 06:45:45,668 DEBUG - 服务器为空
+2024-09-05 06:45:50,872 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:45:56,966 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:46:11,920 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:46:11,920 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:46:12,029 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:46:12,029 DEBUG - is_connect_robot: false
+2024-09-05 06:46:12,029 DEBUG - 与服务器断开
+2024-09-05 06:46:12,029 DEBUG - 服务器为空
+2024-09-05 06:46:18,028 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:46:18,028 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:46:18,044 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:46:18,044 DEBUG - is_connect_robot: false
+2024-09-05 06:46:18,044 DEBUG - 与服务器断开
+2024-09-05 06:46:18,044 DEBUG - 服务器为空
+2024-09-05 06:46:23,434 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:46:28,623 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:46:44,470 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:46:44,470 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:46:44,517 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:46:44,517 DEBUG - is_connect_robot: false
+2024-09-05 06:46:44,517 DEBUG - 与服务器断开
+2024-09-05 06:46:44,517 DEBUG - 服务器为空
+2024-09-05 06:46:49,657 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:46:49,657 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:46:49,767 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:46:49,767 DEBUG - is_connect_robot: false
+2024-09-05 06:46:49,767 DEBUG - 与服务器断开
+2024-09-05 06:46:49,767 DEBUG - 服务器为空
+2024-09-05 06:46:53,643 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:46:59,064 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:47:14,703 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:47:14,703 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:47:14,718 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:47:14,718 DEBUG - is_connect_robot: false
+2024-09-05 06:47:14,718 DEBUG - 与服务器断开
+2024-09-05 06:47:14,718 DEBUG - 服务器为空
+2024-09-05 06:47:20,124 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:47:20,124 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:47:20,187 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:47:20,187 DEBUG - is_connect_robot: false
+2024-09-05 06:47:20,187 DEBUG - 与服务器断开
+2024-09-05 06:47:20,187 DEBUG - 服务器为空
+2024-09-05 06:47:25,124 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:47:30,729 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:47:46,192 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:47:46,192 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:47:46,223 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:47:46,223 DEBUG - is_connect_robot: false
+2024-09-05 06:47:46,223 DEBUG - 与服务器断开
+2024-09-05 06:47:46,223 DEBUG - 服务器为空
+2024-09-05 06:47:51,785 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:47:51,785 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:47:51,800 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:47:51,800 DEBUG - is_connect_robot: false
+2024-09-05 06:47:51,800 DEBUG - 与服务器断开
+2024-09-05 06:47:51,800 DEBUG - 服务器为空
+2024-09-05 06:47:56,566 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:48:00,733 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:48:17,618 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:48:17,618 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:48:17,712 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:48:17,712 DEBUG - is_connect_robot: false
+2024-09-05 06:48:17,712 DEBUG - 与服务器断开
+2024-09-05 06:48:17,712 DEBUG - 服务器为空
+2024-09-05 06:48:21,790 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:48:21,790 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:48:21,868 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:48:21,868 DEBUG - is_connect_robot: false
+2024-09-05 06:48:21,868 DEBUG - 与服务器断开
+2024-09-05 06:48:21,868 DEBUG - 服务器为空
+2024-09-05 06:48:26,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:48:30,473 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:48:47,233 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:48:47,233 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:48:47,343 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:48:47,343 DEBUG - is_connect_robot: false
+2024-09-05 06:48:47,343 DEBUG - 与服务器断开
+2024-09-05 06:48:47,343 DEBUG - 服务器为空
+2024-09-05 06:48:51,546 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:48:51,546 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:48:51,608 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:48:51,608 DEBUG - is_connect_robot: false
+2024-09-05 06:48:51,608 DEBUG - 与服务器断开
+2024-09-05 06:48:51,608 DEBUG - 服务器为空
+2024-09-05 06:48:57,385 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:49:00,119 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:49:18,442 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:49:18,442 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:49:18,504 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:49:18,504 DEBUG - is_connect_robot: false
+2024-09-05 06:49:18,504 DEBUG - 与服务器断开
+2024-09-05 06:49:18,504 DEBUG - 服务器为空
+2024-09-05 06:49:21,178 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:49:21,178 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:49:21,196 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:49:21,196 DEBUG - is_connect_robot: false
+2024-09-05 06:49:21,196 DEBUG - 与服务器断开
+2024-09-05 06:49:21,196 DEBUG - 服务器为空
+2024-09-05 06:49:26,488 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:49:31,594 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:49:47,548 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:49:47,548 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:49:47,642 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:49:47,642 DEBUG - is_connect_robot: false
+2024-09-05 06:49:47,642 DEBUG - 与服务器断开
+2024-09-05 06:49:47,642 DEBUG - 服务器为空
+2024-09-05 06:49:52,643 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:49:52,643 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:49:52,674 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:49:52,674 DEBUG - is_connect_robot: false
+2024-09-05 06:49:52,674 DEBUG - 与服务器断开
+2024-09-05 06:49:52,674 DEBUG - 服务器为空
+2024-09-05 06:49:59,552 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:50:01,708 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:50:20,598 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:50:20,598 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:50:20,676 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:50:20,676 DEBUG - is_connect_robot: false
+2024-09-05 06:50:20,676 DEBUG - 与服务器断开
+2024-09-05 06:50:20,676 DEBUG - 服务器为空
+2024-09-05 06:50:22,770 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:50:22,770 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:50:22,864 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:50:22,864 DEBUG - is_connect_robot: false
+2024-09-05 06:50:22,864 DEBUG - 与服务器断开
+2024-09-05 06:50:22,864 DEBUG - 服务器为空
+2024-09-05 06:50:29,984 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:50:34,047 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:50:51,058 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:50:51,058 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:50:51,074 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:50:51,074 DEBUG - is_connect_robot: false
+2024-09-05 06:50:51,074 DEBUG - 与服务器断开
+2024-09-05 06:50:51,074 DEBUG - 服务器为空
+2024-09-05 06:50:55,121 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:50:55,121 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:50:55,230 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:50:55,230 DEBUG - is_connect_robot: false
+2024-09-05 06:50:55,230 DEBUG - 与服务器断开
+2024-09-05 06:50:55,230 DEBUG - 服务器为空
+2024-09-05 06:50:59,089 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:51:05,264 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:51:20,133 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:51:20,133 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:51:20,164 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:51:20,164 DEBUG - is_connect_robot: false
+2024-09-05 06:51:20,164 DEBUG - 与服务器断开
+2024-09-05 06:51:20,164 DEBUG - 服务器为空
+2024-09-05 06:51:26,334 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:51:26,334 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:51:26,396 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:51:26,396 DEBUG - is_connect_robot: false
+2024-09-05 06:51:26,396 DEBUG - 与服务器断开
+2024-09-05 06:51:26,396 DEBUG - 服务器为空
+2024-09-05 06:51:31,804 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:51:37,941 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:51:52,862 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:51:52,862 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:51:52,971 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:51:52,971 DEBUG - is_connect_robot: false
+2024-09-05 06:51:52,971 DEBUG - 与服务器断开
+2024-09-05 06:51:52,971 DEBUG - 服务器为空
+2024-09-05 06:51:58,999 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:51:58,999 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:51:59,092 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:51:59,092 DEBUG - is_connect_robot: false
+2024-09-05 06:51:59,092 DEBUG - 与服务器断开
+2024-09-05 06:51:59,092 DEBUG - 服务器为空
+2024-09-05 06:52:01,249 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:52:09,844 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:52:22,296 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:52:22,296 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:52:22,389 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:52:22,389 DEBUG - is_connect_robot: false
+2024-09-05 06:52:22,389 DEBUG - 与服务器断开
+2024-09-05 06:52:22,389 DEBUG - 服务器为空
+2024-09-05 06:52:30,904 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:52:30,904 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:52:30,920 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:52:30,920 DEBUG - is_connect_robot: false
+2024-09-05 06:52:30,920 DEBUG - 与服务器断开
+2024-09-05 06:52:30,920 DEBUG - 服务器为空
+2024-09-05 06:52:32,295 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:52:39,165 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:52:53,378 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:52:53,378 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:52:53,440 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:52:53,440 DEBUG - is_connect_robot: false
+2024-09-05 06:52:53,440 DEBUG - 与服务器断开
+2024-09-05 06:52:53,440 DEBUG - 服务器为空
+2024-09-05 06:53:00,218 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:53:00,218 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:53:00,328 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:53:00,328 DEBUG - is_connect_robot: false
+2024-09-05 06:53:00,328 DEBUG - 与服务器断开
+2024-09-05 06:53:00,328 DEBUG - 服务器为空
+2024-09-05 06:53:04,281 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:53:11,229 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:53:25,348 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:53:25,348 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:53:25,442 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:53:25,442 DEBUG - is_connect_robot: false
+2024-09-05 06:53:25,442 DEBUG - 与服务器断开
+2024-09-05 06:53:25,442 DEBUG - 服务器为空
+2024-09-05 06:53:32,302 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:53:32,302 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:53:32,333 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:53:32,333 DEBUG - is_connect_robot: false
+2024-09-05 06:53:32,333 DEBUG - 与服务器断开
+2024-09-05 06:53:32,333 DEBUG - 服务器为空
+2024-09-05 06:53:33,817 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:53:40,441 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:53:54,879 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:53:54,879 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:53:54,973 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:53:54,973 DEBUG - is_connect_robot: false
+2024-09-05 06:53:54,973 DEBUG - 与服务器断开
+2024-09-05 06:53:54,973 DEBUG - 服务器为空
+2024-09-05 06:54:01,504 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:54:01,504 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:54:01,535 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:54:01,535 DEBUG - is_connect_robot: false
+2024-09-05 06:54:01,535 DEBUG - 与服务器断开
+2024-09-05 06:54:01,535 DEBUG - 服务器为空
+2024-09-05 06:54:05,785 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:54:13,208 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:54:26,819 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:54:26,819 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:54:26,913 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:54:26,913 DEBUG - is_connect_robot: false
+2024-09-05 06:54:26,913 DEBUG - 与服务器断开
+2024-09-05 06:54:26,913 DEBUG - 服务器为空
+2024-09-05 06:54:34,247 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:54:34,247 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:54:34,356 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:54:34,356 DEBUG - is_connect_robot: false
+2024-09-05 06:54:34,356 DEBUG - 与服务器断开
+2024-09-05 06:54:34,356 DEBUG - 服务器为空
+2024-09-05 06:54:36,951 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:54:44,669 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:54:58,013 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:54:58,013 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:54:58,091 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:54:58,091 DEBUG - is_connect_robot: false
+2024-09-05 06:54:58,091 DEBUG - 与服务器断开
+2024-09-05 06:54:58,091 DEBUG - 服务器为空
+2024-09-05 06:55:05,717 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:55:05,717 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:55:05,748 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:55:05,748 DEBUG - is_connect_robot: false
+2024-09-05 06:55:05,748 DEBUG - 与服务器断开
+2024-09-05 06:55:05,748 DEBUG - 服务器为空
+2024-09-05 06:55:08,435 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:55:17,154 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:55:29,513 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:55:29,513 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:55:29,591 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:55:29,591 DEBUG - is_connect_robot: false
+2024-09-05 06:55:29,591 DEBUG - 与服务器断开
+2024-09-05 06:55:29,591 DEBUG - 服务器为空
+2024-09-05 06:55:38,200 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:55:38,200 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:55:38,232 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:55:38,232 DEBUG - is_connect_robot: false
+2024-09-05 06:55:38,232 DEBUG - 与服务器断开
+2024-09-05 06:55:38,232 DEBUG - 服务器为空
+2024-09-05 06:55:40,326 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:55:40,326 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:55:40,326 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:55:40,529 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:55:40,529 DEBUG - is_connect_robot: false
+2024-09-05 06:55:40,529 DEBUG - 与服务器断开
+2024-09-05 06:55:40,529 DEBUG - 服务器为空
+2024-09-05 06:55:46,672 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:55:50,642 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:56:07,724 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:56:07,724 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:56:07,771 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:56:07,771 DEBUG - is_connect_robot: false
+2024-09-05 06:56:07,771 DEBUG - 与服务器断开
+2024-09-05 06:56:07,771 DEBUG - 服务器为空
+2024-09-05 06:56:11,662 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:56:11,662 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:56:11,709 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:56:11,709 DEBUG - is_connect_robot: false
+2024-09-05 06:56:11,709 DEBUG - 与服务器断开
+2024-09-05 06:56:11,709 DEBUG - 服务器为空
+2024-09-05 06:56:18,631 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:56:21,115 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:56:39,678 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:56:39,678 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:56:39,709 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:56:39,709 DEBUG - is_connect_robot: false
+2024-09-05 06:56:39,709 DEBUG - 与服务器断开
+2024-09-05 06:56:39,709 DEBUG - 服务器为空
+2024-09-05 06:56:42,147 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:56:42,147 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:56:42,225 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:56:42,225 DEBUG - is_connect_robot: false
+2024-09-05 06:56:42,225 DEBUG - 与服务器断开
+2024-09-05 06:56:42,225 DEBUG - 服务器为空
+2024-09-05 06:56:49,819 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:56:50,679 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:57:10,883 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:57:10,883 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:57:10,993 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:57:10,993 DEBUG - is_connect_robot: false
+2024-09-05 06:57:10,993 DEBUG - 与服务器断开
+2024-09-05 06:57:10,993 DEBUG - 服务器为空
+2024-09-05 06:57:11,727 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:57:11,727 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:57:11,759 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:57:11,759 DEBUG - is_connect_robot: false
+2024-09-05 06:57:11,759 DEBUG - 与服务器断开
+2024-09-05 06:57:11,759 DEBUG - 服务器为空
+2024-09-05 06:57:21,305 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:57:22,180 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:57:42,353 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:57:42,353 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:57:42,384 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:57:42,384 DEBUG - is_connect_robot: false
+2024-09-05 06:57:42,384 DEBUG - 与服务器断开
+2024-09-05 06:57:42,384 DEBUG - 服务器为空
+2024-09-05 06:57:43,228 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:57:43,228 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:57:43,259 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:57:43,259 DEBUG - is_connect_robot: false
+2024-09-05 06:57:43,259 DEBUG - 与服务器断开
+2024-09-05 06:57:43,259 DEBUG - 服务器为空
+2024-09-05 06:57:53,181 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:57:54,244 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:58:14,212 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:58:14,212 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:58:14,321 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:58:14,321 DEBUG - is_connect_robot: false
+2024-09-05 06:58:14,321 DEBUG - 与服务器断开
+2024-09-05 06:58:14,321 DEBUG - 服务器为空
+2024-09-05 06:58:15,306 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:58:15,306 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:58:15,415 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:58:15,415 DEBUG - is_connect_robot: false
+2024-09-05 06:58:15,415 DEBUG - 与服务器断开
+2024-09-05 06:58:15,415 DEBUG - 服务器为空
+2024-09-05 06:58:25,477 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:58:26,305 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:58:46,539 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:58:46,539 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:58:46,586 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:58:46,586 DEBUG - is_connect_robot: false
+2024-09-05 06:58:46,586 DEBUG - 与服务器断开
+2024-09-05 06:58:46,586 DEBUG - 服务器为空
+2024-09-05 06:58:47,352 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:58:47,352 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:58:47,461 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:58:47,461 DEBUG - is_connect_robot: false
+2024-09-05 06:58:47,461 DEBUG - 与服务器断开
+2024-09-05 06:58:47,461 DEBUG - 服务器为空
+2024-09-05 06:58:54,790 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:58:55,493 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:59:15,852 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:59:15,852 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:59:15,899 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:59:15,899 DEBUG - is_connect_robot: false
+2024-09-05 06:59:15,899 DEBUG - 与服务器断开
+2024-09-05 06:59:15,899 DEBUG - 服务器为空
+2024-09-05 06:59:16,555 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:59:16,555 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:59:16,665 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:59:16,665 DEBUG - is_connect_robot: false
+2024-09-05 06:59:16,665 DEBUG - 与服务器断开
+2024-09-05 06:59:16,665 DEBUG - 服务器为空
+2024-09-05 06:59:26,742 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:59:27,414 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 06:59:47,805 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 06:59:47,805 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 06:59:47,836 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 06:59:47,836 DEBUG - is_connect_robot: false
+2024-09-05 06:59:47,836 DEBUG - 与服务器断开
+2024-09-05 06:59:47,836 DEBUG - 服务器为空
+2024-09-05 06:59:48,477 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 06:59:48,477 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 06:59:48,493 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 06:59:48,493 DEBUG - is_connect_robot: false
+2024-09-05 06:59:48,493 DEBUG - 与服务器断开
+2024-09-05 06:59:48,493 DEBUG - 服务器为空
+2024-09-05 06:59:57,323 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 06:59:58,791 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:00:18,355 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:00:18,355 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:00:18,464 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:00:18,464 DEBUG - is_connect_robot: false
+2024-09-05 07:00:18,464 DEBUG - 与服务器断开
+2024-09-05 07:00:18,464 DEBUG - 服务器为空
+2024-09-05 07:00:19,840 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:00:19,840 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:00:19,887 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:00:19,887 DEBUG - is_connect_robot: false
+2024-09-05 07:00:19,887 DEBUG - 与服务器断开
+2024-09-05 07:00:19,887 DEBUG - 服务器为空
+2024-09-05 07:00:27,823 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:00:30,855 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:00:48,858 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:00:48,858 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:00:48,889 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:00:48,889 DEBUG - is_connect_robot: false
+2024-09-05 07:00:48,889 DEBUG - 与服务器断开
+2024-09-05 07:00:48,889 DEBUG - 服务器为空
+2024-09-05 07:00:51,923 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:00:51,923 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:00:51,970 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:00:51,970 DEBUG - is_connect_robot: false
+2024-09-05 07:00:51,970 DEBUG - 与服务器断开
+2024-09-05 07:00:51,970 DEBUG - 服务器为空
+2024-09-05 07:01:00,665 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:01:02,931 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:01:21,697 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:01:21,697 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:01:21,775 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:01:21,775 DEBUG - is_connect_robot: false
+2024-09-05 07:01:21,775 DEBUG - 与服务器断开
+2024-09-05 07:01:21,775 DEBUG - 服务器为空
+2024-09-05 07:01:23,994 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:01:23,994 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:01:24,072 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:01:24,072 DEBUG - is_connect_robot: false
+2024-09-05 07:01:24,072 DEBUG - 与服务器断开
+2024-09-05 07:01:24,072 DEBUG - 服务器为空
+2024-09-05 07:01:33,291 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:01:34,838 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:01:54,354 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:01:54,354 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:01:54,370 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:01:54,370 DEBUG - is_connect_robot: false
+2024-09-05 07:01:54,370 DEBUG - 与服务器断开
+2024-09-05 07:01:54,370 DEBUG - 服务器为空
+2024-09-05 07:01:55,886 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:01:55,886 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:01:55,902 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:01:55,902 DEBUG - is_connect_robot: false
+2024-09-05 07:01:55,902 DEBUG - 与服务器断开
+2024-09-05 07:01:55,902 DEBUG - 服务器为空
+2024-09-05 07:02:05,900 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:02:06,041 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:02:26,961 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:02:26,961 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:02:27,070 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:02:27,070 DEBUG - is_connect_robot: false
+2024-09-05 07:02:27,070 DEBUG - 与服务器断开
+2024-09-05 07:02:27,070 DEBUG - 服务器为空
+2024-09-05 07:02:27,117 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:02:27,117 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:02:27,179 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:02:27,179 DEBUG - is_connect_robot: false
+2024-09-05 07:02:27,179 DEBUG - 与服务器断开
+2024-09-05 07:02:27,179 DEBUG - 服务器为空
+2024-09-05 07:02:36,554 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:02:38,741 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:02:57,631 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:02:57,631 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:02:57,694 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:02:57,694 DEBUG - is_connect_robot: false
+2024-09-05 07:02:57,694 DEBUG - 与服务器断开
+2024-09-05 07:02:57,694 DEBUG - 服务器为空
+2024-09-05 07:02:59,803 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:02:59,803 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:02:59,881 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:02:59,881 DEBUG - is_connect_robot: false
+2024-09-05 07:02:59,881 DEBUG - 与服务器断开
+2024-09-05 07:02:59,881 DEBUG - 服务器为空
+2024-09-05 07:03:07,146 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:03:08,100 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:03:28,207 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:03:28,207 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:03:28,317 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:03:28,317 DEBUG - is_connect_robot: false
+2024-09-05 07:03:28,317 DEBUG - 与服务器断开
+2024-09-05 07:03:28,317 DEBUG - 服务器为空
+2024-09-05 07:03:29,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:03:29,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:03:29,192 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:03:29,192 DEBUG - is_connect_robot: false
+2024-09-05 07:03:29,192 DEBUG - 与服务器断开
+2024-09-05 07:03:29,192 DEBUG - 服务器为空
+2024-09-05 07:03:37,347 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:03:37,410 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:03:58,366 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:03:58,366 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:03:58,397 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:03:58,397 DEBUG - is_connect_robot: false
+2024-09-05 07:03:58,397 DEBUG - 与服务器断开
+2024-09-05 07:03:58,397 DEBUG - 服务器为空
+2024-09-05 07:03:58,428 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:03:58,428 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:03:58,506 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:03:58,506 DEBUG - is_connect_robot: false
+2024-09-05 07:03:58,506 DEBUG - 与服务器断开
+2024-09-05 07:03:58,506 DEBUG - 服务器为空
+2024-09-05 07:04:07,021 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:04:08,037 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:04:28,083 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:04:28,083 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:04:28,146 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:04:28,146 DEBUG - is_connect_robot: false
+2024-09-05 07:04:28,146 DEBUG - 与服务器断开
+2024-09-05 07:04:28,146 DEBUG - 服务器为空
+2024-09-05 07:04:29,083 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:04:29,083 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:04:29,130 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:04:29,130 DEBUG - is_connect_robot: false
+2024-09-05 07:04:29,130 DEBUG - 与服务器断开
+2024-09-05 07:04:29,130 DEBUG - 服务器为空
+2024-09-05 07:04:38,534 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:04:38,925 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:04:59,580 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:04:59,580 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:04:59,642 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:04:59,642 DEBUG - is_connect_robot: false
+2024-09-05 07:04:59,642 DEBUG - 与服务器断开
+2024-09-05 07:04:59,642 DEBUG - 服务器为空
+2024-09-05 07:05:00,002 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:05:00,002 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:05:00,080 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:05:00,080 DEBUG - is_connect_robot: false
+2024-09-05 07:05:00,080 DEBUG - 与服务器断开
+2024-09-05 07:05:00,080 DEBUG - 服务器为空
+2024-09-05 07:05:08,032 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:05:10,813 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:05:29,109 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:05:29,109 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:05:29,172 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:05:29,172 DEBUG - is_connect_robot: false
+2024-09-05 07:05:29,172 DEBUG - 与服务器断开
+2024-09-05 07:05:29,172 DEBUG - 服务器为空
+2024-09-05 07:05:31,875 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:05:31,875 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:05:31,906 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:05:31,906 DEBUG - is_connect_robot: false
+2024-09-05 07:05:31,906 DEBUG - 与服务器断开
+2024-09-05 07:05:31,906 DEBUG - 服务器为空
+2024-09-05 07:05:40,281 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:05:42,517 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:06:01,295 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:06:01,295 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:06:01,326 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:06:01,326 DEBUG - is_connect_robot: false
+2024-09-05 07:06:01,326 DEBUG - 与服务器断开
+2024-09-05 07:06:01,326 DEBUG - 服务器为空
+2024-09-05 07:06:03,529 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:06:03,529 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:06:03,623 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:06:03,623 DEBUG - is_connect_robot: false
+2024-09-05 07:06:03,623 DEBUG - 与服务器断开
+2024-09-05 07:06:03,623 DEBUG - 服务器为空
+2024-09-05 07:06:11,842 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:06:11,857 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:06:32,919 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:06:32,919 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:06:32,934 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:06:32,934 DEBUG - is_connect_robot: false
+2024-09-05 07:06:32,934 DEBUG - 与服务器断开
+2024-09-05 07:06:32,934 DEBUG - 服务器为空
+2024-09-05 07:06:32,950 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:06:32,950 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:06:33,044 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:06:33,044 DEBUG - is_connect_robot: false
+2024-09-05 07:06:33,044 DEBUG - 与服务器断开
+2024-09-05 07:06:33,044 DEBUG - 服务器为空
+2024-09-05 07:06:41,498 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:06:42,607 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:07:02,531 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:07:02,531 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:07:02,578 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:07:02,578 DEBUG - is_connect_robot: false
+2024-09-05 07:07:02,578 DEBUG - 与服务器断开
+2024-09-05 07:07:02,578 DEBUG - 服务器为空
+2024-09-05 07:07:03,656 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:07:03,656 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:07:03,672 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:07:03,672 DEBUG - is_connect_robot: false
+2024-09-05 07:07:03,672 DEBUG - 与服务器断开
+2024-09-05 07:07:03,672 DEBUG - 服务器为空
+2024-09-05 07:07:10,624 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:07:13,499 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:07:31,671 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:07:31,671 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:07:31,780 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:07:31,780 DEBUG - is_connect_robot: false
+2024-09-05 07:07:31,780 DEBUG - 与服务器断开
+2024-09-05 07:07:31,780 DEBUG - 服务器为空
+2024-09-05 07:07:34,530 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:07:34,530 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:07:34,624 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:07:34,624 DEBUG - is_connect_robot: false
+2024-09-05 07:07:34,624 DEBUG - 与服务器断开
+2024-09-05 07:07:34,624 DEBUG - 服务器为空
+2024-09-05 07:07:39,828 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:07:44,375 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:08:00,862 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:08:00,862 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:08:00,877 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:08:00,877 DEBUG - is_connect_robot: false
+2024-09-05 07:08:00,877 DEBUG - 与服务器断开
+2024-09-05 07:08:00,877 DEBUG - 服务器为空
+2024-09-05 07:08:05,425 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:08:05,425 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:08:05,472 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:08:05,472 DEBUG - is_connect_robot: false
+2024-09-05 07:08:05,472 DEBUG - 与服务器断开
+2024-09-05 07:08:05,472 DEBUG - 服务器为空
+2024-09-05 07:08:10,754 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:08:16,316 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:08:31,815 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:08:31,815 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:08:31,830 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:08:31,830 DEBUG - is_connect_robot: false
+2024-09-05 07:08:31,830 DEBUG - 与服务器断开
+2024-09-05 07:08:31,830 DEBUG - 服务器为空
+2024-09-05 07:08:37,394 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:08:37,394 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:08:37,409 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:08:37,409 DEBUG - is_connect_robot: false
+2024-09-05 07:08:37,409 DEBUG - 与服务器断开
+2024-09-05 07:08:37,409 DEBUG - 服务器为空
+2024-09-05 07:08:42,128 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:08:45,598 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:09:03,176 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:09:03,176 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:09:03,223 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:09:03,223 DEBUG - is_connect_robot: false
+2024-09-05 07:09:03,223 DEBUG - 与服务器断开
+2024-09-05 07:09:03,223 DEBUG - 服务器为空
+2024-09-05 07:09:06,645 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:09:06,645 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:09:06,724 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:09:06,724 DEBUG - is_connect_robot: false
+2024-09-05 07:09:06,724 DEBUG - 与服务器断开
+2024-09-05 07:09:06,724 DEBUG - 服务器为空
+2024-09-05 07:09:14,707 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:09:14,738 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:09:35,754 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:09:35,754 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:09:35,785 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:09:35,785 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:09:35,817 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:09:35,817 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:09:35,817 DEBUG - is_connect_robot: false
+2024-09-05 07:09:35,817 DEBUG - 与服务器断开
+2024-09-05 07:09:35,817 DEBUG - 服务器为空
+2024-09-05 07:09:35,817 DEBUG - is_connect_robot: false
+2024-09-05 07:09:35,817 DEBUG - 与服务器断开
+2024-09-05 07:09:35,817 DEBUG - 服务器为空
+2024-09-05 07:09:43,833 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:09:46,410 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:10:04,865 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:10:04,865 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:10:04,912 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:10:04,912 DEBUG - is_connect_robot: false
+2024-09-05 07:10:04,912 DEBUG - 与服务器断开
+2024-09-05 07:10:04,912 DEBUG - 服务器为空
+2024-09-05 07:10:07,428 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:10:07,428 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:10:07,538 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:10:07,538 DEBUG - is_connect_robot: false
+2024-09-05 07:10:07,538 DEBUG - 与服务器断开
+2024-09-05 07:10:07,538 DEBUG - 服务器为空
+2024-09-05 07:10:15,584 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:10:17,962 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:10:36,631 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:10:36,631 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:10:36,647 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:10:36,647 DEBUG - is_connect_robot: false
+2024-09-05 07:10:36,647 DEBUG - 与服务器断开
+2024-09-05 07:10:36,647 DEBUG - 服务器为空
+2024-09-05 07:10:39,001 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:10:39,001 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:10:39,063 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:10:39,063 DEBUG - is_connect_robot: false
+2024-09-05 07:10:39,063 DEBUG - 与服务器断开
+2024-09-05 07:10:39,063 DEBUG - 服务器为空
+2024-09-05 07:10:45,286 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:10:47,166 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:11:06,322 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:11:06,322 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:11:06,415 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:11:06,415 DEBUG - is_connect_robot: false
+2024-09-05 07:11:06,415 DEBUG - 与服务器断开
+2024-09-05 07:11:06,415 DEBUG - 服务器为空
+2024-09-05 07:11:08,212 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:11:08,212 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:11:08,275 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:11:08,275 DEBUG - is_connect_robot: false
+2024-09-05 07:11:08,275 DEBUG - 与服务器断开
+2024-09-05 07:11:08,275 DEBUG - 服务器为空
+2024-09-05 07:11:16,664 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:11:17,289 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:11:37,725 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:11:37,725 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:11:37,803 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:11:37,803 DEBUG - is_connect_robot: false
+2024-09-05 07:11:37,803 DEBUG - 与服务器断开
+2024-09-05 07:11:37,803 DEBUG - 服务器为空
+2024-09-05 07:11:38,335 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:11:38,335 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:11:38,350 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:11:38,350 DEBUG - is_connect_robot: false
+2024-09-05 07:11:38,350 DEBUG - 与服务器断开
+2024-09-05 07:11:38,350 DEBUG - 服务器为空
+2024-09-05 07:11:47,178 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:11:50,335 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:12:08,211 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:12:08,211 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:12:08,320 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:12:08,320 DEBUG - is_connect_robot: false
+2024-09-05 07:12:08,320 DEBUG - 与服务器断开
+2024-09-05 07:12:08,320 DEBUG - 服务器为空
+2024-09-05 07:12:11,367 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:12:11,367 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:12:11,383 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:12:11,383 DEBUG - is_connect_robot: false
+2024-09-05 07:12:11,383 DEBUG - 与服务器断开
+2024-09-05 07:12:11,383 DEBUG - 服务器为空
+2024-09-05 07:12:16,648 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:12:21,679 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:12:37,712 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:12:37,712 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:12:37,743 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:12:37,743 DEBUG - is_connect_robot: false
+2024-09-05 07:12:37,743 DEBUG - 与服务器断开
+2024-09-05 07:12:37,743 DEBUG - 服务器为空
+2024-09-05 07:12:42,712 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:12:42,712 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:12:42,775 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:12:42,775 DEBUG - is_connect_robot: false
+2024-09-05 07:12:42,775 DEBUG - 与服务器断开
+2024-09-05 07:12:42,775 DEBUG - 服务器为空
+2024-09-05 07:12:49,556 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:12:52,071 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:13:10,617 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:13:10,617 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:13:10,664 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:13:10,664 DEBUG - is_connect_robot: false
+2024-09-05 07:13:10,664 DEBUG - 与服务器断开
+2024-09-05 07:13:10,664 DEBUG - 服务器为空
+2024-09-05 07:13:13,117 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:13:13,117 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:13:13,180 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:13:13,180 DEBUG - is_connect_robot: false
+2024-09-05 07:13:13,180 DEBUG - 与服务器断开
+2024-09-05 07:13:13,180 DEBUG - 服务器为空
+2024-09-05 07:13:21,600 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:13:21,694 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:13:42,632 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:13:42,632 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:13:42,711 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:13:42,711 DEBUG - is_connect_robot: false
+2024-09-05 07:13:42,711 DEBUG - 与服务器断开
+2024-09-05 07:13:42,711 DEBUG - 服务器为空
+2024-09-05 07:13:42,742 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:13:42,742 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:13:42,820 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:13:42,820 DEBUG - is_connect_robot: false
+2024-09-05 07:13:42,820 DEBUG - 与服务器断开
+2024-09-05 07:13:42,820 DEBUG - 服务器为空
+2024-09-05 07:13:51,712 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:13:52,587 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:14:12,759 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:14:12,759 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:14:12,790 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:14:12,790 DEBUG - is_connect_robot: false
+2024-09-05 07:14:12,790 DEBUG - 与服务器断开
+2024-09-05 07:14:12,790 DEBUG - 服务器为空
+2024-09-05 07:14:13,649 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:14:13,649 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:14:13,665 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:14:13,665 DEBUG - is_connect_robot: false
+2024-09-05 07:14:13,665 DEBUG - 与服务器断开
+2024-09-05 07:14:13,665 DEBUG - 服务器为空
+2024-09-05 07:14:21,822 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:14:23,369 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:14:42,884 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:14:42,884 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:14:42,978 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:14:42,978 DEBUG - is_connect_robot: false
+2024-09-05 07:14:42,978 DEBUG - 与服务器断开
+2024-09-05 07:14:42,978 DEBUG - 服务器为空
+2024-09-05 07:14:44,415 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:14:44,415 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:14:44,509 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:14:44,509 DEBUG - is_connect_robot: false
+2024-09-05 07:14:44,509 DEBUG - 与服务器断开
+2024-09-05 07:14:44,509 DEBUG - 服务器为空
+2024-09-05 07:14:52,087 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:14:53,071 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:15:13,135 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:15:13,135 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:15:13,166 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:15:13,166 DEBUG - is_connect_robot: false
+2024-09-05 07:15:13,166 DEBUG - 与服务器断开
+2024-09-05 07:15:13,166 DEBUG - 服务器为空
+2024-09-05 07:15:14,119 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:15:14,119 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:15:14,151 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:15:14,151 DEBUG - is_connect_robot: false
+2024-09-05 07:15:14,151 DEBUG - 与服务器断开
+2024-09-05 07:15:14,151 DEBUG - 服务器为空
+2024-09-05 07:15:24,469 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:15:24,469 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:15:45,517 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:15:45,517 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:15:45,517 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:15:45,517 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:15:45,533 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:15:45,533 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:15:45,533 DEBUG - is_connect_robot: false
+2024-09-05 07:15:45,533 DEBUG - 与服务器断开
+2024-09-05 07:15:45,533 DEBUG - 服务器为空
+2024-09-05 07:15:45,533 DEBUG - is_connect_robot: false
+2024-09-05 07:15:45,533 DEBUG - 与服务器断开
+2024-09-05 07:15:45,533 DEBUG - 服务器为空
+2024-09-05 07:15:53,862 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:15:54,956 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:16:14,910 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:16:14,910 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:16:14,957 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:16:14,957 DEBUG - is_connect_robot: false
+2024-09-05 07:16:14,957 DEBUG - 与服务器断开
+2024-09-05 07:16:14,957 DEBUG - 服务器为空
+2024-09-05 07:16:16,005 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:16:16,005 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:16:16,051 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:16:16,051 DEBUG - is_connect_robot: false
+2024-09-05 07:16:16,051 DEBUG - 与服务器断开
+2024-09-05 07:16:16,051 DEBUG - 服务器为空
+2024-09-05 07:16:24,660 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:16:25,473 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:16:45,722 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:16:45,722 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:16:45,800 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:16:45,800 DEBUG - is_connect_robot: false
+2024-09-05 07:16:45,800 DEBUG - 与服务器断开
+2024-09-05 07:16:45,800 DEBUG - 服务器为空
+2024-09-05 07:16:46,535 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:16:46,535 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:16:46,566 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:16:46,566 DEBUG - is_connect_robot: false
+2024-09-05 07:16:46,566 DEBUG - 与服务器断开
+2024-09-05 07:16:46,566 DEBUG - 服务器为空
+2024-09-05 07:16:54,740 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:16:57,567 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:17:15,817 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:17:15,817 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:17:15,879 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:17:15,879 DEBUG - is_connect_robot: false
+2024-09-05 07:17:15,879 DEBUG - 与服务器断开
+2024-09-05 07:17:15,879 DEBUG - 服务器为空
+2024-09-05 07:17:18,614 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:17:18,614 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:17:18,724 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:17:18,724 DEBUG - is_connect_robot: false
+2024-09-05 07:17:18,724 DEBUG - 与服务器断开
+2024-09-05 07:17:18,724 DEBUG - 服务器为空
+2024-09-05 07:17:24,990 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:17:29,708 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:17:46,067 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:17:46,067 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:17:46,177 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:17:46,177 DEBUG - is_connect_robot: false
+2024-09-05 07:17:46,177 DEBUG - 与服务器断开
+2024-09-05 07:17:46,177 DEBUG - 服务器为空
+2024-09-05 07:17:50,740 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:17:50,740 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:17:50,771 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:17:50,771 DEBUG - is_connect_robot: false
+2024-09-05 07:17:50,771 DEBUG - 与服务器断开
+2024-09-05 07:17:50,771 DEBUG - 服务器为空
+2024-09-05 07:17:56,132 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:18:02,508 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:18:17,180 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:18:17,180 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:18:17,242 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:18:17,242 DEBUG - is_connect_robot: false
+2024-09-05 07:18:17,242 DEBUG - 与服务器断开
+2024-09-05 07:18:17,242 DEBUG - 服务器为空
+2024-09-05 07:18:23,555 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:18:23,555 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:18:23,586 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:18:23,586 DEBUG - is_connect_robot: false
+2024-09-05 07:18:23,586 DEBUG - 与服务器断开
+2024-09-05 07:18:23,586 DEBUG - 服务器为空
+2024-09-05 07:18:28,587 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:18:34,149 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:18:49,664 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:18:49,664 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:18:49,727 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:18:49,727 DEBUG - is_connect_robot: false
+2024-09-05 07:18:49,727 DEBUG - 与服务器断开
+2024-09-05 07:18:49,727 DEBUG - 服务器为空
+2024-09-05 07:18:55,197 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:18:55,197 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:18:55,306 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:18:55,306 DEBUG - is_connect_robot: false
+2024-09-05 07:18:55,306 DEBUG - 与服务器断开
+2024-09-05 07:18:55,306 DEBUG - 服务器为空
+2024-09-05 07:18:57,947 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:19:05,009 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:19:19,024 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:19:19,024 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:19:19,040 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:19:19,040 DEBUG - is_connect_robot: false
+2024-09-05 07:19:19,040 DEBUG - 与服务器断开
+2024-09-05 07:19:19,040 DEBUG - 服务器为空
+2024-09-05 07:19:26,071 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:19:26,071 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:19:26,149 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:19:26,149 DEBUG - is_connect_robot: false
+2024-09-05 07:19:26,149 DEBUG - 与服务器断开
+2024-09-05 07:19:26,149 DEBUG - 服务器为空
+2024-09-05 07:19:27,368 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:19:37,696 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:19:48,430 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:19:48,430 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:19:48,461 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:19:48,461 DEBUG - is_connect_robot: false
+2024-09-05 07:19:48,461 DEBUG - 与服务器断开
+2024-09-05 07:19:48,461 DEBUG - 服务器为空
+2024-09-05 07:19:57,869 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:19:58,728 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:19:58,728 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:19:58,744 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:19:58,744 DEBUG - is_connect_robot: false
+2024-09-05 07:19:58,744 DEBUG - 与服务器断开
+2024-09-05 07:19:58,744 DEBUG - 服务器为空
+2024-09-05 07:20:09,104 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:20:18,932 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:20:18,932 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:20:18,979 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:20:18,979 DEBUG - is_connect_robot: false
+2024-09-05 07:20:18,979 DEBUG - 与服务器断开
+2024-09-05 07:20:18,979 DEBUG - 服务器为空
+2024-09-05 07:20:30,151 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:20:30,151 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:20:30,245 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:20:30,245 DEBUG - is_connect_robot: false
+2024-09-05 07:20:30,245 DEBUG - 与服务器断开
+2024-09-05 07:20:30,245 DEBUG - 服务器为空
+2024-09-05 07:20:30,777 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:20:39,229 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:20:51,838 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:20:51,838 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:20:51,901 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:20:51,901 DEBUG - is_connect_robot: false
+2024-09-05 07:20:51,901 DEBUG - 与服务器断开
+2024-09-05 07:20:51,901 DEBUG - 服务器为空
+2024-09-05 07:21:00,262 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:21:00,278 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:21:00,278 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:21:00,325 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:21:00,325 DEBUG - is_connect_robot: false
+2024-09-05 07:21:00,325 DEBUG - 与服务器断开
+2024-09-05 07:21:00,325 DEBUG - 服务器为空
+2024-09-05 07:21:08,481 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:21:21,325 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:21:21,325 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:21:21,434 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:21:21,434 DEBUG - is_connect_robot: false
+2024-09-05 07:21:21,434 DEBUG - 与服务器断开
+2024-09-05 07:21:21,434 DEBUG - 服务器为空
+2024-09-05 07:21:29,531 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:21:29,531 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:21:29,640 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:21:29,640 DEBUG - is_connect_robot: false
+2024-09-05 07:21:29,640 DEBUG - 与服务器断开
+2024-09-05 07:21:29,640 DEBUG - 服务器为空
+2024-09-05 07:21:29,827 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:21:38,703 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:21:50,876 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:21:50,876 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:21:50,970 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:21:50,970 DEBUG - is_connect_robot: false
+2024-09-05 07:21:50,970 DEBUG - 与服务器断开
+2024-09-05 07:21:50,970 DEBUG - 服务器为空
+2024-09-05 07:21:59,348 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:21:59,754 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:21:59,754 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:21:59,832 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:21:59,832 DEBUG - is_connect_robot: false
+2024-09-05 07:21:59,832 DEBUG - 与服务器断开
+2024-09-05 07:21:59,832 DEBUG - 服务器为空
+2024-09-05 07:22:09,129 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:22:20,395 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:22:20,395 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:22:20,504 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:22:20,504 DEBUG - is_connect_robot: false
+2024-09-05 07:22:20,504 DEBUG - 与服务器断开
+2024-09-05 07:22:20,504 DEBUG - 服务器为空
+2024-09-05 07:22:30,146 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:22:30,146 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:22:30,240 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:22:30,240 DEBUG - is_connect_robot: false
+2024-09-05 07:22:30,240 DEBUG - 与服务器断开
+2024-09-05 07:22:30,240 DEBUG - 服务器为空
+2024-09-05 07:22:32,099 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:22:38,224 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:22:53,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:22:53,161 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:22:53,208 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:22:53,208 DEBUG - is_connect_robot: false
+2024-09-05 07:22:53,208 DEBUG - 与服务器断开
+2024-09-05 07:22:53,208 DEBUG - 服务器为空
+2024-09-05 07:22:59,256 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:22:59,256 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:22:59,334 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:22:59,334 DEBUG - is_connect_robot: false
+2024-09-05 07:22:59,334 DEBUG - 与服务器断开
+2024-09-05 07:22:59,334 DEBUG - 服务器为空
+2024-09-05 07:23:02,601 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:23:08,914 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:23:23,633 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:23:23,633 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:23:23,727 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:23:23,727 DEBUG - is_connect_robot: false
+2024-09-05 07:23:23,727 DEBUG - 与服务器断开
+2024-09-05 07:23:23,727 DEBUG - 服务器为空
+2024-09-05 07:23:29,962 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:23:29,962 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:23:30,071 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:23:30,071 DEBUG - is_connect_robot: false
+2024-09-05 07:23:30,071 DEBUG - 与服务器断开
+2024-09-05 07:23:30,071 DEBUG - 服务器为空
+2024-09-05 07:23:35,604 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:23:38,150 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:23:56,636 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:23:56,636 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:23:56,651 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:23:56,651 DEBUG - is_connect_robot: false
+2024-09-05 07:23:56,651 DEBUG - 与服务器断开
+2024-09-05 07:23:56,651 DEBUG - 服务器为空
+2024-09-05 07:23:59,230 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:23:59,230 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:23:59,277 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:23:59,277 DEBUG - is_connect_robot: false
+2024-09-05 07:23:59,277 DEBUG - 与服务器断开
+2024-09-05 07:23:59,277 DEBUG - 服务器为空
+2024-09-05 07:24:04,713 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:24:08,682 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:24:25,777 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:24:25,777 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:24:25,855 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:24:25,855 DEBUG - is_connect_robot: false
+2024-09-05 07:24:25,855 DEBUG - 与服务器断开
+2024-09-05 07:24:25,855 DEBUG - 服务器为空
+2024-09-05 07:24:29,715 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:24:29,715 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:24:29,793 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:24:29,793 DEBUG - is_connect_robot: false
+2024-09-05 07:24:29,793 DEBUG - 与服务器断开
+2024-09-05 07:24:29,793 DEBUG - 服务器为空
+2024-09-05 07:24:36,590 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:24:38,324 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-09-05 07:24:57,667 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_closed tcp://169.254.128.2:5410
+2024-09-05 07:24:57,667 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_retried tcp://169.254.128.2:5410
+2024-09-05 07:24:57,683 DEBUG - [ROBOT_SDK_LOG] request connect status: 4, msg: tcp://169.254.128.2:5410
+2024-09-05 07:24:57,683 DEBUG - is_connect_robot: false
+2024-09-05 07:24:57,683 DEBUG - 与服务器断开
+2024-09-05 07:24:57,683 DEBUG - 服务器为空
+2024-09-05 07:24:59,372 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_closed tcp://169.254.128.2:5411
+2024-09-05 07:24:59,372 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_retried tcp://169.254.128.2:5411
+2024-09-05 07:24:59,434 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 4, msg: tcp://169.254.128.2:5411
+2024-09-05 07:24:59,434 DEBUG - is_connect_robot: false
+2024-09-05 07:24:59,434 DEBUG - 与服务器断开
+2024-09-05 07:24:59,434 DEBUG - 服务器为空
+2024-09-05 07:25:06,264 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-09-05 07:25:10,216 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411

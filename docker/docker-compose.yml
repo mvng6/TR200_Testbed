@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  tr200_control:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        USER_ID: ${USER_ID:-1000}
+        GROUP_ID: ${GROUP_ID:-1000}
+    image: tr200_ros_noetic:latest
+    container_name: tr200_control_container
+    hostname: tr200-docker
+    
+    # 네트워크 설정 - 호스트 네트워크 사용 (TR200 로봇과 직접 통신)
+    network_mode: host
+    
+    # 환경 변수
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_HOSTNAME=localhost
+      - ROS_MASTER_URI=http://localhost:11311
+      - TR200_ROBOT_IP=169.254.128.2
+      - TR200_ROBOT_PORT=5480
+    
+    # 볼륨 마운트
+    volumes:
+      # X11 소켓 (GUI 애플리케이션용)
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # 소스코드 개발용 마운트
+      - ../src:/catkin_ws/src:rw
+      - ../launch:/catkin_ws/launch:rw
+      - ../config:/catkin_ws/config:rw
+      # 로그 및 데이터 저장용
+      - ./logs:/catkin_ws/logs:rw
+      - ./data:/catkin_ws/data:rw
+    
+    # 디바이스 접근 권한
+    privileged: true
+    
+    # 컨테이너 유지 (개발용)
+    stdin_open: true
+    tty: true
+    
+    # 재시작 정책
+    restart: unless-stopped
+    
+    # 헬스체크
+    healthcheck:
+      test: ["CMD", "rostopic", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # 선택사항: RViz 시각화용 별도 컨테이너
+  tr200_visualization:
+    image: tr200_ros_noetic:latest
+    container_name: tr200_viz_container
+    depends_on:
+      - tr200_control
+    
+    network_mode: host
+    
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_HOSTNAME=localhost
+      - ROS_MASTER_URI=http://localhost:11311
+    
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ../config:/catkin_ws/config:ro
+    
+    command: ["rosrun", "rviz", "rviz", "-d", "/catkin_ws/config/tr200_visualization.rviz"]
+    
+    profiles:
+      - visualization
+    
+    restart: "no"
+
+# 개발용 볼륨 정의
+volumes:
+  catkin_workspace:
+    driver: local
+  ros_logs:
+    driver: local

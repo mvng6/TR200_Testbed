@@ -1,0 +1,3772 @@
+2024-10-15 07:57:20,910 DEBUG - 配置信息文件读取成功
+2024-10-15 07:57:20,910 DEBUG - 状态码文件读取成功
+2024-10-15 07:57:20,910 DEBUG - APP   Version: 1.1.13
+2024-10-15 07:57:20,910 DEBUG - SDK   Version: 1.1.34
+2024-10-15 07:57:20,910 DEBUG - COMMU Version: 0.1.25
+2024-10-15 07:57:21,738 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-10-15 07:57:21,754 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-10-15 07:57:21,754 DEBUG - task_list.tsets_size(): 0
+2024-10-15 07:57:30,516 DEBUG - 服务器为空
+2024-10-15 07:57:30,516 DEBUG - is_connect_robot: false
+2024-10-15 07:57:30,547 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 started monitor.
+2024-10-15 07:57:30,563 DEBUG - [ROBOT_SDK_LOG] [4] started request loop.
+2024-10-15 07:57:30,563 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-10-15 07:57:30,563 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 started monitor.
+2024-10-15 07:57:30,579 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connected tcp://169.254.128.2:5410
+2024-10-15 07:57:30,579 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe started loop.
+2024-10-15 07:57:30,579 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-10-15 07:57:30,594 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connected tcp://169.254.128.2:5411
+2024-10-15 07:57:30,735 DEBUG - [ROBOT_SDK_LOG] request connect status: 2, msg: tcp://169.254.128.2:5410
+2024-10-15 07:57:30,782 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 2, msg: tcp://169.254.128.2:5411
+2024-10-15 07:57:30,782 DEBUG - is_connect_robot: true
+2024-10-15 07:57:30,782 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:woosh_design, time:1728946650782
+
+2024-10-15 07:57:30,782 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:RC_10001, time:1729127223388
+
+2024-10-15 07:57:30,782 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:2, identity:woosh_design, time:1728946650782
+
+2024-10-15 07:57:30,782 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 07:57:30,875 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:2, identity:RC_10001, time:1729127223399
+
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.png
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/keepout.png
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/traffic_keepout.png
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.yaml
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/test_map.pbstream
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.04.carmen
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.03.carmen
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/mark_info.data
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/nav_area.data
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/test_map/path_info.data
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/action_groups.json
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/scene.json
+2024-10-15 07:57:30,891 DEBUG - 下载文件： ./map/robot/test_scene/task_info.data
+2024-10-15 07:57:30,891 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.NavPath]
+[4] req_id:3, identity:woosh_design, time:1728946650891
+
+2024-10-15 07:57:30,891 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.NavPath]
+[4] req_id:3, identity:RC_10001, time:1729127223502
+
+2024-10-15 07:57:30,891 DEBUG - add_map id: 0  map: ./map/robot/test_scene/test_map name  "test_map"
+2024-10-15 07:57:30,907 DEBUG - 读取二进制文件数据为空: ./map/robot/test_scene/test_map/nav_area.data
+2024-10-15 07:57:30,907 DEBUG - 二进制文件解析成功: ./map/robot/test_scene/test_map/mark_info.data
+2024-10-15 07:57:30,907 DEBUG - 读取二进制文件数据为空: ./map/robot/test_scene/test_map/path_info.data
+2024-10-15 07:57:30,907 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 07:57:30,907 DEBUG - robot_info.state: 1
+2024-10-15 07:57:30,907 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 07:57:30,907 DEBUG - 二进制文件解析成功: ./map/robot/test_scene/task_info.data
+2024-10-15 07:57:30,907 DEBUG - pre_task_count: 2
+2024-10-15 07:57:43,953 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[4] req_id:4, identity:woosh_design, time:1728946663953
+
+2024-10-15 07:57:43,953 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[4] req_id:4, identity:RC_10001, time:1729127236563
+
+2024-10-15 07:57:43,953 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:5, identity:woosh_design, time:1728946663953
+
+2024-10-15 07:57:44,031 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:5, identity:RC_10001, time:1729127236568
+
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.png
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/keepout.png
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/traffic_keepout.png
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.yaml
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/test_map.pbstream
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.04.carmen
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.03.carmen
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/mark_info.data
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/nav_area.data
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/test_map/path_info.data
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/action_groups.json
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/scene.json
+2024-10-15 07:57:44,047 DEBUG - 下载文件： ./map/robot/test_scene/task_info.data
+2024-10-15 07:57:44,047 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:6, identity:woosh_design, time:1728946664047
+
+2024-10-15 07:57:44,062 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:6, identity:RC_10001, time:1729127236662
+
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/action_groups.json
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/scene.json
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/task_info.data
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout_w.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.yaml
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map_w.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.yaml
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_info.data
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_w.png
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/mark_info.data
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/nav_area.data
+2024-10-15 07:57:44,062 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/path_info.data
+2024-10-15 07:57:44,075 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/scan_match.carmen
+2024-10-15 07:57:44,075 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout.png
+2024-10-15 07:57:44,075 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout_w.png
+2024-10-15 07:57:44,075 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/x1.31y3.28t1.53.carmen
+2024-10-15 07:57:44,075 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/x1.31y3.28t1.54.carmen
+2024-10-15 07:57:54,501 DEBUG - open copy_from: ./map/robot/test_scene  copy_to: ./map/temp/test_scene
+2024-10-15 07:57:54,517 DEBUG - 读取二进制文件数据为空: ./map/temp/test_scene/test_map/nav_area.data
+2024-10-15 07:57:54,517 DEBUG - 二进制文件解析成功: ./map/temp/test_scene/test_map/mark_info.data
+2024-10-15 07:57:54,517 DEBUG - 读取二进制文件数据为空: ./map/temp/test_scene/test_map/path_info.data
+2024-10-15 07:57:54,517 DEBUG - add map_id: 0  map_path: ./map/temp/test_scene/test_map  map_name  "test_map"  map_floor: 1
+2024-10-15 07:57:54,580 DEBUG - 二进制文件解析成功: ./map/temp/test_scene/task_info.data
+2024-10-15 07:58:09,394 DEBUG - deploy auto jump map
+2024-10-15 07:58:13,393 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:7, identity:woosh_design, time:1728946693393
+
+2024-10-15 07:58:13,409 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:7, identity:RC_10001, time:1729127266013
+
+2024-10-15 07:58:13,409 DEBUG - marker.id: 94838498914800
+2024-10-15 07:58:13,409 DEBUG - marker.pose_x: -0.01  y: -0.01  theta: 2.7
+2024-10-15 07:59:38,662 DEBUG - nav_x -0.610435  y: -0.0469565  theta: 0
+2024-10-15 07:59:46,085 DEBUG - nav_x -0.876522  y: -0.156522  theta: 0
+2024-10-15 07:59:53,959 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3090, identity:RC_10001, time:1729127366579
+
+2024-10-15 07:59:53,975 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:3091, identity:RC_10001, time:1729127366579
+ctrl: kManual
+work: kDeployMode
+robot_id: 10001
+
+2024-10-15 07:59:54,772 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3097, identity:RC_10001, time:1729127367380
+
+2024-10-15 07:59:54,772 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:3098, identity:RC_10001, time:1729127367380
+ctrl: kAuto
+work: kDeployMode
+robot_id: 10001
+
+2024-10-15 07:59:57,381 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:3112, identity:RC_10001, time:1729127369996
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-10-15 07:59:57,662 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:3114, identity:RC_10001, time:1729127370277
+software: 1
+robot_id: 10001
+
+2024-10-15 07:59:57,662 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:3115, identity:RC_10001, time:1729127370278
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 07:59:57,662 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:3116, identity:RC_10001, time:1729127370278
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 07:59:57,662 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3117, identity:RC_10001, time:1729127370281
+
+2024-10-15 07:59:57,678 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3119, identity:RC_10001, time:1729127370286
+
+2024-10-15 07:59:57,678 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3120, identity:RC_10001, time:1729127370288
+
+2024-10-15 07:59:57,678 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3121, identity:RC_10001, time:1729127370290
+
+2024-10-15 07:59:57,678 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3122, identity:RC_10001, time:1729127370292
+
+2024-10-15 07:59:57,771 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:3124, identity:RC_10001, time:1729127370378
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3126, identity:RC_10001, time:1729127370424
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3127, identity:RC_10001, time:1729127370426
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3128, identity:RC_10001, time:1729127370428
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3129, identity:RC_10001, time:1729127370430
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3130, identity:RC_10001, time:1729127370432
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3131, identity:RC_10001, time:1729127370434
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3132, identity:RC_10001, time:1729127370436
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3133, identity:RC_10001, time:1729127370437
+
+2024-10-15 07:59:57,818 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3134, identity:RC_10001, time:1729127370439
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3135, identity:RC_10001, time:1729127370441
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3136, identity:RC_10001, time:1729127370443
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3137, identity:RC_10001, time:1729127370445
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3138, identity:RC_10001, time:1729127370447
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3139, identity:RC_10001, time:1729127370448
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3140, identity:RC_10001, time:1729127370451
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3141, identity:RC_10001, time:1729127370453
+
+2024-10-15 07:59:57,834 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3142, identity:RC_10001, time:1729127370455
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3143, identity:RC_10001, time:1729127370457
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3144, identity:RC_10001, time:1729127370459
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3145, identity:RC_10001, time:1729127370461
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3146, identity:RC_10001, time:1729127370463
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3147, identity:RC_10001, time:1729127370465
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3148, identity:RC_10001, time:1729127370467
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3149, identity:RC_10001, time:1729127370469
+
+2024-10-15 07:59:57,849 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3150, identity:RC_10001, time:1729127370471
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3151, identity:RC_10001, time:1729127370472
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3152, identity:RC_10001, time:1729127370474
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3153, identity:RC_10001, time:1729127370476
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3154, identity:RC_10001, time:1729127370478
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3155, identity:RC_10001, time:1729127370480
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3156, identity:RC_10001, time:1729127370483
+
+2024-10-15 07:59:57,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3157, identity:RC_10001, time:1729127370486
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3158, identity:RC_10001, time:1729127370488
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3159, identity:RC_10001, time:1729127370490
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3160, identity:RC_10001, time:1729127370492
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3162, identity:RC_10001, time:1729127370494
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3163, identity:RC_10001, time:1729127370496
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3164, identity:RC_10001, time:1729127370498
+
+2024-10-15 07:59:57,881 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3165, identity:RC_10001, time:1729127370500
+
+2024-10-15 07:59:57,896 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3166, identity:RC_10001, time:1729127370502
+
+2024-10-15 07:59:57,896 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3167, identity:RC_10001, time:1729127370504
+
+2024-10-15 07:59:57,896 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3168, identity:RC_10001, time:1729127370507
+
+2024-10-15 07:59:57,896 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3169, identity:RC_10001, time:1729127370509
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:3172, identity:RC_10001, time:1729127370596
+software: 1
+robot_id: 10001
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:3173, identity:RC_10001, time:1729127370597
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:3174, identity:RC_10001, time:1729127370597
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3175, identity:RC_10001, time:1729127370600
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3177, identity:RC_10001, time:1729127370608
+
+2024-10-15 07:59:57,990 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:3178, identity:RC_10001, time:1729127370608
+scs {
+  code: 140801000232
+  time: 1729127370600
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127198246
+  msg: "目标点导航失败"
+  state: kUninit
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 07:59:58,271 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3181, identity:RC_10001, time:1729127370888
+
+2024-10-15 07:59:58,287 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3183, identity:RC_10001, time:1729127370893
+
+2024-10-15 07:59:58,287 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:3184, identity:RC_10001, time:1729127370893
+scs {
+  code: 112601000022
+  time: 1729127370888
+  msg: "IMU通讯异常"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 140801000232
+  time: 1729127370600
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127198246
+  msg: "目标点导航失败"
+  state: kUninit
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 07:59:58,443 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3187, identity:RC_10001, time:1729127371060
+
+2024-10-15 07:59:58,459 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3189, identity:RC_10001, time:1729127371065
+
+2024-10-15 07:59:58,459 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:3190, identity:RC_10001, time:1729127371065
+scs {
+  code: 140801000232
+  time: 1729127370600
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127198246
+  msg: "目标点导航失败"
+  state: kUninit
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 07:59:58,474 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3191, identity:RC_10001, time:1729127371088
+
+2024-10-15 07:59:58,865 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:3194, identity:RC_10001, time:1729127371477
+is_connected: true
+robot_ip: "169.254.128.2"
+wifi {
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 08:00:01,427 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3208, identity:RC_10001, time:1729127374036
+
+2024-10-15 08:00:01,568 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3210, identity:RC_10001, time:1729127374173
+
+2024-10-15 08:00:01,568 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3214, identity:RC_10001, time:1729127374184
+
+2024-10-15 08:00:01,568 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:3215, identity:RC_10001, time:1729127374184
+robot_id: 10001
+
+2024-10-15 08:00:02,568 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3221, identity:RC_10001, time:1729127375184
+action {
+}
+time: 1729127375
+robot_id: 10001
+
+2024-10-15 08:00:02,568 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:3222, identity:RC_10001, time:1729127375184
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:00:52,723 DEBUG - nav_x -0.532174  y: 0.125217  theta: 0
+2024-10-15 08:00:52,723 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.ExecTask]
+[4] req_id:8, identity:woosh_design, time:1728946852723
+body {
+  [type.googleapis.com/woosh.robot.ExecTask] {
+    task_id: 172894685201
+    type: kPick
+    pose {
+      x: -0.532173872
+      y: 0.125217393
+      theta: -0
+    }
+  }
+}
+
+2024-10-15 08:00:52,723 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:3479, identity:RC_10001, time:1729127425340
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:00:52,723 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:8, identity:RC_10001, time:1729127425340
+
+2024-10-15 08:00:53,723 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3486, identity:RC_10001, time:1729127426344
+robot_task_id: 172894685201
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+time: 1729127426
+robot_id: 10001
+
+2024-10-15 08:00:53,723 DEBUG - 二进制文件解析成功: ./map/robot/test_scene/task_info.data
+2024-10-15 08:00:53,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3487, identity:RC_10001, time:1729127426348
+
+2024-10-15 08:00:53,895 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3491, identity:RC_10001, time:1729127426511
+
+2024-10-15 08:01:06,222 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3602, identity:RC_10001, time:1729127438844
+robot_task_id: 172894685201
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosSuccess
+}
+time: 1729127438
+robot_id: 10001
+
+2024-10-15 08:01:06,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3608, identity:RC_10001, time:1729127439347
+robot_task_id: 172894685201
+type: kPick
+state: kActionWait
+action {
+  type: kWait
+  state: kRosExecuting
+  wait_id: 1
+}
+time: 1729127439
+robot_id: 10001
+
+2024-10-15 08:01:06,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3609, identity:RC_10001, time:1729127439348
+robot_task_id: 172894685201
+type: kPick
+state: kActionWait
+action {
+  type: kWait
+  state: kRosSuccess
+  wait_id: 1
+}
+time: 1729127439
+robot_id: 10001
+
+2024-10-15 08:01:06,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3610, identity:RC_10001, time:1729127439350
+robot_task_id: 172894685201
+type: kPick
+state: kCompleted
+action {
+  type: kWait
+  state: kRosSuccess
+  wait_id: 1
+}
+time: 1729127439
+robot_id: 10001
+
+2024-10-15 08:01:06,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3612, identity:RC_10001, time:1729127439355
+action {
+}
+time: 1729127439
+robot_id: 10001
+
+2024-10-15 08:01:06,738 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:3613, identity:RC_10001, time:1729127439355
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:02:07,127 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:3923, identity:RC_10001, time:1729127499737
+ctrl: kAuto
+work: kTaskMode
+robot_id: 10001
+
+2024-10-15 08:02:08,424 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:3931, identity:RC_10001, time:1729127501039
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 08:02:15,439 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:3967, identity:RC_10001, time:1729127508058
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:02:16,439 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:3974, identity:RC_10001, time:1729127509061
+robot_task_id: 172825327601
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "63E87FB4"
+time: 1729127509
+robot_id: 10001
+
+2024-10-15 08:02:16,439 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3975, identity:RC_10001, time:1729127509062
+
+2024-10-15 08:02:16,454 DEBUG - 二进制文件解析成功: ./map/robot/test_scene/task_info.data
+2024-10-15 08:02:16,611 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3977, identity:RC_10001, time:1729127509228
+
+2024-10-15 08:02:24,445 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4030, identity:RC_10001, time:1729127517062
+
+2024-10-15 08:02:34,477 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4091, identity:RC_10001, time:1729127527100
+
+2024-10-15 08:02:34,525 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4093, identity:RC_10001, time:1729127527146
+
+2024-10-15 08:02:35,025 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4096, identity:RC_10001, time:1729127527646
+robot_task_id: 172825327601
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "63E87FB4"
+time: 1729127527
+robot_id: 10001
+
+2024-10-15 08:02:35,025 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4097, identity:RC_10001, time:1729127527648
+robot_task_id: 172825327601
+type: kPick
+state: kCanceled
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "63E87FB4"
+time: 1729127527
+robot_id: 10001
+
+2024-10-15 08:02:35,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4099, identity:RC_10001, time:1729127527653
+action {
+}
+time: 1729127527
+robot_id: 10001
+
+2024-10-15 08:02:35,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:4100, identity:RC_10001, time:1729127527653
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:02:35,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4101, identity:RC_10001, time:1729127527655
+
+2024-10-15 08:02:35,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4102, identity:RC_10001, time:1729127527657
+
+2024-10-15 08:03:07,368 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:4288, identity:RC_10001, time:1729127559985
+is_connected: true
+robot_ip: "169.254.128.2"
+wifi {
+  list_json: "[{\"essid\": \"WOOSH-000000Z\", \"auth_method\": \"wpa-psk\", \"saved\": true, \"aps\": [{\"bssid\": \"50:28:4A:72:7D:C4\", \"strength\": 0, \"freq\": 2412}], \"ipv4_settings\": {\"method\": \"manual\", \"address\": \"\", \"prefix\": 0, \"gateway\": \"\", \"dns\": []}}, {\"essid\": \"WOOSH PSK\", \"saved\": true, \"ipv4_settings\": {\"method\": \"auto\"}}]"
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 08:03:14,961 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:4327, identity:RC_10001, time:1729127567575
+state: kUninit
+robot_id: 10001
+
+2024-10-15 08:03:14,961 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4329, identity:RC_10001, time:1729127567578
+
+2024-10-15 08:03:14,961 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4330, identity:RC_10001, time:1729127567580
+
+2024-10-15 08:03:14,961 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4331, identity:RC_10001, time:1729127567582
+
+2024-10-15 08:03:14,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4332, identity:RC_10001, time:1729127567610
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4335, identity:RC_10001, time:1729127567717
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4336, identity:RC_10001, time:1729127567718
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4337, identity:RC_10001, time:1729127567720
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4338, identity:RC_10001, time:1729127567721
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4339, identity:RC_10001, time:1729127567723
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4340, identity:RC_10001, time:1729127567725
+
+2024-10-15 08:03:15,102 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4341, identity:RC_10001, time:1729127567726
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4342, identity:RC_10001, time:1729127567728
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4343, identity:RC_10001, time:1729127567730
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4344, identity:RC_10001, time:1729127567731
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4345, identity:RC_10001, time:1729127567733
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4346, identity:RC_10001, time:1729127567735
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4347, identity:RC_10001, time:1729127567736
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4348, identity:RC_10001, time:1729127567738
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4349, identity:RC_10001, time:1729127567739
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4350, identity:RC_10001, time:1729127567741
+
+2024-10-15 08:03:15,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4351, identity:RC_10001, time:1729127567742
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4352, identity:RC_10001, time:1729127567744
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4353, identity:RC_10001, time:1729127567747
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4354, identity:RC_10001, time:1729127567748
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4355, identity:RC_10001, time:1729127567750
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4356, identity:RC_10001, time:1729127567752
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4357, identity:RC_10001, time:1729127567754
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4358, identity:RC_10001, time:1729127567755
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4359, identity:RC_10001, time:1729127567757
+
+2024-10-15 08:03:15,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4360, identity:RC_10001, time:1729127567759
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4361, identity:RC_10001, time:1729127567761
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4362, identity:RC_10001, time:1729127567762
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4363, identity:RC_10001, time:1729127567765
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4364, identity:RC_10001, time:1729127567767
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4365, identity:RC_10001, time:1729127567768
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4366, identity:RC_10001, time:1729127567770
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4367, identity:RC_10001, time:1729127567772
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4368, identity:RC_10001, time:1729127567773
+
+2024-10-15 08:03:15,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4369, identity:RC_10001, time:1729127567775
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4371, identity:RC_10001, time:1729127567777
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4372, identity:RC_10001, time:1729127567779
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4373, identity:RC_10001, time:1729127567780
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4374, identity:RC_10001, time:1729127567782
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4375, identity:RC_10001, time:1729127567784
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4376, identity:RC_10001, time:1729127567786
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4377, identity:RC_10001, time:1729127567787
+
+2024-10-15 08:03:15,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4378, identity:RC_10001, time:1729127567789
+
+2024-10-15 08:03:15,571 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4382, identity:RC_10001, time:1729127568187
+
+2024-10-15 08:03:15,571 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4384, identity:RC_10001, time:1729127568192
+
+2024-10-15 08:03:15,571 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:4385, identity:RC_10001, time:1729127568192
+scs {
+  code: 112601000022
+  time: 1729127568187
+  msg: "IMU通讯异常"
+  state: kUninit
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:03:15,728 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4388, identity:RC_10001, time:1729127568349
+
+2024-10-15 08:03:15,728 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4390, identity:RC_10001, time:1729127568353
+
+2024-10-15 08:03:15,743 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:4391, identity:RC_10001, time:1729127568353
+robot_id: 10001
+
+2024-10-15 08:03:15,775 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4392, identity:RC_10001, time:1729127568388
+
+2024-10-15 08:03:18,727 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4408, identity:RC_10001, time:1729127571339
+
+2024-10-15 08:03:18,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4410, identity:RC_10001, time:1729127571463
+
+2024-10-15 08:03:18,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4411, identity:RC_10001, time:1729127571467
+
+2024-10-15 08:03:18,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:4412, identity:RC_10001, time:1729127571467
+robot_id: 10001
+
+2024-10-15 08:03:19,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4418, identity:RC_10001, time:1729127572467
+action {
+}
+time: 1729127572
+robot_id: 10001
+
+2024-10-15 08:03:19,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:4419, identity:RC_10001, time:1729127572467
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:03:19,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4420, identity:RC_10001, time:1729127572470
+
+2024-10-15 08:03:19,852 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4421, identity:RC_10001, time:1729127572471
+
+2024-10-15 08:03:26,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:4454, identity:RC_10001, time:1729127578777
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:03:27,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4461, identity:RC_10001, time:1729127579780
+robot_task_id: 172825327601
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "63E87FB4"
+time: 1729127579
+robot_id: 10001
+
+2024-10-15 08:03:27,164 DEBUG - 二进制文件解析成功: ./map/robot/test_scene/task_info.data
+2024-10-15 08:03:27,164 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4463, identity:RC_10001, time:1729127579785
+
+2024-10-15 08:03:32,898 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4517, identity:RC_10001, time:1729127585518
+
+2024-10-15 08:03:36,898 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4552, identity:RC_10001, time:1729127589518
+
+2024-10-15 08:03:40,368 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4579, identity:RC_10001, time:1729127592981
+robot_task_id: 172825327601
+type: kPick
+state: kPaused
+action {
+  type: kNav
+  state: kSuspend
+}
+dest: "63E87FB4"
+time: 1729127592
+robot_id: 10001
+
+2024-10-15 08:03:45,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4606, identity:RC_10001, time:1729127597732
+
+2024-10-15 08:03:45,618 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4609, identity:RC_10001, time:1729127598234
+
+2024-10-15 08:03:46,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4613, identity:RC_10001, time:1729127598734
+robot_task_id: 172825327601
+type: kPick
+state: kPaused
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "63E87FB4"
+time: 1729127598
+robot_id: 10001
+
+2024-10-15 08:03:46,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4614, identity:RC_10001, time:1729127598737
+robot_task_id: 172825327601
+type: kPick
+state: kCanceled
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "63E87FB4"
+time: 1729127598
+robot_id: 10001
+
+2024-10-15 08:03:46,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:4616, identity:RC_10001, time:1729127598741
+action {
+}
+time: 1729127598
+robot_id: 10001
+
+2024-10-15 08:03:46,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:4617, identity:RC_10001, time:1729127598742
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:03:46,118 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4618, identity:RC_10001, time:1729127598744
+
+2024-10-15 08:03:46,133 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4619, identity:RC_10001, time:1729127598746
+
+2024-10-15 08:04:43,217 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:4909, identity:RC_10001, time:1729127655839
+ctrl: kAuto
+work: kDeployMode
+robot_id: 10001
+
+2024-10-15 08:04:51,671 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4953, identity:RC_10001, time:1729127664294
+
+2024-10-15 08:04:51,671 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4954, identity:RC_10001, time:1729127664297
+
+2024-10-15 08:04:51,671 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4955, identity:RC_10001, time:1729127664299
+
+2024-10-15 08:04:51,686 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4956, identity:RC_10001, time:1729127664301
+
+2024-10-15 08:04:51,811 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4958, identity:RC_10001, time:1729127664433
+
+2024-10-15 08:04:51,811 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4959, identity:RC_10001, time:1729127664434
+
+2024-10-15 08:04:51,811 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4960, identity:RC_10001, time:1729127664437
+
+2024-10-15 08:04:51,811 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4961, identity:RC_10001, time:1729127664439
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4962, identity:RC_10001, time:1729127664441
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4963, identity:RC_10001, time:1729127664443
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4964, identity:RC_10001, time:1729127664445
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4965, identity:RC_10001, time:1729127664447
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4966, identity:RC_10001, time:1729127664449
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4968, identity:RC_10001, time:1729127664451
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4969, identity:RC_10001, time:1729127664454
+
+2024-10-15 08:04:51,827 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4970, identity:RC_10001, time:1729127664456
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4971, identity:RC_10001, time:1729127664458
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4972, identity:RC_10001, time:1729127664460
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4973, identity:RC_10001, time:1729127664463
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4974, identity:RC_10001, time:1729127664465
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4975, identity:RC_10001, time:1729127664467
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4976, identity:RC_10001, time:1729127664469
+
+2024-10-15 08:04:51,842 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4977, identity:RC_10001, time:1729127664472
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4978, identity:RC_10001, time:1729127664474
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4979, identity:RC_10001, time:1729127664476
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4980, identity:RC_10001, time:1729127664478
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4981, identity:RC_10001, time:1729127664480
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4982, identity:RC_10001, time:1729127664482
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4983, identity:RC_10001, time:1729127664484
+
+2024-10-15 08:04:51,858 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4984, identity:RC_10001, time:1729127664486
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4985, identity:RC_10001, time:1729127664489
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4986, identity:RC_10001, time:1729127664491
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4987, identity:RC_10001, time:1729127664493
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4988, identity:RC_10001, time:1729127664495
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4989, identity:RC_10001, time:1729127664498
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4990, identity:RC_10001, time:1729127664500
+
+2024-10-15 08:04:51,873 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4991, identity:RC_10001, time:1729127664503
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4992, identity:RC_10001, time:1729127664505
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4993, identity:RC_10001, time:1729127664508
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4994, identity:RC_10001, time:1729127664510
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4996, identity:RC_10001, time:1729127664513
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4997, identity:RC_10001, time:1729127664516
+
+2024-10-15 08:04:51,889 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4998, identity:RC_10001, time:1729127664518
+
+2024-10-15 08:04:51,905 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:4999, identity:RC_10001, time:1729127664520
+
+2024-10-15 08:04:51,905 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5000, identity:RC_10001, time:1729127664523
+
+2024-10-15 08:04:51,905 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5001, identity:RC_10001, time:1729127664525
+
+2024-10-15 08:04:51,905 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5002, identity:RC_10001, time:1729127664527
+
+2024-10-15 08:04:52,264 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5007, identity:RC_10001, time:1729127664889
+
+2024-10-15 08:04:52,280 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5009, identity:RC_10001, time:1729127664894
+
+2024-10-15 08:04:52,280 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:5010, identity:RC_10001, time:1729127664894
+scs {
+  code: 112601000022
+  time: 1729127664889
+  msg: "IMU通讯异常"
+  state: kIdle
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:04:52,452 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5013, identity:RC_10001, time:1729127665068
+
+2024-10-15 08:04:52,452 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5015, identity:RC_10001, time:1729127665074
+
+2024-10-15 08:04:52,452 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:5016, identity:RC_10001, time:1729127665074
+robot_id: 10001
+
+2024-10-15 08:04:52,467 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5017, identity:RC_10001, time:1729127665088
+
+2024-10-15 08:04:55,420 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:5032, identity:RC_10001, time:1729127668046
+state: kMapping
+robot_id: 10001
+
+2024-10-15 08:04:55,420 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5033, identity:RC_10001, time:1729127668046
+
+2024-10-15 08:05:40,931 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:5469, identity:RC_10001, time:1729127713560
+scene_name: "test"
+map_name: "test"
+robot_id: 10001
+
+2024-10-15 08:05:40,946 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:9, identity:woosh_design, time:1728947140946
+
+2024-10-15 08:05:40,977 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:9, identity:RC_10001, time:1729127713565
+
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:05:40,993 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:05:40,993 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-15 08:05:41,009 DEBUG - 域data不存在, path: ./map/robot/test/test / "nav_area.data"
+2024-10-15 08:05:41,009 DEBUG - 储位data不存在, path: ./map/robot/test/test / "mark_info.data"
+2024-10-15 08:05:41,009 DEBUG - 软引导data不存在, path: ./map/robot/test/test / "path_info.data"
+2024-10-15 08:05:41,009 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:05:41,009 DEBUG - robot_info.state: 9
+2024-10-15 08:05:41,009 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5486, identity:RC_10001, time:1729127715442
+
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:5487, identity:RC_10001, time:1729127715442
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5488, identity:RC_10001, time:1729127715444
+
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5489, identity:RC_10001, time:1729127715446
+
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5490, identity:RC_10001, time:1729127715448
+
+2024-10-15 08:05:42,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5491, identity:RC_10001, time:1729127715450
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5494, identity:RC_10001, time:1729127715579
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5495, identity:RC_10001, time:1729127715581
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5496, identity:RC_10001, time:1729127715582
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5497, identity:RC_10001, time:1729127715585
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5498, identity:RC_10001, time:1729127715587
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5499, identity:RC_10001, time:1729127715589
+
+2024-10-15 08:05:42,962 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5500, identity:RC_10001, time:1729127715591
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5501, identity:RC_10001, time:1729127715593
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5502, identity:RC_10001, time:1729127715595
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5503, identity:RC_10001, time:1729127715597
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5504, identity:RC_10001, time:1729127715600
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5505, identity:RC_10001, time:1729127715602
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5506, identity:RC_10001, time:1729127715604
+
+2024-10-15 08:05:42,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5507, identity:RC_10001, time:1729127715606
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5508, identity:RC_10001, time:1729127715609
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5509, identity:RC_10001, time:1729127715611
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5510, identity:RC_10001, time:1729127715613
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5511, identity:RC_10001, time:1729127715615
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5512, identity:RC_10001, time:1729127715617
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5513, identity:RC_10001, time:1729127715619
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5514, identity:RC_10001, time:1729127715621
+
+2024-10-15 08:05:42,993 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5515, identity:RC_10001, time:1729127715623
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5516, identity:RC_10001, time:1729127715624
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5517, identity:RC_10001, time:1729127715627
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5518, identity:RC_10001, time:1729127715629
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5519, identity:RC_10001, time:1729127715631
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5520, identity:RC_10001, time:1729127715633
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5521, identity:RC_10001, time:1729127715635
+
+2024-10-15 08:05:43,009 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5522, identity:RC_10001, time:1729127715638
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5523, identity:RC_10001, time:1729127715640
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5524, identity:RC_10001, time:1729127715642
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5525, identity:RC_10001, time:1729127715644
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5526, identity:RC_10001, time:1729127715646
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5527, identity:RC_10001, time:1729127715648
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5528, identity:RC_10001, time:1729127715650
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5530, identity:RC_10001, time:1729127715653
+
+2024-10-15 08:05:43,024 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5531, identity:RC_10001, time:1729127715655
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5532, identity:RC_10001, time:1729127715657
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5533, identity:RC_10001, time:1729127715659
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5534, identity:RC_10001, time:1729127715661
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5535, identity:RC_10001, time:1729127715663
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5536, identity:RC_10001, time:1729127715665
+
+2024-10-15 08:05:43,040 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5537, identity:RC_10001, time:1729127715667
+
+2024-10-15 08:05:43,368 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5542, identity:RC_10001, time:1729127715987
+
+2024-10-15 08:05:43,368 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5544, identity:RC_10001, time:1729127715992
+
+2024-10-15 08:05:43,368 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:5545, identity:RC_10001, time:1729127715992
+scs {
+  code: 112601000022
+  time: 1729127715987
+  msg: "IMU通讯异常"
+  state: kMapping
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:05:43,602 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5548, identity:RC_10001, time:1729127716218
+
+2024-10-15 08:05:43,602 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5550, identity:RC_10001, time:1729127716224
+
+2024-10-15 08:05:43,602 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:5551, identity:RC_10001, time:1729127716224
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:05:43,665 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5553, identity:RC_10001, time:1729127716288
+
+2024-10-15 08:05:46,571 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5572, identity:RC_10001, time:1729127719192
+
+2024-10-15 08:05:46,696 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:5575, identity:RC_10001, time:1729127719323
+state: kUninit
+robot_id: 10001
+
+2024-10-15 08:05:46,696 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:5576, identity:RC_10001, time:1729127719323
+
+2024-10-15 08:06:02,258 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[4] req_id:10, identity:woosh_design, time:1728947162258
+
+2024-10-15 08:06:02,258 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[4] req_id:10, identity:RC_10001, time:1729127734883
+
+2024-10-15 08:06:02,258 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:11, identity:woosh_design, time:1728947162258
+
+2024-10-15 08:06:02,289 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:11, identity:RC_10001, time:1729127734886
+
+2024-10-15 08:06:02,304 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:06:02,304 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:06:02,304 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:06:02,304 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:06:02,304 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:06:02,337 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:06:02,337 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:06:02,337 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:12, identity:woosh_design, time:1728947162337
+
+2024-10-15 08:06:02,429 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:12, identity:RC_10001, time:1729127734976
+
+2024-10-15 08:06:02,429 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.png
+2024-10-15 08:06:02,429 DEBUG - 下载文件： ./map/robot/test_scene/test_map/keepout.png
+2024-10-15 08:06:02,429 DEBUG - 下载文件： ./map/robot/test_scene/test_map/traffic_keepout.png
+2024-10-15 08:06:02,429 DEBUG - 下载文件： ./map/robot/test_scene/test_map/map.yaml
+2024-10-15 08:06:02,429 DEBUG - 下载文件： ./map/robot/test_scene/test_map/test_map.pbstream
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.04.carmen
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-1.22y-0.25t-3.03.carmen
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/mark_info.data
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/nav_area.data
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/path_info.data
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/test_map/x-0.01y-0.01t2.7.carmen
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/action_groups.json
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/scene.json
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/test_scene/task_info.data
+2024-10-15 08:06:02,445 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:13, identity:woosh_design, time:1728947162445
+
+2024-10-15 08:06:02,445 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:13, identity:RC_10001, time:1729127735067
+
+2024-10-15 08:06:02,445 DEBUG - 下载文件： ./map/robot/wooshmap/action_groups.json
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/scene.json
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/task_info.data
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout_w.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.yaml
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map_w.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.yaml
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_info.data
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_w.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/mark_info.data
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/nav_area.data
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/path_info.data
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/scan_match.carmen
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout_w.png
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/x1.31y3.28t1.53.carmen
+2024-10-15 08:06:02,460 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/x1.31y3.28t1.54.carmen
+2024-10-15 08:06:05,679 DEBUG - open copy_from: ./map/robot/test  copy_to: ./map/temp/test
+2024-10-15 08:06:05,726 DEBUG - 域data不存在, path: ./map/temp/test/test / "nav_area.data"
+2024-10-15 08:06:05,726 DEBUG - 储位data不存在, path: ./map/temp/test/test / "mark_info.data"
+2024-10-15 08:06:05,726 DEBUG - 软引导data不存在, path: ./map/temp/test/test / "path_info.data"
+2024-10-15 08:06:05,726 DEBUG - add map_id: 0  map_path: ./map/temp/test/test  map_name  "test"  map_floor: 
+2024-10-15 08:06:05,773 DEBUG - 该场景的任务集合不存在
+2024-10-15 08:06:05,773 DEBUG - 二进制文件不存在: ./map/temp/test/task_info.data
+2024-10-15 08:06:05,773 DEBUG - 解析该场景的任务集合失败
+2024-10-15 08:06:09,007 DEBUG - deploy auto jump map
+2024-10-15 08:06:13,647 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:14, identity:woosh_design, time:1728947173647
+
+2024-10-15 08:06:13,679 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:14, identity:RC_10001, time:1729127746305
+
+2024-10-15 08:06:13,679 DEBUG - marker.id: 94838498914800
+2024-10-15 08:06:13,679 DEBUG - marker.pose_x: -0.77  y: -0.22  theta: 0.89
+2024-10-15 08:06:40,516 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:15, identity:woosh_design, time:1728947200516
+
+2024-10-15 08:06:40,531 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:15, identity:RC_10001, time:1729127773152
+
+2024-10-15 08:06:40,531 DEBUG - marker.id: 94838498914800
+2024-10-15 08:06:40,531 DEBUG - marker.pose_x: -0.77  y: -0.22  theta: 0.89
+2024-10-15 08:07:04,940 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:16, identity:woosh_design, time:1728947224940
+
+2024-10-15 08:07:04,987 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:16, identity:RC_10001, time:1729127797610
+
+2024-10-15 08:07:04,987 DEBUG - marker.id: 94838498914800
+2024-10-15 08:07:04,987 DEBUG - marker.pose_x: -0.77  y: -0.22  theta: 0.89
+2024-10-15 08:07:57,049 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:17, identity:woosh_design, time:1728947277049
+
+2024-10-15 08:07:57,096 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:17, identity:RC_10001, time:1729127849721
+
+2024-10-15 08:07:57,096 DEBUG - marker.id: 94838498914800
+2024-10-15 08:07:57,096 DEBUG - marker.pose_x: -0.77  y: -0.22  theta: 0.89
+2024-10-15 08:08:35,014 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:6430, identity:RC_10001, time:1729127887636
+
+2024-10-15 08:08:35,014 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:6431, identity:RC_10001, time:1729127887637
+ctrl: kManual
+work: kDeployMode
+robot_id: 10001
+
+2024-10-15 08:09:45,439 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:18, identity:woosh_design, time:1728947385439
+
+2024-10-15 08:09:45,486 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:18, identity:RC_10001, time:1729127958113
+
+2024-10-15 08:09:45,486 DEBUG - marker.id: 94838498914800
+2024-10-15 08:09:45,486 DEBUG - marker.pose_x: 0.32  y: -0.15  theta: -2.45
+2024-10-15 08:11:34,173 DEBUG - tips_type: 7
+2024-10-15 08:11:34,173 DEBUG -  tips1_logo: 
+2024-10-15 08:11:34,173 DEBUG -  tips1_edit: 
+2024-10-15 08:11:34,173 DEBUG -  tips2_logo: 
+2024-10-15 08:11:34,173 DEBUG -  tips2_edit: 
+2024-10-15 08:11:34,204 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-15 08:11:35,907 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-15 08:11:35,923 DEBUG - 二进制文件解析成功: .\map\local\test\action_groups.json
+2024-10-15 08:11:35,923 DEBUG - file size: 3189  file name: test/action_groups.json
+2024-10-15 08:11:35,923 DEBUG - 二进制文件解析成功: .\map\local\test\scene.json
+2024-10-15 08:11:35,923 DEBUG - file size: 201  file name: test/scene.json
+2024-10-15 08:11:35,923 DEBUG - 读取二进制文件数据为空: .\map\local\test\task_info.data
+2024-10-15 08:11:35,923 DEBUG - file size: 0  file name: test/task_info.data
+2024-10-15 08:11:35,923 DEBUG - 二进制文件解析成功: .\map\local\test\test\keepout.png
+2024-10-15 08:11:35,923 DEBUG - file size: 3993  file name: test/test/keepout.png
+2024-10-15 08:11:35,939 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.png
+2024-10-15 08:11:35,939 DEBUG - file size: 5902  file name: test/test/map.png
+2024-10-15 08:11:35,939 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.yaml
+2024-10-15 08:11:35,939 DEBUG - file size: 91  file name: test/test/map.yaml
+2024-10-15 08:11:35,939 DEBUG - 二进制文件解析成功: .\map\local\test\test\mark_info.data
+2024-10-15 08:11:35,939 DEBUG - file size: 181  file name: test/test/mark_info.data
+2024-10-15 08:11:35,939 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\nav_area.data
+2024-10-15 08:11:35,939 DEBUG - file size: 0  file name: test/test/nav_area.data
+2024-10-15 08:11:35,939 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\path_info.data
+2024-10-15 08:11:35,939 DEBUG - file size: 0  file name: test/test/path_info.data
+2024-10-15 08:11:35,939 DEBUG - 二进制文件解析成功: .\map\local\test\test\test.pbstream
+2024-10-15 08:11:35,939 DEBUG - file size: 354189  file name: test/test/test.pbstream
+2024-10-15 08:11:35,939 DEBUG - 二进制文件解析成功: .\map\local\test\test\traffic_keepout.png
+2024-10-15 08:11:35,939 DEBUG - file size: 3993  file name: test/test/traffic_keepout.png
+2024-10-15 08:11:35,939 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Upload]
+[4] req_id:19, identity:woosh_design, time:1728947495939
+
+2024-10-15 08:11:36,001 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:7400, identity:RC_10001, time:1729128068633
+scene_name: "test"
+map_name: "test"
+version: 2
+robot_id: 10001
+
+2024-10-15 08:11:36,001 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:19, identity:RC_10001, time:1729128068633
+
+2024-10-15 08:11:39,016 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:20, identity:woosh_design, time:1728947499016
+
+2024-10-15 08:11:39,048 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:20, identity:RC_10001, time:1729128071645
+
+2024-10-15 08:11:39,048 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:11:39,048 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:11:39,048 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:11:39,048 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:11:39,048 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/test/x-0.77y-0.22t0.89.carmen
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/test/x0.32y-0.15t-2.45.carmen
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:11:39,063 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-15 08:11:39,063 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-15 08:11:39,079 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-15 08:11:39,079 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-15 08:11:39,079 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-15 08:11:39,079 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:11:39,079 DEBUG - robot_info.state: 1
+2024-10-15 08:11:39,079 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 08:11:39,079 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:11:39,079 DEBUG - pre_task_count: 1
+2024-10-15 08:11:40,548 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.SwitchMap]
+[4] req_id:21, identity:woosh_design, time:1728947500548
+
+2024-10-15 08:11:40,673 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:21, identity:RC_10001, time:1729128073300
+
+2024-10-15 08:11:40,673 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:7424, identity:RC_10001, time:1729128073300
+scene_name: "test"
+map_name: "test"
+version: 2
+robot_id: 10001
+
+2024-10-15 08:11:40,673 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7425, identity:RC_10001, time:1729128073303
+
+2024-10-15 08:11:40,704 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7426, identity:RC_10001, time:1729128073335
+
+2024-10-15 08:11:43,673 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:22, identity:woosh_design, time:1728947503673
+
+2024-10-15 08:11:43,704 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:22, identity:RC_10001, time:1729128076301
+
+2024-10-15 08:11:43,704 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:11:43,704 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:11:43,704 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:11:43,704 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:11:43,704 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:11:43,738 DEBUG - 下载文件： ./map/robot/test/test/x-0.77y-0.22t0.89.carmen
+2024-10-15 08:11:43,738 DEBUG - 下载文件： ./map/robot/test/test/x0.32y-0.15t-2.45.carmen
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:11:43,750 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-15 08:11:43,750 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-15 08:11:43,750 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-15 08:11:43,750 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-15 08:11:43,750 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-15 08:11:43,750 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:11:43,750 DEBUG - robot_info.state: 1
+2024-10-15 08:11:43,750 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 08:11:43,750 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:11:43,750 DEBUG - pre_task_count: 1
+2024-10-15 08:11:59,500 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7527, identity:RC_10001, time:1729128092136
+
+2024-10-15 08:11:59,500 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:7528, identity:RC_10001, time:1729128092136
+ctrl: kAuto
+work: kDeployMode
+robot_id: 10001
+
+2024-10-15 08:12:00,500 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:7539, identity:RC_10001, time:1729128093134
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:7541, identity:RC_10001, time:1729128093251
+software: 1
+robot_id: 10001
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:7542, identity:RC_10001, time:1729128093252
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:7543, identity:RC_10001, time:1729128093252
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  list_json: "[{\"essid\": \"WOOSH-000000Z\", \"auth_method\": \"wpa-psk\", \"saved\": true, \"aps\": [{\"bssid\": \"50:28:4A:72:7D:C4\", \"strength\": 0, \"freq\": 2412}], \"ipv4_settings\": {\"method\": \"manual\", \"address\": \"\", \"prefix\": 0, \"gateway\": \"\", \"dns\": []}}, {\"essid\": \"WOOSH PSK\", \"saved\": true, \"ipv4_settings\": {\"method\": \"auto\"}}]"
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7544, identity:RC_10001, time:1729128093256
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7546, identity:RC_10001, time:1729128093260
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7547, identity:RC_10001, time:1729128093263
+
+2024-10-15 08:12:00,625 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7548, identity:RC_10001, time:1729128093266
+
+2024-10-15 08:12:00,640 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7549, identity:RC_10001, time:1729128093268
+
+2024-10-15 08:12:00,718 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:7550, identity:RC_10001, time:1729128093351
+hardware: 2
+software: 1
+robot_id: 10001
+
+2024-10-15 08:12:00,765 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7553, identity:RC_10001, time:1729128093397
+
+2024-10-15 08:12:00,765 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7554, identity:RC_10001, time:1729128093400
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7555, identity:RC_10001, time:1729128093402
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7556, identity:RC_10001, time:1729128093404
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7557, identity:RC_10001, time:1729128093407
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7558, identity:RC_10001, time:1729128093409
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7559, identity:RC_10001, time:1729128093412
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7560, identity:RC_10001, time:1729128093415
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7561, identity:RC_10001, time:1729128093417
+
+2024-10-15 08:12:00,781 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7562, identity:RC_10001, time:1729128093420
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7563, identity:RC_10001, time:1729128093423
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7564, identity:RC_10001, time:1729128093425
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7565, identity:RC_10001, time:1729128093428
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7566, identity:RC_10001, time:1729128093430
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7567, identity:RC_10001, time:1729128093432
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7568, identity:RC_10001, time:1729128093434
+
+2024-10-15 08:12:00,796 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7569, identity:RC_10001, time:1729128093437
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7570, identity:RC_10001, time:1729128093439
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7571, identity:RC_10001, time:1729128093442
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7572, identity:RC_10001, time:1729128093445
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7573, identity:RC_10001, time:1729128093447
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7574, identity:RC_10001, time:1729128093450
+
+2024-10-15 08:12:00,812 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7575, identity:RC_10001, time:1729128093452
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7576, identity:RC_10001, time:1729128093455
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7577, identity:RC_10001, time:1729128093458
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7578, identity:RC_10001, time:1729128093460
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7579, identity:RC_10001, time:1729128093462
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7580, identity:RC_10001, time:1729128093464
+
+2024-10-15 08:12:00,828 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7581, identity:RC_10001, time:1729128093467
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7582, identity:RC_10001, time:1729128093470
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7584, identity:RC_10001, time:1729128093474
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7585, identity:RC_10001, time:1729128093477
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7586, identity:RC_10001, time:1729128093479
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7587, identity:RC_10001, time:1729128093482
+
+2024-10-15 08:12:00,843 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7588, identity:RC_10001, time:1729128093484
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7590, identity:RC_10001, time:1729128093487
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7591, identity:RC_10001, time:1729128093489
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7592, identity:RC_10001, time:1729128093491
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7593, identity:RC_10001, time:1729128093494
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7594, identity:RC_10001, time:1729128093497
+
+2024-10-15 08:12:00,859 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7595, identity:RC_10001, time:1729128093499
+
+2024-10-15 08:12:00,875 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7596, identity:RC_10001, time:1729128093502
+
+2024-10-15 08:12:00,875 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7597, identity:RC_10001, time:1729128093505
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.DeviceState]
+[7]-[woosh.robot.DeviceState] req_id:7599, identity:RC_10001, time:1729128093551
+software: 1
+robot_id: 10001
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:7600, identity:RC_10001, time:1729128093552
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:7601, identity:RC_10001, time:1729128093552
+is_connected: true
+robot_ip: "127.0.0.1"
+wifi {
+  list_json: "[{\"essid\": \"WOOSH-000000Z\", \"auth_method\": \"wpa-psk\", \"saved\": true, \"aps\": [{\"bssid\": \"50:28:4A:72:7D:C4\", \"strength\": 0, \"freq\": 2412}], \"ipv4_settings\": {\"method\": \"manual\", \"address\": \"\", \"prefix\": 0, \"gateway\": \"\", \"dns\": []}}, {\"essid\": \"WOOSH PSK\", \"saved\": true, \"ipv4_settings\": {\"method\": \"auto\"}}]"
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7602, identity:RC_10001, time:1729128093556
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7604, identity:RC_10001, time:1729128093561
+
+2024-10-15 08:12:00,922 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:7605, identity:RC_10001, time:1729128093562
+scs {
+  code: 140801000232
+  time: 1729128093556
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:12:01,156 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7608, identity:RC_10001, time:1729128093789
+
+2024-10-15 08:12:01,156 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7610, identity:RC_10001, time:1729128093795
+
+2024-10-15 08:12:01,171 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:7611, identity:RC_10001, time:1729128093795
+scs {
+  code: 112601000022
+  time: 1729128093789
+  msg: "IMU通讯异常"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 140801000232
+  time: 1729128093556
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:12:01,921 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7623, identity:RC_10001, time:1729128094557
+
+2024-10-15 08:12:01,921 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7625, identity:RC_10001, time:1729128094563
+
+2024-10-15 08:12:01,937 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:7626, identity:RC_10001, time:1729128094563
+scs {
+  code: 140801000232
+  time: 1729128093556
+  msg: "当前机器人状态不允许初始化"
+  state: kUninit
+  level: kWarn
+}
+scs {
+  code: 130104000042
+  time: 1729127715437
+  msg: "目标点导航失败"
+  state: kMapping
+  level: kWarn
+}
+robot_id: 10001
+
+2024-10-15 08:12:01,953 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7627, identity:RC_10001, time:1729128094588
+
+2024-10-15 08:12:03,874 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Network]
+[7]-[woosh.robot.Network] req_id:7639, identity:RC_10001, time:1729128096506
+is_connected: true
+robot_ip: "169.254.128.2"
+wifi {
+  list_json: "[{\"essid\": \"WOOSH-000000Z\", \"auth_method\": \"wpa-psk\", \"saved\": true, \"aps\": [{\"bssid\": \"50:28:4A:72:7D:C4\", \"strength\": 0, \"freq\": 2412}], \"ipv4_settings\": {\"method\": \"manual\", \"address\": \"\", \"prefix\": 0, \"gateway\": \"\", \"dns\": []}}, {\"essid\": \"WOOSH PSK\", \"saved\": true, \"ipv4_settings\": {\"method\": \"auto\"}}]"
+  mode: kAP
+}
+robot_id: 10001
+
+2024-10-15 08:12:04,390 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7642, identity:RC_10001, time:1729128097021
+
+2024-10-15 08:12:04,515 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7645, identity:RC_10001, time:1729128097143
+
+2024-10-15 08:12:04,515 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:7648, identity:RC_10001, time:1729128097155
+
+2024-10-15 08:12:04,515 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.AbnormalCodes]
+[7]-[woosh.robot.count.AbnormalCodes] req_id:7649, identity:RC_10001, time:1729128097155
+robot_id: 10001
+
+2024-10-15 08:12:05,530 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:7655, identity:RC_10001, time:1729128098155
+action {
+}
+time: 1729128098
+robot_id: 10001
+
+2024-10-15 08:12:05,530 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:7656, identity:RC_10001, time:1729128098155
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:12:28,673 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:7781, identity:RC_10001, time:1729128121307
+ctrl: kAuto
+work: kTaskMode
+robot_id: 10001
+
+2024-10-15 08:12:30,204 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Setting]
+[7]-[woosh.robot.Setting] req_id:7796, identity:RC_10001, time:1729128122840
+identity {
+  name: "wooshrobo"
+}
+server {
+  ip: "169.254.128.2"
+  port: 5410
+}
+power {
+  alarm: 5
+  low: 20
+  idle: 30
+  full: 99
+}
+allow {
+  auto_charge: true
+}
+robot_id: 10001
+
+2024-10-15 08:13:15,580 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:8062, identity:RC_10001, time:1729128168213
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:13:16,581 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8069, identity:RC_10001, time:1729128169217
+robot_task_id: 1728947595580
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "8D48A213"
+time: 1729128169
+robot_id: 10001
+
+2024-10-15 08:13:16,581 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:13:16,581 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8070, identity:RC_10001, time:1729128169219
+
+2024-10-15 08:13:16,753 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8074, identity:RC_10001, time:1729128169384
+
+2024-10-15 08:13:30,254 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8203, identity:RC_10001, time:1729128182885
+
+2024-10-15 08:13:30,754 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8211, identity:RC_10001, time:1729128183384
+
+2024-10-15 08:13:43,003 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8310, identity:RC_10001, time:1729128195633
+robot_task_id: 1728947595580
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosSuccess
+}
+dest: "8D48A213"
+time: 1729128195
+robot_id: 10001
+
+2024-10-15 08:13:43,003 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:13:43,503 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8316, identity:RC_10001, time:1729128196137
+robot_task_id: 1728947595580
+type: kPick
+state: kActionWait
+action {
+  type: kWait
+  state: kRosExecuting
+  wait_id: 1
+}
+dest: "8D48A213"
+time: 1729128196
+robot_id: 10001
+
+2024-10-15 08:13:43,503 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8317, identity:RC_10001, time:1729128196138
+robot_task_id: 1728947595580
+type: kPick
+state: kActionWait
+action {
+  type: kWait
+  state: kRosSuccess
+  wait_id: 1
+}
+dest: "8D48A213"
+time: 1729128196
+robot_id: 10001
+
+2024-10-15 08:13:43,503 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8318, identity:RC_10001, time:1729128196140
+robot_task_id: 1728947595580
+type: kPick
+state: kCompleted
+action {
+  type: kWait
+  state: kRosSuccess
+  wait_id: 1
+}
+dest: "8D48A213"
+time: 1729128196
+robot_id: 10001
+
+2024-10-15 08:13:43,503 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:13:43,503 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8320, identity:RC_10001, time:1729128196145
+action {
+}
+time: 1729128196
+robot_id: 10001
+
+2024-10-15 08:13:43,503 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:8321, identity:RC_10001, time:1729128196145
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:13:43,519 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8322, identity:RC_10001, time:1729128196148
+
+2024-10-15 08:13:43,519 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8323, identity:RC_10001, time:1729128196151
+
+2024-10-15 08:15:20,619 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:8812, identity:RC_10001, time:1729128293256
+action {
+}
+time: 1729128293
+robot_id: 10001
+
+2024-10-15 08:15:20,619 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8813, identity:RC_10001, time:1729128293259
+
+2024-10-15 08:15:20,619 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8814, identity:RC_10001, time:1729128293261
+
+2024-10-15 08:15:42,963 DEBUG - before save_station_item: "2370532494"
+2024-10-15 08:15:42,963 DEBUG - after save_station_item: "2370532494"
+2024-10-15 08:15:50,322 DEBUG - tips_type: 7
+2024-10-15 08:15:50,322 DEBUG -  tips1_logo: 
+2024-10-15 08:15:50,322 DEBUG -  tips1_edit: 
+2024-10-15 08:15:50,322 DEBUG -  tips2_logo: 
+2024-10-15 08:15:50,338 DEBUG -  tips2_edit: 
+2024-10-15 08:15:50,369 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-15 08:15:52,228 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-15 08:15:52,244 DEBUG - 二进制文件解析成功: .\map\local\test\action_groups.json
+2024-10-15 08:15:52,244 DEBUG - file size: 3189  file name: test/action_groups.json
+2024-10-15 08:15:52,244 DEBUG - 二进制文件解析成功: .\map\local\test\scene.json
+2024-10-15 08:15:52,244 DEBUG - file size: 201  file name: test/scene.json
+2024-10-15 08:15:52,244 DEBUG - 读取二进制文件数据为空: .\map\local\test\task_info.data
+2024-10-15 08:15:52,244 DEBUG - file size: 0  file name: test/task_info.data
+2024-10-15 08:15:52,244 DEBUG - 二进制文件解析成功: .\map\local\test\test\keepout.png
+2024-10-15 08:15:52,244 DEBUG - file size: 3993  file name: test/test/keepout.png
+2024-10-15 08:15:52,244 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.png
+2024-10-15 08:15:52,244 DEBUG - file size: 5902  file name: test/test/map.png
+2024-10-15 08:15:52,244 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.yaml
+2024-10-15 08:15:52,244 DEBUG - file size: 91  file name: test/test/map.yaml
+2024-10-15 08:15:52,260 DEBUG - 二进制文件解析成功: .\map\local\test\test\mark_info.data
+2024-10-15 08:15:52,260 DEBUG - file size: 195  file name: test/test/mark_info.data
+2024-10-15 08:15:52,260 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\nav_area.data
+2024-10-15 08:15:52,260 DEBUG - file size: 0  file name: test/test/nav_area.data
+2024-10-15 08:15:52,260 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\path_info.data
+2024-10-15 08:15:52,260 DEBUG - file size: 0  file name: test/test/path_info.data
+2024-10-15 08:15:52,260 DEBUG - 二进制文件解析成功: .\map\local\test\test\test.pbstream
+2024-10-15 08:15:52,260 DEBUG - file size: 354189  file name: test/test/test.pbstream
+2024-10-15 08:15:52,260 DEBUG - 二进制文件解析成功: .\map\local\test\test\traffic_keepout.png
+2024-10-15 08:15:52,260 DEBUG - file size: 3993  file name: test/test/traffic_keepout.png
+2024-10-15 08:15:52,260 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Upload]
+[4] req_id:23, identity:woosh_design, time:1728947752260
+
+2024-10-15 08:15:52,322 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:23, identity:RC_10001, time:1729128324967
+
+2024-10-15 08:15:52,322 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:8974, identity:RC_10001, time:1729128324967
+scene_name: "test"
+map_name: "test"
+version: 4
+robot_id: 10001
+
+2024-10-15 08:15:55,337 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:24, identity:woosh_design, time:1728947755337
+
+2024-10-15 08:15:55,369 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:24, identity:RC_10001, time:1729128327974
+
+2024-10-15 08:15:55,369 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:15:55,369 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:15:55,369 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:15:55,369 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:15:55,369 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/test/x-0.77y-0.22t0.89.carmen
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/test/x0.32y-0.15t-2.45.carmen
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:15:55,384 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-15 08:15:55,384 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-15 08:15:55,400 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-15 08:15:55,400 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-15 08:15:55,400 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-15 08:15:55,400 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:15:55,400 DEBUG - robot_info.state: 2
+2024-10-15 08:15:55,400 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 08:15:55,400 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:15:55,400 DEBUG - pre_task_count: 1
+2024-10-15 08:15:56,790 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.SwitchMap]
+[4] req_id:25, identity:woosh_design, time:1728947756790
+
+2024-10-15 08:15:56,915 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:25, identity:RC_10001, time:1729128329557
+
+2024-10-15 08:15:56,915 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:8998, identity:RC_10001, time:1729128329557
+scene_name: "test"
+map_name: "test"
+version: 4
+robot_id: 10001
+
+2024-10-15 08:15:56,915 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:8999, identity:RC_10001, time:1729128329559
+
+2024-10-15 08:15:56,947 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9000, identity:RC_10001, time:1729128329588
+
+2024-10-15 08:15:59,931 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:26, identity:woosh_design, time:1728947759931
+
+2024-10-15 08:15:59,962 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:26, identity:RC_10001, time:1729128332567
+
+2024-10-15 08:15:59,962 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-15 08:15:59,962 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-15 08:15:59,962 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-15 08:15:59,962 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-15 08:15:59,962 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/test/x-0.77y-0.22t0.89.carmen
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/test/x0.32y-0.15t-2.45.carmen
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-15 08:15:59,977 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-15 08:15:59,993 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-15 08:15:59,993 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-15 08:15:59,993 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-15 08:15:59,993 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-15 08:15:59,993 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:15:59,993 DEBUG - robot_info.state: 2
+2024-10-15 08:15:59,993 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-15 08:15:59,993 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:15:59,993 DEBUG - pre_task_count: 1
+2024-10-15 08:16:03,149 DEBUG - is_selete: true  selete: 2  no: "8D4B748E"
+2024-10-15 08:16:15,399 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:9093, identity:RC_10001, time:1729128348041
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:16:16,414 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9100, identity:RC_10001, time:1729128349044
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "8D4B748E"
+time: 1729128349
+robot_id: 10001
+
+2024-10-15 08:16:16,414 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9101, identity:RC_10001, time:1729128349046
+
+2024-10-15 08:16:16,414 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:16,571 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9105, identity:RC_10001, time:1729128349213
+
+2024-10-15 08:16:23,149 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9166, identity:RC_10001, time:1729128355796
+
+2024-10-15 08:16:35,462 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9281, identity:RC_10001, time:1729128368106
+
+2024-10-15 08:16:43,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9331, identity:RC_10001, time:1729128376625
+
+2024-10-15 08:16:43,992 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9332, identity:RC_10001, time:1729128376627
+
+2024-10-15 08:16:44,539 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9338, identity:RC_10001, time:1729128377188
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kNav
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128377
+robot_id: 10001
+
+2024-10-15 08:16:44,555 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:45,054 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9343, identity:RC_10001, time:1729128377692
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kSecondposEnter
+  state: kRosExecuting
+}
+dest: "8D4B748E"
+time: 1729128377
+robot_id: 10001
+
+2024-10-15 08:16:45,054 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9344, identity:RC_10001, time:1729128377694
+
+2024-10-15 08:16:45,054 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:45,351 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9347, identity:RC_10001, time:1729128377997
+
+2024-10-15 08:16:47,054 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9358, identity:RC_10001, time:1729128379697
+
+2024-10-15 08:16:47,803 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9365, identity:RC_10001, time:1729128380437
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kSecondposEnter
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128380
+robot_id: 10001
+
+2024-10-15 08:16:47,803 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:48,303 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9369, identity:RC_10001, time:1729128380942
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kStepCtrl
+  state: kRosExecuting
+}
+dest: "8D4B748E"
+time: 1729128380
+robot_id: 10001
+
+2024-10-15 08:16:48,303 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:50,100 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9381, identity:RC_10001, time:1729128382745
+
+2024-10-15 08:16:50,100 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9382, identity:RC_10001, time:1729128382747
+
+2024-10-15 08:16:50,116 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9383, identity:RC_10001, time:1729128382762
+
+2024-10-15 08:16:50,116 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9384, identity:RC_10001, time:1729128382762
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kStepCtrl
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128382
+robot_id: 10001
+
+2024-10-15 08:16:50,131 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:50,616 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9391, identity:RC_10001, time:1729128383265
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kStepCtrl
+  state: kRosExecuting
+}
+dest: "8D4B748E"
+time: 1729128383
+robot_id: 10001
+
+2024-10-15 08:16:50,631 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:51,819 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9399, identity:RC_10001, time:1729128384467
+
+2024-10-15 08:16:51,835 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9400, identity:RC_10001, time:1729128384470
+
+2024-10-15 08:16:51,850 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9401, identity:RC_10001, time:1729128384486
+
+2024-10-15 08:16:51,850 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9402, identity:RC_10001, time:1729128384486
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kStepCtrl
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128384
+robot_id: 10001
+
+2024-10-15 08:16:51,850 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:52,350 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9409, identity:RC_10001, time:1729128384990
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kCharge
+  state: kRosExecuting
+}
+dest: "8D4B748E"
+time: 1729128384
+robot_id: 10001
+
+2024-10-15 08:16:52,350 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:56,225 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Battery]
+[7]-[woosh.robot.Battery] req_id:9429, identity:RC_10001, time:1729128388873
+charge_state: kAuto
+power: 100
+health: 1
+charge_cycle: 17
+battery_cycle: 2000
+temp_max: 23
+robot_id: 10001
+
+2024-10-15 08:16:57,256 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:9435, identity:RC_10001, time:1729128389893
+
+2024-10-15 08:16:57,256 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9436, identity:RC_10001, time:1729128389893
+robot_task_id: 1728947775399
+type: kCharge
+state: kExecuting
+action {
+  type: kCharge
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128389
+robot_id: 10001
+
+2024-10-15 08:16:57,256 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:58,256 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:9442, identity:RC_10001, time:1729128390895
+robot_task_id: 1728947775399
+type: kCharge
+state: kCompleted
+action {
+  type: kCharge
+  state: kRosSuccess
+}
+dest: "8D4B748E"
+time: 1729128390
+robot_id: 10001
+
+2024-10-15 08:16:58,256 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:16:58,256 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:9444, identity:RC_10001, time:1729128390900
+state: kCharging
+robot_id: 10001
+
+2024-10-15 08:17:53,202 DEBUG - is_selete: false  selete: 2  no: "8D4B748E"
+2024-10-15 08:19:59,808 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10390, identity:RC_10001, time:1729128572452
+
+2024-10-15 08:19:59,808 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:10391, identity:RC_10001, time:1729128572452
+ctrl: kManual
+work: kTaskMode
+robot_id: 10001
+
+2024-10-15 08:20:05,229 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Battery]
+[7]-[woosh.robot.Battery] req_id:10430, identity:RC_10001, time:1729128577872
+charge_state: kNot
+power: 100
+health: 1
+charge_cycle: 17
+battery_cycle: 2000
+temp_max: 24
+robot_id: 10001
+
+2024-10-15 08:20:14,807 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10482, identity:RC_10001, time:1729128587451
+
+2024-10-15 08:20:14,807 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Mode]
+[7]-[woosh.robot.Mode] req_id:10483, identity:RC_10001, time:1729128587451
+ctrl: kAuto
+work: kTaskMode
+robot_id: 10001
+
+2024-10-15 08:20:24,667 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:10536, identity:RC_10001, time:1729128597321
+state: kTask
+robot_id: 10001
+
+2024-10-15 08:20:24,682 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10539, identity:RC_10001, time:1729128597326
+type: kCharge
+state: kExecuting
+action {
+  type: kSecondposQuit
+  state: kRosExecuting
+}
+time: 1729128597
+robot_id: 10001
+
+2024-10-15 08:20:24,682 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10540, identity:RC_10001, time:1729128597328
+
+2024-10-15 08:20:32,198 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10592, identity:RC_10001, time:1729128604844
+
+2024-10-15 08:20:32,198 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10593, identity:RC_10001, time:1729128604846
+
+2024-10-15 08:20:32,198 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10594, identity:RC_10001, time:1729128604849
+
+2024-10-15 08:20:32,276 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10595, identity:RC_10001, time:1729128604928
+
+2024-10-15 08:20:32,386 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10597, identity:RC_10001, time:1729128605026
+type: kCharge
+state: kExecuting
+action {
+  type: kSecondposQuit
+  state: kRosSuccess
+}
+time: 1729128605
+robot_id: 10001
+
+2024-10-15 08:20:32,401 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10599, identity:RC_10001, time:1729128605057
+robot_task_id: 1728948024667
+type: kPick
+state: kPaused
+action {
+  type: kNav
+  state: kSuspend
+}
+dest: "8D48A213"
+time: 1729128605
+robot_id: 10001
+
+2024-10-15 08:20:32,417 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:20:33,385 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10609, identity:RC_10001, time:1729128606035
+robot_task_id: 1728948024667
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "8D48A213"
+time: 1729128606
+robot_id: 10001
+
+2024-10-15 08:20:33,385 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10610, identity:RC_10001, time:1729128606037
+
+2024-10-15 08:20:33,401 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10613, identity:RC_10001, time:1729128606042
+robot_task_id: 1728948024667
+type: kPick
+state: kPaused
+action {
+  type: kNav
+  state: kSuspend
+}
+dest: "8D48A213"
+time: 1729128606
+robot_id: 10001
+
+2024-10-15 08:20:33,401 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:20:33,401 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:20:36,432 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10629, identity:RC_10001, time:1729128609081
+
+2024-10-15 08:20:36,932 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10633, identity:RC_10001, time:1729128609584
+robot_task_id: 1728948024667
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosExecuting
+}
+dest: "8D48A213"
+time: 1729128609
+robot_id: 10001
+
+2024-10-15 08:20:36,932 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:20:37,104 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10637, identity:RC_10001, time:1729128609752
+
+2024-10-15 08:20:46,071 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10723, identity:RC_10001, time:1729128618713
+
+2024-10-15 08:20:46,305 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10725, identity:RC_10001, time:1729128618952
+
+2024-10-15 08:20:46,805 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10733, identity:RC_10001, time:1729128619452
+robot_task_id: 1728948024667
+type: kPick
+state: kExecuting
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "8D48A213"
+time: 1729128619
+robot_id: 10001
+
+2024-10-15 08:20:46,805 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10734, identity:RC_10001, time:1729128619454
+robot_task_id: 1728948024667
+type: kPick
+state: kCanceled
+action {
+  type: kNav
+  state: kRosCancel
+}
+dest: "8D48A213"
+time: 1729128619
+robot_id: 10001
+
+2024-10-15 08:20:46,805 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.TaskProc]
+[7]-[woosh.robot.TaskProc] req_id:10736, identity:RC_10001, time:1729128619459
+action {
+}
+time: 1729128619
+robot_id: 10001
+
+2024-10-15 08:20:46,805 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.RobotState]
+[7]-[woosh.robot.RobotState] req_id:10737, identity:RC_10001, time:1729128619459
+state: kIdle
+robot_id: 10001
+
+2024-10-15 08:20:46,805 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-15 08:20:46,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10738, identity:RC_10001, time:1729128619462
+
+2024-10-15 08:20:46,821 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:10739, identity:RC_10001, time:1729128619464
+
+2024-10-15 08:21:20,195 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-10-15 08:21:20,195 DEBUG - [ROBOT_SDK_LOG] [4] stoped request loop.
+2024-10-15 08:21:20,211 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 monitor stoped loop.
+2024-10-15 08:21:20,304 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-10-15 08:21:20,304 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-10-15 08:21:20,320 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 monitor stoped loop.
+2024-10-15 08:21:20,773 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe stoped loop.
+2024-10-15 08:21:20,851 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-10-15 08:21:20,851 DEBUG - is_connect_robot: false
+2024-10-15 08:21:20,851 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-15 08:21:20,851 DEBUG - 服务器为空
+2024-10-15 08:21:20,851 DEBUG - 断开

@@ -1,0 +1,846 @@
+2024-10-17 05:59:14,419 DEBUG - 配置信息文件读取成功
+2024-10-17 05:59:14,435 DEBUG - 状态码文件读取成功
+2024-10-17 05:59:14,435 DEBUG - APP   Version: 1.1.13
+2024-10-17 05:59:14,435 DEBUG - SDK   Version: 1.1.34
+2024-10-17 05:59:14,435 DEBUG - COMMU Version: 0.1.25
+2024-10-17 05:59:15,247 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-10-17 05:59:15,263 DEBUG - 配置文件修改语言成功  is_cn: en
+2024-10-17 05:59:15,263 DEBUG - task_list.tsets_size(): 0
+2024-10-17 05:59:19,475 DEBUG - 服务器为空
+2024-10-17 05:59:19,475 DEBUG - is_connect_robot: false
+2024-10-17 05:59:19,491 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 started monitor.
+2024-10-17 05:59:19,506 DEBUG - [ROBOT_SDK_LOG] [4] started request loop.
+2024-10-17 05:59:19,506 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connect_delayed tcp://169.254.128.2:5410
+2024-10-17 05:59:19,506 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 started monitor.
+2024-10-17 05:59:19,522 DEBUG - [ROBOT_SDK_LOG] [2] event:on_event_connected tcp://169.254.128.2:5410
+2024-10-17 05:59:19,522 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe started loop.
+2024-10-17 05:59:19,522 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connect_delayed tcp://169.254.128.2:5411
+2024-10-17 05:59:19,522 DEBUG - [ROBOT_SDK_LOG] [5] event:on_event_connected tcp://169.254.128.2:5411
+2024-10-17 05:59:19,709 DEBUG - [ROBOT_SDK_LOG] request connect status: 2, msg: tcp://169.254.128.2:5410
+2024-10-17 05:59:19,725 DEBUG - [ROBOT_SDK_LOG] subscribe connect status: 2, msg: tcp://169.254.128.2:5411
+2024-10-17 05:59:19,725 DEBUG - is_connect_robot: true
+2024-10-17 05:59:19,725 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:woosh_design, time:1729112359725
+
+2024-10-17 05:59:19,725 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.RobotInfo]
+[4] req_id:1, identity:RC_10001, time:1729144831980
+
+2024-10-17 05:59:19,725 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:2, identity:woosh_design, time:1729112359725
+
+2024-10-17 05:59:19,725 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-17 05:59:19,897 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:2, identity:RC_10001, time:1729144831987
+
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-17 05:59:19,913 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-17 05:59:19,913 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.NavPath]
+[4] req_id:3, identity:woosh_design, time:1729112359913
+
+2024-10-17 05:59:19,913 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.NavPath]
+[4] req_id:3, identity:RC_10001, time:1729144832174
+
+2024-10-17 05:59:19,928 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-17 05:59:19,928 DEBUG - 域data不存在, path: ./map/robot/test/test / "nav_area.data"
+2024-10-17 05:59:19,928 DEBUG - 储位data不存在, path: ./map/robot/test/test / "mark_info.data"
+2024-10-17 05:59:19,928 DEBUG - 软引导data不存在, path: ./map/robot/test/test / "path_info.data"
+2024-10-17 05:59:19,928 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-17 05:59:19,928 DEBUG - robot_info.state: 1
+2024-10-17 05:59:19,928 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-17 05:59:26,851 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.SceneList]
+[4] req_id:4, identity:woosh_design, time:1729112366851
+
+2024-10-17 05:59:26,851 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.SceneList]
+[4] req_id:4, identity:RC_10001, time:1729144839106
+
+2024-10-17 05:59:26,851 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:5, identity:woosh_design, time:1729112366851
+
+2024-10-17 05:59:26,976 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:5, identity:RC_10001, time:1729144839115
+
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/200L.pbstream
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/keepout.png
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/map.png
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/map.yaml
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/mark_info.data
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/nav_area.data
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/path_info.data
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/scan_match.carmen
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/traffic_keepout.png
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/x-4.51196y2.9679t1.55054.carmen
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/x0.407749y1.0058t-3.11964.carmen
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/200L/x0.473064y-0.113217t-3.13053.carmen
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/action_groups.json
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/scene.json
+2024-10-17 05:59:26,976 DEBUG - 下载文件： ./map/robot/200L/task_info.data
+2024-10-17 05:59:26,976 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:6, identity:woosh_design, time:1729112366976
+
+2024-10-17 05:59:27,116 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:6, identity:RC_10001, time:1729144839244
+
+2024-10-17 05:59:27,116 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-17 05:59:27,132 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-17 05:59:27,132 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:7, identity:woosh_design, time:1729112367132
+
+2024-10-17 05:59:27,257 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:7, identity:RC_10001, time:1729144839405
+
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-2.03099y0.186043t-0.0155581.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-5.94y-1.76t2.96.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34139y-1.55681t-3.12997.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.56t2.96.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-6.34y-1.71t2.96.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-7.63y0.38t-1.62.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t2.91812.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.25y0.41t3.01.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x0.89y-0.47t-3.07.carmen
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/keepout.png
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.png
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/localization_map.yaml
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.png
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/mark_info.data
+2024-10-17 05:59:27,273 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/nav_area.data
+2024-10-17 05:59:27,283 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/path_info.data
+2024-10-17 05:59:27,283 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/scan_match.carmen
+2024-10-17 05:59:27,283 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/test4.pbstream
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/traffic_keepout.png
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.0476158y0.408491t2.95704.carmen
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-0.15y-0.09t-3.1.carmen
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.86696y0.604275t-0.029663.carmen
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/x-1.96254y0.237056t0.318272.carmen
+2024-10-17 05:59:27,284 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/test4/map.yaml
+2024-10-17 05:59:27,289 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/action_groups.json
+2024-10-17 05:59:27,289 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/scene.json
+2024-10-17 05:59:27,289 DEBUG - 下载文件： ./map/robot/test7(04-25 11-51)/task_info.data
+2024-10-17 05:59:27,290 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:8, identity:woosh_design, time:1729112367290
+
+2024-10-17 05:59:27,305 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:8, identity:RC_10001, time:1729144839546
+
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/keepout_w.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map.yaml
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/localization_map_w.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map.yaml
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_info.data
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/map_w.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/mark_info.data
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/nav_area.data
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/path_info.data
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/traffic_keepout_w.png
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/wooshmap/scan_match.carmen
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/action_groups.json
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/scene.json
+2024-10-17 05:59:27,305 DEBUG - 下载文件： ./map/robot/wooshmap/task_info.data
+2024-10-17 05:59:27,305 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:9, identity:woosh_design, time:1729112367305
+
+2024-10-17 05:59:27,367 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:9, identity:RC_10001, time:1729144839573
+
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/map.png
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/keepout.png
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/traffic_keepout.png
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/map.yaml
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/zy.pbstream
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/mark_info.data
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/nav_area.data
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/zy/path_info.data
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/action_groups.json
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/scene.json
+2024-10-17 05:59:27,367 DEBUG - 下载文件： ./map/robot/zy/task_info.data
+2024-10-17 05:59:30,838 DEBUG - open copy_from: ./map/robot/test  copy_to: ./map/temp/test
+2024-10-17 05:59:30,853 DEBUG - 域data不存在, path: ./map/temp/test/test / "nav_area.data"
+2024-10-17 05:59:30,853 DEBUG - 储位data不存在, path: ./map/temp/test/test / "mark_info.data"
+2024-10-17 05:59:30,853 DEBUG - 软引导data不存在, path: ./map/temp/test/test / "path_info.data"
+2024-10-17 05:59:30,853 DEBUG - add map_id: 0  map_path: ./map/temp/test/test  map_name  "test"  map_floor: 
+2024-10-17 05:59:30,900 DEBUG - 该场景的任务集合不存在
+2024-10-17 05:59:30,900 DEBUG - 二进制文件不存在: ./map/temp/test/task_info.data
+2024-10-17 05:59:30,900 DEBUG - 解析该场景的任务集合失败
+2024-10-17 05:59:36,009 DEBUG - deploy auto jump map
+2024-10-17 05:59:37,009 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.Deployment]
+[4] req_id:10, identity:woosh_design, time:1729112377009
+
+2024-10-17 05:59:37,009 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.robot.DeploymentResponse]
+[4] req_id:10, identity:RC_10001, time:1729144849273
+
+2024-10-17 05:59:37,009 DEBUG - marker.id: 94194821491440
+2024-10-17 05:59:37,024 DEBUG - marker.pose_x: 1.67  y: -0.54  theta: 0.19
+2024-10-17 05:59:44,930 DEBUG - tips_type: 7
+2024-10-17 05:59:44,930 DEBUG -  tips1_logo: 
+2024-10-17 05:59:44,930 DEBUG -  tips1_edit: 
+2024-10-17 05:59:44,930 DEBUG -  tips2_logo: 
+2024-10-17 05:59:44,930 DEBUG -  tips2_edit: 
+2024-10-17 05:59:44,977 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-17 05:59:46,398 DEBUG - save copy_from: ./map/temp/test  copy_to: "./map/local/test"
+2024-10-17 05:59:46,414 DEBUG - 二进制文件解析成功: .\map\local\test\action_groups.json
+2024-10-17 05:59:46,414 DEBUG - file size: 3189  file name: test/action_groups.json
+2024-10-17 05:59:46,430 DEBUG - 二进制文件解析成功: .\map\local\test\scene.json
+2024-10-17 05:59:46,430 DEBUG - file size: 201  file name: test/scene.json
+2024-10-17 05:59:46,430 DEBUG - 读取二进制文件数据为空: .\map\local\test\task_info.data
+2024-10-17 05:59:46,430 DEBUG - file size: 0  file name: test/task_info.data
+2024-10-17 05:59:46,430 DEBUG - 二进制文件解析成功: .\map\local\test\test\keepout.png
+2024-10-17 05:59:46,430 DEBUG - file size: 5350  file name: test/test/keepout.png
+2024-10-17 05:59:46,430 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.png
+2024-10-17 05:59:46,430 DEBUG - file size: 8730  file name: test/test/map.png
+2024-10-17 05:59:46,430 DEBUG - 二进制文件解析成功: .\map\local\test\test\map.yaml
+2024-10-17 05:59:46,430 DEBUG - file size: 91  file name: test/test/map.yaml
+2024-10-17 05:59:46,430 DEBUG - 二进制文件解析成功: .\map\local\test\test\mark_info.data
+2024-10-17 05:59:46,430 DEBUG - file size: 66  file name: test/test/mark_info.data
+2024-10-17 05:59:46,430 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\nav_area.data
+2024-10-17 05:59:46,430 DEBUG - file size: 0  file name: test/test/nav_area.data
+2024-10-17 05:59:46,430 DEBUG - 读取二进制文件数据为空: .\map\local\test\test\path_info.data
+2024-10-17 05:59:46,430 DEBUG - file size: 0  file name: test/test/path_info.data
+2024-10-17 05:59:46,445 DEBUG - 二进制文件解析成功: .\map\local\test\test\test.pbstream
+2024-10-17 05:59:46,445 DEBUG - file size: 940745  file name: test/test/test.pbstream
+2024-10-17 05:59:46,445 DEBUG - 二进制文件解析成功: .\map\local\test\test\traffic_keepout.png
+2024-10-17 05:59:46,445 DEBUG - file size: 5350  file name: test/test/traffic_keepout.png
+2024-10-17 05:59:46,445 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Upload]
+[4] req_id:11, identity:woosh_design, time:1729112386445
+
+2024-10-17 05:59:46,586 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:3353, identity:RC_10001, time:1729144858838
+scene_name: "test"
+map_name: "test"
+version: 2
+robot_id: 10001
+
+2024-10-17 05:59:46,586 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:11, identity:RC_10001, time:1729144858839
+
+2024-10-17 05:59:49,586 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:12, identity:woosh_design, time:1729112389586
+
+2024-10-17 05:59:49,711 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:12, identity:RC_10001, time:1729144861843
+
+2024-10-17 05:59:49,711 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-17 05:59:49,711 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-17 05:59:49,711 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-17 05:59:49,727 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-17 05:59:49,727 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/test/x1.67y-0.54t0.19.carmen
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-17 05:59:49,758 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-17 05:59:49,758 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-17 05:59:49,774 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-17 05:59:49,774 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-17 05:59:49,774 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-17 05:59:49,774 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-17 05:59:49,774 DEBUG - robot_info.state: 1
+2024-10-17 05:59:49,774 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-17 05:59:49,774 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-17 05:59:49,774 DEBUG - pre_task_count: 1
+2024-10-17 05:59:50,789 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.robot.SwitchMap]
+[4] req_id:13, identity:woosh_design, time:1729112390789
+
+2024-10-17 05:59:50,914 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.Scene]
+[7]-[woosh.robot.Scene] req_id:3375, identity:RC_10001, time:1729144863176
+scene_name: "test"
+map_name: "test"
+version: 2
+robot_id: 10001
+
+2024-10-17 05:59:50,914 DEBUG - [ROBOT_PACK_LOG] [RECV] [google.protobuf.Empty]
+[4] req_id:13, identity:RC_10001, time:1729144863176
+
+2024-10-17 05:59:50,914 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3376, identity:RC_10001, time:1729144863179
+
+2024-10-17 05:59:50,977 DEBUG - [ROBOT_PACK_LOG] [SUB] [woosh.robot.count.StatusCode]
+[7]-[woosh.robot.count.StatusCode] req_id:3378, identity:RC_10001, time:1729144863235
+
+2024-10-17 05:59:53,930 DEBUG - [ROBOT_PACK_LOG] [SEND] [woosh.map.Download]
+[4] req_id:14, identity:woosh_design, time:1729112393930
+
+2024-10-17 05:59:54,070 DEBUG - [ROBOT_PACK_LOG] [RECV] [woosh.map.DownloadResponse]
+[4] req_id:14, identity:RC_10001, time:1729144866187
+
+2024-10-17 05:59:54,070 DEBUG - 下载文件： ./map/robot/test/test/map.png
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/keepout.png
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/traffic_keepout.png
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/map.yaml
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/test.pbstream
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/x1.67y-0.54t0.19.carmen
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/mark_info.data
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/nav_area.data
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/test/path_info.data
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/action_groups.json
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/scene.json
+2024-10-17 05:59:54,086 DEBUG - 下载文件： ./map/robot/test/task_info.data
+2024-10-17 05:59:54,086 DEBUG - add_map id: 0  map: ./map/robot/test/test name  "test"
+2024-10-17 05:59:54,086 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/nav_area.data
+2024-10-17 05:59:54,086 DEBUG - 二进制文件解析成功: ./map/robot/test/test/mark_info.data
+2024-10-17 05:59:54,086 DEBUG - 读取二进制文件数据为空: ./map/robot/test/test/path_info.data
+2024-10-17 05:59:54,086 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-17 05:59:54,086 DEBUG - robot_info.state: 1
+2024-10-17 05:59:54,086 DEBUG - action_group: {
+  "version": "1.0.0",
+  "project": "woosh",
+  "task_type": [
+    {
+      "no": 0,
+      "name": "默认导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "对接导航",
+      "type": 1,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 6,
+          "wait_id": 1,
+          "wait_time": 0
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认泊车",
+      "type": 2,
+      "order": [
+        {
+          "action": 1
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "OSH200/OSH50h默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.02,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "OSH50默认充电",
+      "type": 3,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.2,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": true,
+          "stepctrl_type": 1,
+          "stepctrl_value": 3.12,
+          "stepctrl_speed": 0.4
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": -0.31,
+          "stepctrl_speed": 0.1
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.03,
+          "stepctrl_speed": 0.015
+        },
+        {
+          "action": 7
+        }
+      ]
+    },
+    {
+      "no": 0,
+      "name": "默认举升/辊筒 上下料&料车上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5,
+          "roller_layer": 0
+        },
+        {
+          "action": 4
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "name": "默认牵引上料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 3
+        },
+        {
+          "action": 5
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "默认牵引/料车下料",
+      "type": 4,
+      "order": [
+        {
+          "action": 1
+        },
+        {
+          "action": 5
+        },
+        {
+          "action": 2,
+          "stepctrl_avoid": false,
+          "stepctrl_type": 0,
+          "stepctrl_value": 0.9,
+          "stepctrl_speed": 0.15
+        }
+      ]
+    }
+  ]
+}
+2024-10-17 05:59:54,086 DEBUG - 读取二进制文件数据为空: ./map/robot/test/task_info.data
+2024-10-17 05:59:54,086 DEBUG - pre_task_count: 1
+2024-10-17 06:00:08,621 DEBUG - [ROBOT_SDK_LOG] [1] Enter Request Mode socket close.
+2024-10-17 06:00:08,621 DEBUG - [ROBOT_SDK_LOG] [4] stoped request loop.
+2024-10-17 06:00:08,637 DEBUG - [ROBOT_SDK_LOG] [2] inproc://monitor-request0 monitor stoped loop.
+2024-10-17 06:00:08,730 DEBUG - [ROBOT_SDK_LOG] [1] Leave Request Mode socket close.
+2024-10-17 06:00:08,730 DEBUG - [ROBOT_SDK_LOG] [1] Enter Subscribe Mode socket close.
+2024-10-17 06:00:08,746 DEBUG - [ROBOT_SDK_LOG] [5] inproc://monitor-subscribe1 monitor stoped loop.
+2024-10-17 06:00:09,293 DEBUG - [ROBOT_SDK_LOG] [7] Subscribe stoped loop.
+2024-10-17 06:00:09,387 DEBUG - [ROBOT_SDK_LOG] [1] Leave Subscribe Mode socket close.
+2024-10-17 06:00:09,387 DEBUG - is_connect_robot: false
+2024-10-17 06:00:09,387 DEBUG - robot_id: 10001  robot_map_id: 0
+2024-10-17 06:00:09,387 DEBUG - 服务器为空
+2024-10-17 06:00:09,387 DEBUG - 断开

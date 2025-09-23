@@ -1,0 +1,59 @@
+# TR200 안전 테스트 설정
+
+# 로봇 연결 설정
+robot:
+  ip: "169.254.128.2"
+  port: 5480
+  identity: "tr200-safe-test"
+
+# 영역 제한 설정 (매우 작은 영역)
+area_constraints:
+  max_forward_distance: 0.5      # 매우 작은 거리
+  max_backward_distance: 0.5
+  safety_margin: 0.1
+  detection_method: "distance"
+  use_initial_position: true
+  initial_position:
+    x: 0.0
+    y: 0.0
+    theta: 0.0
+
+# 구동 패턴 설정 (매우 느린 속도)
+motion_patterns:
+  simple_back_forth:
+    enabled: true
+    forward_speed: 0.1            # 매우 느린 속도
+    backward_speed: -0.1
+    move_duration: 2.0           # 짧은 시간
+    wait_duration: 1.0
+
+# 제어 설정
+control:
+  max_linear_velocity: 0.3
+  control_frequency: 20.0
+  smooth_stop_duration: 1.0
+
+# 안전 설정
+safety:
+  obstacle_detection_enabled: false
+  emergency_stop_enabled: true
+  max_operation_time: 30.0           # 매우 짧은 시간
+  connection_monitoring: true
+  speed_monitoring: true
+
+# 로깅 설정
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_file_path: "/catkin_ws/logs/safe_test.log"
+  console_output: true
+  detailed_status: true
+  collect_motion_data: true
+  data_file_path: "/catkin_ws/logs/safe_test_data.csv"
+
+# 디버깅 설정
+debug:
+  verbose_logging: true
+  simulation_mode: false
+  test_mode: true
+  test_duration: 20.0

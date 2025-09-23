@@ -1,0 +1,120 @@
+# TR200 영역 제한 구동 파라미터 설정
+# 특정 영역 내에서만 앞뒤로 움직이는 로봇 제어 설정
+
+# 로봇 연결 설정
+robot:
+  ip: "169.254.128.2"
+  port: 5480
+  identity: "tr200_area_motion"
+  connection_timeout: 10.0
+  reconnect_interval: 2.0
+  max_reconnect_attempts: 5
+
+# 영역 제한 설정
+area_constraints:
+  # 영역 크기 제한 (미터 단위)
+  max_forward_distance: 2.0      # 최대 전진 거리 (m)
+  max_backward_distance: 2.0      # 최대 후진 거리 (m)
+  
+  # 안전 여유 거리
+  safety_margin: 0.3              # 벽이나 장애물로부터 최소 거리 (m)
+  
+  # 영역 감지 방법
+  detection_method: "distance"   # "distance" 또는 "sensor"
+  
+  # 거리 기반 제한 시 사용할 초기 위치 기준
+  use_initial_position: true      # 시작 위치를 기준으로 거리 계산
+  initial_position:
+    x: 0.0
+    y: 0.0
+    theta: 0.0
+
+# 구동 패턴 설정
+motion_patterns:
+  # 기본 왕복 패턴
+  simple_back_forth:
+    enabled: true
+    forward_speed: 0.4            # 전진 속도 (m/s)
+    backward_speed: -0.3          # 후진 속도 (m/s)
+    move_duration: 4.0            # 한 방향 이동 시간 (초)
+    wait_duration: 2.0            # 방향 전환 시 대기 시간 (초)
+    
+  # 단계별 이동 패턴
+  step_by_step:
+    enabled: false
+    step_distance: 0.5            # 한 번에 이동할 거리 (m)
+    step_speed: 0.3               # 단계별 이동 속도 (m/s)
+    pause_between_steps: 1.0      # 단계 간 대기 시간 (초)
+    max_steps_forward: 4          # 최대 전진 단계 수
+    max_steps_backward: 4         # 최대 후진 단계 수
+    
+  # 정밀 제어 패턴
+  precise_control:
+    enabled: false
+    small_moves: true             # 작은 단위로 이동
+    move_distance: 0.2            # 작은 이동 거리 (m)
+    move_speed: 0.2               # 정밀 이동 속도 (m/s)
+    verification_pause: 0.5       # 각 이동 후 확인 대기 시간 (초)
+
+# 속도 및 제어 설정
+control:
+  # 속도 제한
+  max_linear_velocity: 0.8       # 최대 선속도 (m/s)
+  max_angular_velocity: 0.5       # 최대 각속도 (rad/s)
+  
+  # 제어 주기
+  control_frequency: 20.0         # 제어 주파수 (Hz)
+  
+  # 감속 설정
+  smooth_stop_duration: 1.5       # 부드러운 정지 시간 (초)
+  emergency_stop_duration: 0.5    # 비상 정지 시간 (초)
+
+# 안전 설정
+safety:
+  # 장애물 감지
+  obstacle_detection_enabled: true
+  min_obstacle_distance: 0.4     # 최소 장애물 거리 (m)
+  
+  # 비상 정지
+  emergency_stop_enabled: true
+  max_operation_time: 300.0       # 최대 작동 시간 (초)
+  
+  # 연결 상태 모니터링
+  connection_monitoring: true
+  connection_timeout: 5.0         # 연결 타임아웃 (초)
+  
+  # 속도 모니터링
+  speed_monitoring: true
+  max_speed_violation_count: 3    # 속도 위반 허용 횟수
+
+# 로깅 설정
+logging:
+  # 로그 레벨
+  level: "INFO"                   # DEBUG, INFO, WARN, ERROR
+  
+  # 파일 로깅
+  log_to_file: true
+  log_file_path: "/catkin_ws/logs/area_motion.log"
+  max_log_file_size: "10MB"
+  log_rotation_count: 5
+  
+  # 실시간 모니터링
+  console_output: true
+  detailed_status: true
+  
+  # 데이터 수집
+  collect_motion_data: true
+  data_file_path: "/catkin_ws/logs/motion_data.csv"
+  data_collection_interval: 0.1   # 데이터 수집 간격 (초)
+
+# 디버깅 설정
+debug:
+  # 상세 로그 출력
+  verbose_logging: false
+  
+  # 시뮬레이션 모드
+  simulation_mode: false
+  
+  # 테스트 모드
+  test_mode: false
+  test_duration: 30.0             # 테스트 모드 실행 시간 (초)

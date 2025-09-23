@@ -1,0 +1,9 @@
+2024-09-30 08:23:37,987 DEBUG - 配置信息文件读取成功
+2024-09-30 08:23:37,987 DEBUG - 状态码文件读取成功
+2024-09-30 08:23:37,987 DEBUG - APP   Version: 1.1.12
+2024-09-30 08:23:37,987 DEBUG - SDK   Version: 1.1.45
+2024-09-30 08:23:37,987 DEBUG - COMMU Version: 0.1.25
+2024-09-30 08:23:38,284 DEBUG - control_speed_0: 0.2
+2024-09-30 08:23:38,299 DEBUG - control_speed_1: 0.3
+2024-09-30 08:23:38,299 DEBUG - screen_num: 0  screen_width: 1920  screen_height: 1080
+2024-09-30 08:23:38,315 DEBUG - 配置文件修改语言成功  is_cn: en
