@@ -178,4 +178,4 @@ python3 src/tr200_simple_control/scripts/simple_linear_motion.py
 
 **개발자**: ldj  
 **버전**: v2.0.0 (센서 기반 안전 제어)  
-**최종 업데이트**: 2024년 1월 15일
+**최종 업데이트**: 2025년 09월 23일
