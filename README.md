@@ -14,6 +14,7 @@ TR200 로봇의 **듀얼 Lidar 센서**를 활용한 실시간 장애물 감지 
 - **듀얼 센서 융합**: 전방/후방 센서 데이터를 통합한 정확한 장애물 감지
 - **Docker 기반 환경**: Ubuntu 20.04 + ROS Noetic 환경에서 안정적 실행
 - **ROS 토픽/서비스**: 실시간 모니터링 및 동적 파라미터 조정 가능
+- **모듈화된 ROS 시스템**: 센서 처리, 안전 제어, 로봇 제어 노드 분리
 
 ## 📁 프로젝트 구조
 
@@ -27,7 +28,7 @@ tr200_ros_docker_project/
 │   ├── connect_container.sh          # 추가 터미널 접속
 │   ├── setup_ros.sh                  # ROS 환경 설정
 │   └── test_ros_sensor_safety.sh     # ROS 통합 테스트
-├── src/tr200_simple_control/        # ROS 패키지
+├── src/tr200_simple_control/        # ROS 패키지 (메인)
 │   ├── scripts/                      # Python 제어 스크립트
 │   │   ├── tr200_ros_sensor_safety_controller.py  # ROS 통합 제어기
 │   │   ├── sensor_based_safety_controller.py      # 순수 SDK 제어기
@@ -35,23 +36,24 @@ tr200_ros_docker_project/
 │   │   ├── safety_controller_node.py              # 안전 제어 노드
 │   │   ├── sensor_processor_node.py              # 센서 처리 노드
 │   │   └── simple_linear_motion.py               # 기본 왕복 운동
+│   ├── launch/                       # ROS 런치 파일
+│   │   ├── tr200_modular_system.launch           # 모듈화 시스템 런치 (권장)
+│   │   └── tr200_sensor_safety_controller.launch # 통합 제어기 런치
+│   ├── config/                       # 설정 파일
+│   │   ├── tr200_sensor_safety_params.yaml       # ROS 통합 안전 파라미터
+│   │   ├── tr200_sensor_safety.rviz              # RViz 시각화 설정
+│   │   ├── area_motion_params.yaml               # 영역 제한 구동 파라미터
+│   │   ├── robot_params.yaml                     # 로봇 기본 파라미터
+│   │   └── test_safe_params.yaml                 # 테스트용 안전 파라미터
 │   ├── srv/                          # ROS 서비스 정의
 │   │   └── SetSafetyParams.srv       # 안전 파라미터 설정 서비스
+│   ├── src/                          # C++ 소스 (현재 비어있음)
 │   ├── CMakeLists.txt                # 빌드 설정
 │   └── package.xml                   # 패키지 매니페스트
 ├── src/woosh_robot_py/              # Woosh SDK
 │   ├── README.md                    # SDK 문서
 │   ├── examples/                    # 예제 코드
 │   └── woosh/                       # SDK 핵심 모듈
-├── config/                           # 설정 파일
-│   ├── tr200_sensor_safety_params.yaml  # ROS 통합 안전 파라미터
-│   ├── tr200_sensor_safety.rviz     # RViz 시각화 설정
-│   ├── area_motion_params.yaml       # 영역 제한 구동 파라미터
-│   ├── robot_params.yaml            # 로봇 기본 파라미터
-│   └── test_safe_params.yaml        # 테스트용 안전 파라미터
-├── launch/                           # ROS 런치 파일
-│   ├── tr200_sensor_safety_controller.launch  # 통합 제어기 런치
-│   └── tr200_modular_system.launch   # 모듈화 시스템 런치
 ├── docker/                           # Docker 환경
 │   ├── Dockerfile                    # Docker 이미지 정의
 │   ├── docker-compose.yml           # 컨테이너 오케스트레이션
@@ -87,7 +89,19 @@ tr200_ros_docker_project/
 ./scripts/setup_ros.sh
 ```
 
-#### 2. ROS Master 시작 (수동)
+#### 2. 워크스페이스 빌드
+```bash
+tr200_build
+# 또는
+catkin_make
+```
+
+#### 3. 환경 재설정
+```bash
+source devel/setup.bash
+```
+
+#### 4. ROS Master 시작 (수동)
 ```bash
 roscore &
 ```
@@ -141,76 +155,88 @@ rostopic echo /safety_status
 rostopic echo /obstacle_distance
 
 # 속도 명령 모니터링
-rostopic echo /cmd_vel
+rostopic echo /safe_cmd_vel
 
 # 스캐너 데이터 모니터링
 rostopic echo /scan
+
+# 로봇 상태 모니터링
+rostopic echo /robot_status
 ```
 
 #### ROS 서비스 사용
 ```bash
 # 안전 파라미터 동적 변경
-rosservice call /set_safety_params "warning_distance: 0.6, danger_distance: 0.4, normal_speed: 0.15"
+rosservice call /set_safety_params "min_obstacle_distance: 0.3
+warning_distance: 0.6
+safe_distance: 0.9
+normal_speed: 0.15
+slow_speed: 0.05"
 
-# 안전 모드 토글
-rosservice call /toggle_safety_mode "data: true"
+# 비상 정지 서비스
+rosservice call /emergency_stop "data: true"
 ```
 
 #### RViz 시각화
 ```bash
 # RViz로 센서 데이터 시각화
-rviz -d config/tr200_sensor_safety.rviz
+rviz -d src/tr200_simple_control/config/tr200_sensor_safety.rviz
 ```
 
 ## ⚙️ 설정 파라미터
 
 ### ROS 통합 안전 제어 설정
 - **경고 거리 (warning_distance)**: 0.8m (이 거리에서 감속 시작)
-- **위험 거리 (danger_distance)**: 0.5m (이 거리 이하에서 즉시 정지)
+- **위험 거리 (min_obstacle_distance)**: 0.5m (이 거리 이하에서 즉시 정지)
 - **안전 거리 (safe_distance)**: 1.0m (이 거리 이상에서 정상 속도)
 
 ### 제어 설정
 - **정상 속도 (normal_speed)**: 0.2 m/s
 - **감속 속도 (slow_speed)**: 0.1 m/s
 - **정지 속도 (stop_speed)**: 0.0 m/s
-- **제어 주파수 (control_rate)**: 20Hz
+- **제어 주파수 (control_frequency)**: 20Hz
 
 ### 설정 파일들
-- **`config/tr200_sensor_safety_params.yaml`**: ROS 통합 안전 파라미터 (기본 설정)
-- **`config/area_motion_params.yaml`**: 영역 제한 구동 파라미터
-- **`config/robot_params.yaml`**: 로봇 기본 파라미터
-- **`config/test_safe_params.yaml`**: 테스트용 안전 파라미터 (더 보수적 설정)
+- **`src/tr200_simple_control/config/tr200_sensor_safety_params.yaml`**: ROS 통합 안전 파라미터 (기본 설정)
+- **`src/tr200_simple_control/config/area_motion_params.yaml`**: 영역 제한 구동 파라미터
+- **`src/tr200_simple_control/config/robot_params.yaml`**: 로봇 기본 파라미터
+- **`src/tr200_simple_control/config/test_safe_params.yaml`**: 테스트용 안전 파라미터 (더 보수적 설정)
 
 ### ROS 토픽 및 서비스
 
-#### 발행 토픽
-- **`/cmd_vel`**: 속도 명령 (geometry_msgs/Twist)
-- **`/scan`**: 스캐너 데이터 (sensor_msgs/LaserScan)
+#### 발행 토픽 (모듈화 시스템)
+- **`/scan`**: 원본 스캐너 데이터 (sensor_msgs/LaserScan)
+- **`/processed_scan`**: 처리된 센서 데이터 (sensor_msgs/LaserScan)
+- **`/safe_cmd_vel`**: 안전한 속도 명령 (geometry_msgs/Twist)
 - **`/safety_status`**: 안전 상태 (std_msgs/String)
 - **`/obstacle_distance`**: 장애물 거리 (std_msgs/Float32)
+- **`/robot_status`**: 로봇 상태 (std_msgs/String)
+- **`/emergency_stop`**: 비상 정지 상태 (std_msgs/Bool)
 
 #### 구독 토픽
-- **`/cmd_vel_input`**: 외부 속도 명령 입력 (geometry_msgs/Twist)
+- **`/external_cmd_vel`**: 외부 속도 명령 입력 (geometry_msgs/Twist)
 
 #### 제공 서비스
 - **`/set_safety_params`**: 안전 파라미터 동적 설정 (tr200_simple_control/SetSafetyParams)
-- **`/toggle_safety_mode`**: 안전 모드 토글 (std_srvs/SetBool)
+- **`/emergency_stop`**: 비상 정지 서비스 (std_srvs/SetBool)
 
 ## 📊 예상 동작
 
-### ROS 통합 제어기 실행 시
+### 모듈화된 ROS 시스템 실행 시
 ```
-[INFO] [1234567890.123]: Starting TR200 ROS Sensor Safety Controller
-[INFO] [1234567890.124]: ROS Master URI: http://localhost:11311
-[INFO] [1234567890.125]: Loading parameters from config file
-[INFO] [1234567890.126]: Warning distance: 0.8m
-[INFO] [1234567890.127]: Danger distance: 0.5m
-[INFO] [1234567890.128]: Normal speed: 0.2 m/s
-[INFO] [1234567890.129]: Connecting to TR200 robot...
-[INFO] [1234567890.130]: TR200 robot connected successfully
-[INFO] [1234567890.131]: Subscribing to scanner data...
-[INFO] [1234567890.132]: Publishing to /cmd_vel topic
-[INFO] [1234567890.133]: Safety controller initialized
+[INFO] [1234567890.123]: Starting sensor processor node
+[INFO] [1234567890.124]: Starting safety controller node
+[INFO] [1234567890.125]: Starting robot driver node
+[INFO] [1234567890.126]: ROS Master URI: http://localhost:11311
+[INFO] [1234567890.127]: Loading parameters from config file
+[INFO] [1234567890.128]: Warning distance: 0.8m
+[INFO] [1234567890.129]: Danger distance: 0.5m
+[INFO] [1234567890.130]: Normal speed: 0.2 m/s
+[INFO] [1234567890.131]: Connecting to TR200 robot...
+[INFO] [1234567890.132]: TR200 robot connected successfully
+[INFO] [1234567890.133]: Subscribing to scanner data...
+[INFO] [1234567890.134]: Publishing to /safe_cmd_vel topic
+[INFO] [1234567890.135]: Modular system initialized
 ```
 
 ### 센서 데이터 처리
@@ -245,14 +271,18 @@ rviz -d config/tr200_sensor_safety.rviz
 ### ROS 서비스 호출 예시
 ```bash
 # 안전 파라미터 동적 변경
-$ rosservice call /set_safety_params "warning_distance: 0.6, danger_distance: 0.4, normal_speed: 0.15"
+$ rosservice call /set_safety_params "min_obstacle_distance: 0.3
+warning_distance: 0.6
+safe_distance: 0.9
+normal_speed: 0.15
+slow_speed: 0.05"
 success: True
-message: "Safety parameters updated successfully"
+message: "파라미터 업데이트 성공"
 
-# 안전 모드 토글
-$ rosservice call /toggle_safety_mode "data: true"
+# 비상 정지 서비스
+$ rosservice call /emergency_stop "data: true"
 success: True
-message: "Safety mode enabled"
+message: "비상 정지 활성화"
 ```
 
 ## 🔧 파일 설명
@@ -266,7 +296,7 @@ message: "Safety mode enabled"
 - **`simple_linear_motion.py`**: 기본 왕복 운동 (참고용, 센서 없이 단순 이동)
 
 ### ROS 런치 파일들
-- **`tr200_modular_system.launch`**: **모듈화된 시스템 런치** (3개 노드 분리 실행)
+- **`tr200_modular_system.launch`**: **모듈화된 시스템 런치** (3개 노드 분리 실행) - **권장**
 - **`tr200_sensor_safety_controller.launch`**: ROS 통합 제어기 런치 파일
 
 ### ROS 서비스 및 설정
@@ -291,12 +321,11 @@ message: "Safety mode enabled"
 
 ✅ **ROS + SDK 통합**: ROS의 모듈성과 SDK의 직접 제어 장점 결합  
 ✅ **모듈화된 ROS 시스템**: 센서 처리, 안전 제어, 로봇 제어 노드 분리  
-✅ **특정 영역 내에서만 앞뒤 구동**: 위치 기반 영역 제한 시스템 구현  
-✅ **네비게이션 없이 직접 구동**: 속도 제어 기반 시스템 구현  
-✅ **센서 기반 장애물 감지**: TR200 Lidar 센서 활용한 실시간 장애물 감지  
+✅ **실시간 장애물 감지**: TR200 듀얼 Lidar 센서 활용한 360도 장애물 감지  
 ✅ **안전한 구동**: 거리 기반 자동 속도 조절 및 비상 정지  
 ✅ **ROS 토픽/서비스**: 실시간 모니터링 및 동적 파라미터 조정  
 ✅ **현업 표준**: 모듈화 설계, 파라미터 관리, 런치 파일 구조  
+✅ **Docker 환경**: 안정적인 개발 및 배포 환경 구축  
 
 ## 🌐 네트워크 설정
 
@@ -329,7 +358,9 @@ docker stop tr200_control_container && docker rm tr200_control_container
 pkill roscore && roscore &
 
 # 워크스페이스 재빌드
-catkin build
+tr200_build
+# 또는
+catkin_make
 
 # 환경 변수 확인
 echo $ROS_PACKAGE_PATH
@@ -345,6 +376,18 @@ ping 169.254.128.2
 telnet 169.254.128.2 5480
 ```
 
+### 런치 파일 실행 문제
+```bash
+# 패키지 확인
+rospack find tr200_simple_control
+
+# 런치 파일 확인
+ls -la $(rospack find tr200_simple_control)/launch/
+
+# config 파일 확인
+ls -la $(rospack find tr200_simple_control)/config/
+```
+
 ## 📝 개발 가이드
 
 ### 새로운 노드 추가
@@ -354,9 +397,15 @@ telnet 169.254.128.2 5480
 4. 워크스페이스 재빌드
 
 ### 새로운 런치 파일 추가
-1. `launch/` 디렉토리에 `.launch` 파일 추가
-2. 파라미터 설정 확인
-3. 테스트 실행
+1. `src/tr200_simple_control/launch/` 디렉토리에 `.launch` 파일 추가
+2. `CMakeLists.txt`에 런치 파일 설치 추가
+3. 파라미터 설정 확인
+4. 테스트 실행
+
+### 새로운 설정 파일 추가
+1. `src/tr200_simple_control/config/` 디렉토리에 `.yaml` 파일 추가
+2. `CMakeLists.txt`에 config 디렉토리 설치 추가
+3. 런치 파일에서 파라미터 로드 확인
 
 ## 🔒 보안 고려사항
 
@@ -368,7 +417,7 @@ telnet 169.254.128.2 5480
 
 문제가 발생하거나 추가 기능이 필요한 경우:
 1. 로그 파일 확인 (`docker/logs/` 디렉토리)
-2. 설정 파일 검토 (`config/` 디렉토리)
+2. 설정 파일 검토 (`src/tr200_simple_control/config/` 디렉토리)
 3. Archive 폴더의 이전 버전 참조 (`archive/` 디렉토리)
 4. Woosh SDK 문서 참조 (`src/woosh_robot_py/README.md`)
 
@@ -377,10 +426,11 @@ telnet 169.254.128.2 5480
 - **kTaskable 상태 문제**: `archive/force_test_mode.py` 참조
 - **센서 데이터 없음**: TR200의 Lidar 센서 상태 확인
 - **ROS 통신 문제**: `roscore` 실행 확인 및 네트워크 설정 검토
+- **런치 파일 오류**: 패키지 빌드 및 파일 경로 확인
 - **장애물 감지 개선**: 듀얼 센서 융합, 전방/후방 섹터 분석, 강화된 비상 정지 시스템
 
 ---
 
 **개발자**: ldj  
-**버전**: v3.1.0 (모듈화된 ROS + SDK 통합 시스템)  
-**최종 업데이트**: 2025년 01월 23일
+**버전**: v3.2.0 (완전 모듈화된 ROS + SDK 통합 시스템)  
+**최종 업데이트**: 2025년 09월 25일
