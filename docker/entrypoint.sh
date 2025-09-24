@@ -42,25 +42,25 @@ else
     echo "   네트워크 설정을 확인해주세요."
 fi
 
-# 워크스페이스 권한 설정
+# 워크스페이스 권한 설정 (현재 사용자로)
 if [ -d "/catkin_ws" ]; then
     echo "🔧 워크스페이스 권한을 설정합니다..."
-    sudo chown -R developer:developer /catkin_ws 2>/dev/null || true
+    chown -R $(id -u):$(id -g) /catkin_ws 2>/dev/null || true
 fi
 
 # 개발 도구 설정
 echo "🛠️  개발 환경을 설정합니다..."
 
-# Git 설정 (개발용)
-if [ ! -f "/home/developer/.gitconfig" ]; then
+# Git 설정 (개발용) - 현재 사용자 홈 디렉토리 사용
+if [ ! -f "$HOME/.gitconfig" ]; then
     git config --global user.name "TR200 Developer"
     git config --global user.email "developer@tr200.local"
     git config --global init.defaultBranch main
 fi
 
-# 유용한 별칭 설정
-if ! grep -q "# TR200 aliases" /home/developer/.bashrc; then
-    cat >> /home/developer/.bashrc << 'EOF'
+# 유용한 별칭 설정 - 현재 사용자의 bashrc에 추가
+if ! grep -q "# TR200 aliases" "$HOME/.bashrc"; then
+    cat >> "$HOME/.bashrc" << 'EOF'
 
 # TR200 aliases
 alias tr200_build='cd /catkin_ws && catkin_make'

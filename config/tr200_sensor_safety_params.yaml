@@ -1,0 +1,37 @@
+# TR200 센서 기반 안전 제어 시스템 파라미터 설정
+# 이 파일은 런치 파일에서 로드되거나 rosparam load로 직접 로드할 수 있습니다.
+
+# 로봇 연결 설정
+robot_ip: "169.254.128.2"
+robot_port: 5480
+
+# 센서 설정 (단위: 미터)
+min_obstacle_distance: 0.5    # 최소 장애물 거리 - 위험 구역
+warning_distance: 0.8        # 경고 거리 - 주의 구역  
+safe_distance: 1.0           # 안전 거리 - 안전 구역
+
+# 제어 설정 (단위: m/s)
+normal_speed: 0.2            # 정상 속도
+slow_speed: 0.1              # 감속 속도
+stop_speed: 0.0              # 정지 속도
+control_frequency: 20.0      # 제어 주파수 (Hz)
+
+# 토픽 설정
+cmd_vel_topic: "/cmd_vel"
+scan_topic: "/scan"
+safety_status_topic: "/safety_status"
+
+# 고급 설정
+external_command_timeout: 2.0    # 외부 명령 타임아웃 (초)
+smooth_speed_change_rate: 0.05   # 부드러운 속도 변화율 (m/s per step)
+emergency_stop_steps: 10         # 비상 정지 명령 반복 횟수
+
+# 로깅 설정
+log_level: "INFO"                # DEBUG, INFO, WARN, ERROR
+enable_debug_output: false      # 디버그 출력 활성화
+publish_laser_scan: true        # LaserScan 메시지 퍼블리시 여부
+
+# 안전 모드 설정
+enable_auto_direction_change: true   # 자동 방향 전환 활성화
+direction_change_interval: 5.0       # 방향 전환 간격 (초)
+enable_emergency_stop: true          # 비상 정지 기능 활성화

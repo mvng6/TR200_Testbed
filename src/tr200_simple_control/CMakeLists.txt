@@ -7,6 +7,7 @@ project(tr200_simple_control)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+# 1단계: 필요한 패키지 찾기
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   rospy
@@ -54,11 +55,11 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+# 2단계: 서비스 파일 등록
+add_service_files(
+  FILES
+  SetSafetyParams.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -68,10 +69,12 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   geometry_msgs#   std_msgs
-# )
+# 3단계: 메시지 생성
+generate_messages(
+  DEPENDENCIES
+  geometry_msgs
+  std_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -159,10 +162,16 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-# catkin_install_python(PROGRAMS
-#   scripts/my_python_script
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+# 4단계: 실행 파일 설치
+catkin_install_python(PROGRAMS
+  scripts/tr200_ros_sensor_safety_controller.py
+  scripts/sensor_based_safety_controller.py
+  scripts/simple_linear_motion.py
+  scripts/sensor_processor_node.py
+  scripts/safety_controller_node.py
+  scripts/robot_driver_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html

@@ -1,4 +1,4 @@
-version: '3.8'
+# Docker Compose v2 문법 사용 (version 불필요)
 
 services:
   tr200_control:
