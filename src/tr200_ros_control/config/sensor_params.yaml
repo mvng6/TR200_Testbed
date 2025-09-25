@@ -1,0 +1,55 @@
+# TR200 센서 파라미터 설정
+
+# 라이다 센서 설정
+lidar:
+  # 센서 기본 정보
+  frame_id: "laser_link"
+  topic_name: "/scan"
+  
+  # 센서 특성
+  angle_min: -3.14159          # 최소 각도 (rad)
+  angle_max: 3.14159           # 최대 각도 (rad)
+  angle_increment: 0.00436     # 각도 증가량 (rad)
+  time_increment: 0.0           # 시간 증가량 (s)
+  scan_time: 0.1                # 스캔 시간 (s)
+  range_min: 0.1                # 최소 거리 (m)
+  range_max: 10.0               # 최대 거리 (m)
+  
+  # 센서 데이터 처리
+  enable_noise_filtering: true  # 노이즈 필터링 활성화
+  noise_threshold: 0.1          # 노이즈 임계값 (m)
+  enable_outlier_removal: true  # 이상치 제거 활성화
+  outlier_threshold: 2.0        # 이상치 임계값 (m)
+  
+  # 전방/후방 센서 분리
+  front_sector_start: -1.57     # 전방 섹터 시작 각도 (rad, -90도)
+  front_sector_end: 1.57        # 전방 섹터 끝 각도 (rad, 90도)
+  rear_sector_start: 1.57       # 후방 섹터 시작 각도 (rad, 90도)
+  rear_sector_end: -1.57        # 후방 섹터 끝 각도 (rad, -90도)
+
+# 센서 데이터 발행 설정
+publishing:
+  publish_frequency: 10.0       # 발행 주파수 (Hz)
+  queue_size: 10                # 메시지 큐 크기
+  latch: false                  # 메시지 래치 여부
+  
+  # LaserScan 메시지 설정
+  publish_laser_scan: true      # LaserScan 메시지 발행 여부
+  laser_scan_topic: "/scan"     # LaserScan 토픽 이름
+
+# 센서 모니터링
+monitoring:
+  enable_health_check: true     # 센서 상태 모니터링 활성화
+  health_check_interval: 5.0   # 상태 체크 간격 (초)
+  data_timeout: 2.0            # 데이터 타임아웃 (초)
+  
+  # 품질 검사
+  enable_quality_check: true   # 데이터 품질 검사 활성화
+  min_data_points: 100         # 최소 데이터 포인트 수
+  max_missing_points: 50       # 최대 누락 포인트 수
+
+# 로깅 설정
+logging:
+  log_level: "INFO"            # DEBUG, INFO, WARN, ERROR
+  log_sensor_data: false       # 센서 데이터 로깅 여부
+  log_file_path: "/catkin_ws/logs/sensor_data.log"

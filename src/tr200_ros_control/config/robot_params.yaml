@@ -1,0 +1,52 @@
+# TR200 로봇 기본 파라미터 설정
+
+# 로봇 연결 설정
+robot:
+  ip: "169.254.128.2"
+  port: 5480
+  identity: "tr200_ros_controller"
+  connection_timeout: 10.0
+  reconnect_interval: 2.0
+  max_reconnect_attempts: 5
+
+# 제어 파라미터
+control:
+  # 속도 제한
+  max_linear_velocity: 1.0    # m/s
+  max_angular_velocity: 1.0   # rad/s
+  max_linear_acceleration: 0.5  # m/s²
+  max_angular_acceleration: 0.5 # rad/s²
+  
+  # 안전 설정
+  emergency_stop_enabled: true
+  collision_avoidance_enabled: true
+  min_obstacle_distance: 0.3  # m
+  
+  # 제어 주기
+  control_frequency: 20.0     # Hz
+  status_publish_frequency: 10.0  # Hz
+
+# ROS 토픽 설정
+topics:
+  # 구독 토픽
+  cmd_vel: "/cmd_vel"
+  remote_cmd_vel: "/remote_cmd_vel"
+  external_cmd_vel: "/external_cmd_vel"
+  
+  # 발행 토픽
+  robot_pose: "/robot_pose"
+  robot_status: "/robot_status"
+  connection_status: "/connection_status"
+  
+  # TF 프레임
+  base_frame: "base_link"
+  odom_frame: "odom"
+  map_frame: "map"
+
+# 로깅 설정
+logging:
+  level: "INFO"  # DEBUG, INFO, WARN, ERROR
+  log_to_file: true
+  log_file_path: "/catkin_ws/logs/tr200_control.log"
+  max_log_file_size: "10MB"
+  log_rotation_count: 5

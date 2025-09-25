@@ -1,0 +1,55 @@
+# TR200 안전 제어 파라미터 설정
+
+# 센서 설정 (단위: 미터)
+sensor:
+  min_obstacle_distance: 0.5    # 최소 장애물 거리 - 위험 구역
+  warning_distance: 0.8         # 경고 거리 - 주의 구역  
+  safe_distance: 1.0           # 안전 거리 - 안전 구역
+  
+  # 센서 활성화
+  front_sensor_enabled: true
+  rear_sensor_enabled: true
+  
+  # 센서 데이터 필터링
+  enable_data_filtering: true
+  filter_window_size: 5
+  outlier_threshold: 2.0
+
+# 제어 설정 (단위: m/s)
+control:
+  normal_speed: 0.2            # 정상 속도
+  slow_speed: 0.1              # 감속 속도
+  stop_speed: 0.0              # 정지 속도
+  control_frequency: 20.0      # 제어 주파수 (Hz)
+  
+  # 부드러운 속도 변화
+  smooth_speed_change_rate: 0.05   # 속도 변화율 (m/s per step)
+  max_acceleration: 0.5           # 최대 가속도 (m/s²)
+  max_deceleration: 0.8           # 최대 감속도 (m/s²)
+
+# 안전 모드 설정
+safety:
+  enable_auto_direction_change: true   # 자동 방향 전환 활성화
+  direction_change_interval: 5.0       # 방향 전환 간격 (초)
+  enable_emergency_stop: true          # 비상 정지 기능 활성화
+  
+  # 비상 정지 설정
+  emergency_stop_steps: 10             # 비상 정지 명령 반복 횟수
+  emergency_stop_duration: 1.0         # 비상 정지 지속 시간 (초)
+  
+  # 안전 우선순위
+  safety_override_enabled: true        # 안전 제어 우선순위 활성화
+  external_command_timeout: 2.0        # 외부 명령 타임아웃 (초)
+
+# ROS 토픽 설정
+topics:
+  cmd_vel_topic: "/cmd_vel"
+  scan_topic: "/scan"
+  safety_status_topic: "/safety_status"
+  emergency_stop_topic: "/emergency_stop"
+
+# 로깅 설정
+logging:
+  log_level: "INFO"                # DEBUG, INFO, WARN, ERROR
+  enable_debug_output: false      # 디버그 출력 활성화
+  publish_laser_scan: true        # LaserScan 메시지 퍼블리시 여부

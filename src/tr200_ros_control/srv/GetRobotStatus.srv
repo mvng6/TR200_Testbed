@@ -1,0 +1,12 @@
+# TR200 로봇 상태 조회 서비스
+# 로봇의 현재 상태 정보를 조회
+
+# 요청 메시지
+string request_type             # 요청 타입 ("FULL", "CONNECTION", "BATTERY", "POSE", "SYSTEM")
+
+---
+
+# 응답 메시지
+bool success                   # 조회 성공 여부
+string message                 # 응답 메시지
+tr200_ros_control/RobotStatus robot_status # 로봇 상태 정보

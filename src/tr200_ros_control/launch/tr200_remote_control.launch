@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- TR200 원격 제어 시스템 런치 파일 -->
+    
+    <!-- 로봇 연결 파라미터 -->
+    <arg name="robot_ip" default="169.254.128.2" />
+    <arg name="robot_port" default="5480" />
+    <arg name="robot_identity" default="tr200_ros_controller" />
+    
+    <!-- 원격 제어 파라미터 -->
+    <arg name="linear_speed" default="0.5" />
+    <arg name="angular_speed" default="0.5" />
+    <arg name="command_timeout" default="2.0" />
+    <arg name="publish_frequency" default="20.0" />
+    
+    <!-- 안전 설정 -->
+    <arg name="enable_safety_limits" default="true" />
+    <arg name="max_linear_speed" default="1.0" />
+    <arg name="max_angular_speed" default="1.0" />
+    
+    <!-- 파라미터 서버에 설정 로드 -->
+    <rosparam file="$(find tr200_ros_control)/config/robot_params.yaml" command="load" />
+    <rosparam file="$(find tr200_ros_control)/config/safety_params.yaml" command="load" />
+    
+    <!-- Robot Connection Node -->
+    <node 
+        name="robot_connection_node" 
+        pkg="tr200_ros_control" 
+        type="robot_connection_node.py" 
+        output="screen"
+        respawn="true"
+        respawn_delay="5">
+        
+        <!-- 로봇 연결 파라미터 -->
+        <param name="robot_ip" value="$(arg robot_ip)" />
+        <param name="robot_port" value="$(arg robot_port)" />
+        <param name="robot_identity" value="$(arg robot_identity)" />
+        
+        <!-- 연결 설정 -->
+        <param name="connection_timeout" value="10.0" />
+        <param name="reconnect_interval" value="2.0" />
+        <param name="max_reconnect_attempts" value="5" />
+        <param name="status_publish_frequency" value="10.0" />
+    </node>
+    
+    <!-- Remote Control Node -->
+    <node 
+        name="remote_control_node" 
+        pkg="tr200_ros_control" 
+        type="remote_control_node.py" 
+        output="screen"
+        respawn="false">
+        
+        <!-- 원격 제어 파라미터 -->
+        <param name="linear_speed" value="$(arg linear_speed)" />
+        <param name="angular_speed" value="$(arg angular_speed)" />
+        <param name="command_timeout" value="$(arg command_timeout)" />
+        <param name="publish_frequency" value="$(arg publish_frequency)" />
+        
+        <!-- 안전 설정 -->
+        <param name="enable_safety_limits" value="$(arg enable_safety_limits)" />
+        <param name="max_linear_speed" value="$(arg max_linear_speed)" />
+        <param name="max_angular_speed" value="$(arg max_angular_speed)" />
+    </node>
+    
+    <!-- Robot Driver Node -->
+    <node 
+        name="robot_driver_node" 
+        pkg="tr200_ros_control" 
+        type="robot_driver_node.py" 
+        output="screen"
+        respawn="true"
+        respawn_delay="5">
+        
+        <!-- 로봇 연결 파라미터 -->
+        <param name="robot_ip" value="$(arg robot_ip)" />
+        <param name="robot_port" value="$(arg robot_port)" />
+        <param name="robot_identity" value="tr200_robot_driver" />
+        
+        <!-- 제어 설정 -->
+        <param name="control_frequency" value="20.0" />
+        <param name="max_linear_velocity" value="$(arg max_linear_speed)" />
+        <param name="max_angular_velocity" value="$(arg max_angular_speed)" />
+    </node>
+    
+    <!-- 상태 모니터링을 위한 rqt_plot (선택사항) -->
+    <!-- 주석 처리: 필요시 수동으로 실행
+    <node 
+        name="rqt_plot" 
+        pkg="rqt_plot" 
+        type="rqt_plot" 
+        args="/remote_cmd_vel/linear/x /remote_cmd_vel/angular/z"
+        output="screen"
+        required="false" />
+    -->
+    
+</launch>

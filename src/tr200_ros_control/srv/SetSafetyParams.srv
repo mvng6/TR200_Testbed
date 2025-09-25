@@ -1,0 +1,21 @@
+# TR200 안전 파라미터 설정 서비스
+# 안전 제어 시스템의 파라미터를 동적으로 변경
+
+# 요청 메시지
+float32 min_obstacle_distance    # 최소 장애물 거리 (m)
+float32 warning_distance         # 경고 거리 (m)
+float32 safe_distance           # 안전 거리 (m)
+float32 normal_speed            # 정상 속도 (m/s)
+float32 slow_speed              # 감속 속도 (m/s)
+float32 stop_speed              # 정지 속도 (m/s)
+float32 control_frequency       # 제어 주파수 (Hz)
+bool enable_auto_direction_change # 자동 방향 전환 활성화
+float32 direction_change_interval # 방향 전환 간격 (초)
+bool enable_emergency_stop      # 비상 정지 기능 활성화
+
+---
+
+# 응답 메시지
+bool success                    # 설정 성공 여부
+string message                  # 응답 메시지
+string current_status           # 현재 안전 상태

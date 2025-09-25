@@ -20,47 +20,46 @@ TR200 로봇의 **듀얼 Lidar 센서**를 활용한 실시간 장애물 감지 
 
 ```
 tr200_ros_docker_project/
-├── README.md                         # 프로젝트 문서
-├── ROS_INDUSTRY_DEVELOPMENT_GUIDE.md # 현업 ROS 개발 가이드
-├── scripts/                          # 실행 스크립트
-│   ├── build_docker.sh               # Docker 이미지 빌드
-│   ├── run_container.sh              # Docker 컨테이너 실행
-│   ├── connect_container.sh          # 추가 터미널 접속
-│   ├── setup_ros.sh                  # ROS 환경 설정
-│   └── test_ros_sensor_safety.sh     # ROS 통합 테스트
-├── src/tr200_simple_control/        # ROS 패키지 (메인)
-│   ├── scripts/                      # Python 제어 스크립트
-│   │   ├── tr200_ros_sensor_safety_controller.py  # ROS 통합 제어기
-│   │   ├── sensor_based_safety_controller.py      # 순수 SDK 제어기
-│   │   ├── robot_driver_node.py                   # 로봇 제어 노드
-│   │   ├── safety_controller_node.py              # 안전 제어 노드
-│   │   ├── sensor_processor_node.py              # 센서 처리 노드
-│   │   └── simple_linear_motion.py               # 기본 왕복 운동
-│   ├── launch/                       # ROS 런치 파일
-│   │   ├── tr200_modular_system.launch           # 모듈화 시스템 런치 (권장)
-│   │   └── tr200_sensor_safety_controller.launch # 통합 제어기 런치
-│   ├── config/                       # 설정 파일
-│   │   ├── tr200_sensor_safety_params.yaml       # ROS 통합 안전 파라미터
-│   │   ├── tr200_sensor_safety.rviz              # RViz 시각화 설정
-│   │   ├── area_motion_params.yaml               # 영역 제한 구동 파라미터
-│   │   ├── robot_params.yaml                     # 로봇 기본 파라미터
-│   │   └── test_safe_params.yaml                 # 테스트용 안전 파라미터
-│   ├── srv/                          # ROS 서비스 정의
-│   │   └── SetSafetyParams.srv       # 안전 파라미터 설정 서비스
-│   ├── src/                          # C++ 소스 (현재 비어있음)
-│   ├── CMakeLists.txt                # 빌드 설정
-│   └── package.xml                   # 패키지 매니페스트
-├── src/woosh_robot_py/              # Woosh SDK
-│   ├── README.md                    # SDK 문서
-│   ├── examples/                    # 예제 코드
-│   └── woosh/                       # SDK 핵심 모듈
-├── docker/                           # Docker 환경
-│   ├── Dockerfile                    # Docker 이미지 정의
-│   ├── docker-compose.yml           # 컨테이너 오케스트레이션
-│   ├── entrypoint.sh                # 컨테이너 시작 스크립트
-│   ├── data/                        # 데이터 디렉토리
-│   └── logs/                        # 로그 디렉토리
-└── archive/                          # 이전 버전 파일들
+├── README.md                                      # 프로젝트 문서
+├── ROS_INDUSTRY_DEVELOPMENT_GUIDE.md              # 현업 ROS 개발 가이드
+├── scripts/                                       # 실행 스크립트
+│   ├── build_docker.sh                               # Docker 이미지 빌드
+│   ├── run_container.sh                              # Docker 컨테이너 실행
+│   ├── connect_container.sh                          # 추가 터미널 접속
+│   ├── setup_ros.sh                                  # ROS 환경 설정
+│   └── test_ros_sensor_safety.sh                     # ROS 통합 테스트
+├── src/tr200_simple_control/                      # ROS 패키지 (메인)
+│   ├── scripts/                                   # Python 제어 스크립트
+│   │   ├── tr200_ros_sensor_safety_controller.py     # ROS 통합 제어기
+│   │   ├── sensor_based_safety_controller.py         # 순수 SDK 제어기
+│   │   ├── robot_driver_node.py                      # 로봇 제어 노드
+│   │   ├── safety_controller_node.py                 # 안전 제어 노드
+│   │   ├── sensor_processor_node.py                  # 센서 처리 노드
+│   │   └── simple_linear_motion.py                   # 기본 왕복 운동
+│   ├── launch/                                    # ROS 런치 파일
+│   │   ├── tr200_modular_system.launch               # 모듈화 시스템 런치 (권장)
+│   │   └── tr200_sensor_safety_controller.launch     # 통합 제어기 런치
+│   ├── config/                                    # 설정 파일
+│   │   ├── tr200_sensor_safety_params.yaml           # ROS 통합 안전 파라미터
+│   │   ├── tr200_sensor_safety.rviz                  # RViz 시각화 설정
+│   │   ├── area_motion_params.yaml                   # 영역 제한 구동 파라미터
+│   │   ├── robot_params.yaml                         # 로봇 기본 파라미터
+│   │   └── test_safe_params.yaml                     # 테스트용 안전 파라미터
+│   ├── srv/                                       # ROS 서비스 정의
+│   │   └── SetSafetyParams.srv                       # 안전 파라미터 설정 서비스
+│   ├── src/                                       # C++ 소스 (현재 비어있음)
+│   ├── CMakeLists.txt                             # 빌드 설정
+│   └── package.xml                                # 패키지 매니페스트
+├── src/woosh_robot_py/                            # Woosh SDK
+│   ├── README.md                                     # SDK 문서
+│   ├── examples/                                     # 예제 코드
+│   └── woosh/                                        # SDK 핵심 모듈
+├── docker/                                        # Docker 환경
+│   ├── Dockerfile                                    # Docker 이미지 정의
+│   ├── docker-compose.yml                            # 컨테이너 오케스트레이션
+│   ├── entrypoint.sh                                 # 컨테이너 시작 스크립트
+│   ├── data/                                         # 데이터 디렉토리
+└── └── logs/                                         # 로그 디렉토리
 ```
 
 ## 🚀 사용 방법
