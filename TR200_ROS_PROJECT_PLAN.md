@@ -11,7 +11,114 @@
 
 ## 🏗️ 시스템 아키텍처
 
-### 노드 구조도
+### 하이브리드 아키텍처 (ROS + SDK)
+
+**현재 구현된 시스템은 ROS 구조와 SDK 함수를 결합한 하이브리드 방식입니다:**
+
+- **ROS 생태계**: 노드 간 통신, 파라미터 관리, 로깅 시스템
+- **SDK 레이어**: TR200 로봇과의 하드웨어 통신 및 제어
+- **하드웨어 레이어**: 실제 TR200 로봇과 센서들
+
+**장점:**
+- ✅ ROS의 모듈화와 확장성 활용
+- ✅ SDK의 안정적인 하드웨어 제어 활용
+- ✅ 점진적 마이그레이션 가능
+- ✅ 기존 SDK 기능을 그대로 유지
+
+```mermaid
+graph TB
+    subgraph "ROS 생태계"
+        RM[ROS Master<br/>roscore]
+        RT1["/remote_cmd_vel<br/>(geometry_msgs/Twist)"]
+        RT2["/connection_status<br/>(std_msgs/Bool)"]
+        RT3["/robot_status<br/>(std_msgs/String)"]
+        RT4["/scanner_data<br/>(sensor_msgs/LaserScan)"]
+        RT5["/safety_status<br/>(std_msgs/String)"]
+    end
+    
+    subgraph "ROS 노드들"
+        RCN[Robot Connection Node<br/>✅ 구현완료]
+        RDN[Robot Driver Node<br/>✅ 구현완료]
+        RCN2[Remote Control Node<br/>✅ 구현완료]
+        SN[Sensor Node<br/>🔄 예정]
+        SCN[Safety Controller Node<br/>🔄 예정]
+        SMN[Status Monitor Node<br/>🔄 예정]
+    end
+    
+    subgraph "SDK 레이어 (WooshRobot)"
+        WR[WooshRobot 클래스]
+        CS[CommuSettings 설정]
+        PB[Protobuf 메시지<br/>Twist, ScannerData]
+    end
+    
+    subgraph "하드웨어 레이어"
+        TR200[TR200 로봇<br/>IP: 169.254.128.2]
+        LIDAR[라이다 센서들]
+        NET[네트워크 통신<br/>Port: 5480]
+    end
+    
+    %% ROS 노드 간 연결
+    RCN2 -->|발행| RT1
+    RT1 -->|구독| RDN
+    RCN -->|발행| RT2
+    RCN -->|발행| RT3
+    SN -->|발행| RT4
+    SCN -->|발행| RT5
+    
+    %% ROS 노드와 SDK 연결
+    RCN -.->|SDK 함수 사용| WR
+    RDN -.->|SDK 함수 사용| WR
+    SN -.->|SDK 함수 사용| WR
+    SCN -.->|SDK 함수 사용| WR
+    
+    %% SDK와 하드웨어 연결
+    WR -->|twist_req| TR200
+    WR -->|scanner_data_sub| LIDAR
+    CS -->|설정| NET
+    
+    %% 스타일링
+    classDef rosNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef sdkLayer fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef hardware fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef completed fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px
+    classDef planned fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    
+    class RCN,RDN,RCN2 completed
+    class SN,SCN,SMN planned
+    class WR,CS,PB sdkLayer
+    class TR200,LIDAR,NET hardware
+```
+
+### 데이터 흐름 다이어그램
+
+```mermaid
+sequenceDiagram
+    participant User as 사용자
+    participant RC as Remote Control Node
+    participant RT as ROS Topic
+    participant RD as Robot Driver Node
+    participant SDK as WooshRobot SDK
+    participant Robot as TR200 로봇
+    
+    User->>RC: 키보드 입력 (w, s, a, d)
+    RC->>RC: 키 입력 처리
+    RC->>RT: /remote_cmd_vel 발행
+    Note over RT: geometry_msgs/Twist
+    
+    RT->>RD: 토픽 구독
+    RD->>RD: ROS 메시지 파싱
+    RD->>SDK: WooshRobot.twist_req()
+    Note over SDK: Protobuf Twist 메시지
+    
+    SDK->>Robot: 네트워크 통신 (TCP/IP)
+    Robot->>Robot: 실제 구동
+    Robot-->>SDK: 응답
+    SDK-->>RD: 결과 반환
+    RD->>RT: 상태 발행
+    RT->>RC: 연결 상태 업데이트
+```
+
+### 노드 구조도 (기존)
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Robot Driver  │    │Safety Controller│    │   Sensor Node   │
@@ -32,6 +139,45 @@
 │ Remote Control  │    │ External Command│
 │     Node        │    │     Node        │
 └─────────────────┘    └─────────────────┘
+```
+
+### 하이브리드 아키텍처 특징
+
+#### 🔄 ROS와 SDK의 역할 분담
+
+| 레이어 | 담당 기능 | 사용 기술 |
+|--------|-----------|-----------|
+| **ROS 생태계** | 노드 간 통신, 파라미터 관리, 로깅 | rospy, 토픽, 서비스 |
+| **SDK 레이어** | 하드웨어 제어, 프로토콜 통신 | WooshRobot, Protobuf |
+| **하드웨어 레이어** | 실제 로봇 구동, 센서 데이터 | TR200, 라이다 센서 |
+
+#### 🎯 구현된 노드들의 하이브리드 구조
+
+**1. Robot Connection Node**
+```python
+# ROS 구조
+rospy.init_node('robot_connection_node')
+self.connection_status_pub = rospy.Publisher('/connection_status', Bool)
+
+# SDK 활용
+self.robot = WooshRobot(self.settings)
+is_connected = self.robot.comm.is_connected()
+```
+
+**2. Robot Driver Node**
+```python
+# ROS 구조
+self.cmd_vel_sub = rospy.Subscriber('/remote_cmd_vel', Twist, self.cmd_vel_callback)
+
+# SDK 활용
+await self.robot.twist_req(WooshTwist(linear=msg.linear.x, angular=msg.angular.z))
+```
+
+**3. Remote Control Node**
+```python
+# 순수 ROS 노드 (SDK 사용 안함)
+self.cmd_vel_pub = rospy.Publisher('/remote_cmd_vel', Twist)
+# 키보드 입력만 처리하고 ROS 토픽으로 발행
 ```
 
 ### ROS 토픽 구조
